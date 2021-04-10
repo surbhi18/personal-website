@@ -3,9 +3,13 @@ title: Statistical-Query Lower Bounds via Functional Gradients
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
-  - Aravind Gollakota and Adam Klivans
-author_notes: []
+  - admin
+  - Aravind Gollakota
+  - adamklivans
+author_notes:
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
 publication: Neural Information Processing Systems
 publication_short: NeurIPS
 abstract: 'We give the first statistical-query lower bounds for agnostically
