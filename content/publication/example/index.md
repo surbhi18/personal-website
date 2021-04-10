@@ -11,7 +11,7 @@ authors:
 
 # Author notes (optional)
 author_notes:
-# - "Equal contribution"
+ - "Equal contribution"
 # - "Equal contribution"
 # - "Equal contribution"
 
@@ -76,7 +76,7 @@ url_video: ''
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 # slides: ""
-# ---
+---
 
 {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
