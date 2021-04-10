@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
+<!-- - certificate_url: https://www.coursera.org
   date_end: ""
   date_start: "2018-10-01"
   description: ""
@@ -46,5 +46,5 @@ item:
   organization: DataCamp
   organization_url: https://www.datacamp.com
   title: 'Object-Oriented Programming in R: S3 and R6 Course'
-  url: ""
+  url: "" -->
 ---
