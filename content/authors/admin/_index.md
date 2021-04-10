@@ -6,7 +6,7 @@ title: Surbhi Goel
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Postdoc Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
