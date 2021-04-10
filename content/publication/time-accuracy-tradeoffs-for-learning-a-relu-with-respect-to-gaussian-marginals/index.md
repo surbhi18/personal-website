@@ -7,7 +7,7 @@ authors:
   - Sushrut Karmalkar
   - adamklivans
 publication: Neural Information Processing Systems 2019
-publication_short: NeurIPS 2019
+publication_short: NeurIPS 2019 (Spotlight)
 abstract: >-
   We consider the problem of computing the best-fitting ReLU with respect to
   square-loss on a training set when the examples have been drawn according to a
@@ -21,8 +21,7 @@ abstract: >-
   Prior work due to Soltanolkotabi [Sol17] showed that gradient descent can find the best-fitting ReLU with respect to Gaussian marginals, if the training set is exactly labeled by a ReLU.
 draft: false
 featured: false
-tags:
-  - Spotlight
+tags: []
 image:
   filename: featured
   focal_point: Smart
