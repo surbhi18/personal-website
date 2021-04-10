@@ -8,6 +8,12 @@ authors:
   - Sushrut Karmalkar
   - adamklivans
   - Mahdi Soltanolkotabi
+author_notes:
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
 publication: Conference on Learning Theory 2020
 publication_short: COLT 2020
 abstract: >-
