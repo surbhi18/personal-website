@@ -9,6 +9,12 @@ authors:
   - Zhihan Jin
   - Sushrut Karmalkar
   - adamklivans
+author_notes:
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
 publication: International Conference on Machine Learning 2020
 publication_short: ICML 2020
 abstract: We prove the first superpolynomial lower bounds for learning one-layer
