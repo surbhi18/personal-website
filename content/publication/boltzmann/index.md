@@ -7,19 +7,19 @@ title: "From Boltzmann Machines to Neural Networks and Back Again"
 authors:
 - admin
 - adamklivans
-# - Frederic Koehler
+- fredkoehler
 
 # Author notes (optional)
 author_notes:
  - "Equal contribution"
  - "Equal contribution"
-# - "Equal contribution"
+ - "Equal contribution"
 
 date: "2020"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -36,10 +36,10 @@ abstract: Graphical models are powerful tools for modeling high-dimensional data
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+# tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
