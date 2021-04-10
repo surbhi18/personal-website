@@ -10,8 +10,8 @@ author_notes:
   - Equal contribution
   - Equal contribution
   - Equal contribution
-publication: Neural Information Processing Systems
-publication_short: NeurIPS
+publication: Neural Information Processing Systems 2020
+publication_short: NeurIPS 2020
 abstract: 'We give the first statistical-query lower bounds for agnostically
   learning any non-polynomial activation with respect to Gaussian marginals
   (e.g., ReLU, sigmoid, sign). For the specific problem of ReLU regression
