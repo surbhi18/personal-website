@@ -6,6 +6,10 @@ authors:
   - admin
   - Sushrut Karmalkar
   - adamklivans
+author_notes:
+  - Equal contribution
+  - Equal contribution
+  - Equal contribution
 publication: Neural Information Processing Systems 2019
 publication_short: NeurIPS 2019 (Spotlight)
 abstract: >-
