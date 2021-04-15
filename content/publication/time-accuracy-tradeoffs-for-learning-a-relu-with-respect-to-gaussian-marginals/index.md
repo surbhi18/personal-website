@@ -20,7 +20,7 @@ abstract: >-
 
   1. Finding a ReLU with square-loss 𝗈𝗉𝗍+ϵ is as hard as the problem of learning sparse parities with noise, widely thought to be computationally intractable. This is the first hardness result for learning a ReLU with respect to Gaussian marginals, and our results imply -{\emph unconditionally}- that gradient descent cannot converge to the global minimum in polynomial time.
 
-  2. There exists an efficient approximation algorithm for finding the best-fitting ReLU that achieves error O(𝗈𝗉𝗍2/3). The algorithm uses a novel reduction to noisy halfspace learning with respect to 0/1 loss.
+  2. There exists an efficient approximation algorithm for finding the best-fitting ReLU that achieves error O(opt^2/3). The algorithm uses a novel reduction to noisy halfspace learning with respect to 0/1 loss.
 
   Prior work due to Soltanolkotabi [Sol17] showed that gradient descent can find the best-fitting ReLU with respect to Gaussian marginals, if the training set is exactly labeled by a ReLU.
 draft: false
