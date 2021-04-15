@@ -1,17 +1,9 @@
 ---
-# Display name
-title: Adam Klivans
-
-# Is this the primary user of the site?
-superuser: false
-
-# Role/position/tagline
+title: Adam R. Klivans
 role: Professor
-
-# Organizations/Affiliations to show in About widget
+social: []
 organizations:
-- name: The University of Texas at Austin
-
-# Highlight the author in author lists? (true/false)
+  - name: The University of Texas at Austin
+superuser: false
 highlight_name: false
 ---
