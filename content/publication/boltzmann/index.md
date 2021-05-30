@@ -20,9 +20,7 @@ authors:
   - admin
   - adamklivans
   - fredkoehler
-url_dataset: ""
-url_project: ""
-publication_short: NeurIPS 2020
+publication_short: NeurIPS
 url_source: ""
 url_video: ""
 title: From Boltzmann Machines to Neural Networks and Back Again
@@ -30,11 +28,10 @@ author_notes:
   - Equal contribution
   - Equal contribution
   - Equal contribution
-publication: Neural Information Processing Systems 2020
+publication: Neural Information Processing Systems
 featured: false
 date: "2020"
 url_slides: ""
-publishDate: 2020-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 doi: ""

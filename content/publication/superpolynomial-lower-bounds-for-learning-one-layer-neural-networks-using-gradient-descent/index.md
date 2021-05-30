@@ -15,8 +15,8 @@ author_notes:
   - Equal contribution
   - Equal contribution
   - Equal contribution
-publication: International Conference on Machine Learning 2020
-publication_short: ICML 2020
+publication: International Conference on Machine Learning
+publication_short: ICML
 abstract: We prove the first superpolynomial lower bounds for learning one-layer
   neural networks with respect to the Gaussian distribution using gradient
   descent. We show that any classifier trained using gradient descent with
@@ -32,9 +32,6 @@ abstract: We prove the first superpolynomial lower bounds for learning one-layer
   all spherically symmetric distributions.
 draft: false
 featured: false
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
-date: 2020-01-02T04:28:00.000Z
+url_pdf: https://arxiv.org/abs/2006.12011.pdf
+date: "2020"
 ---

@@ -7,8 +7,8 @@ authors:
   - admin
   - Ilias Diakonikolas
   - Nathan Srebro
-publication: International Conference on Machine Learning 2020
-publication_short: ICML 2020
+publication: International Conference on Machine Learning
+publication_short: ICML
 abstract: We study the problem of learning adversarially robust halfspaces in
   the distribution-independent setting. In the realizable setting, we provide
   necessary and sufficient conditions on the adversarial perturbation sets under
@@ -17,4 +17,6 @@ abstract: We study the problem of learning adversarially robust halfspaces in
   problem with respect to any ℓp-perturbation.
 draft: false
 featured: false
+url_pdf: https://arxiv.org/abs/2005.07652.pdf
+date: "2020"
 ---

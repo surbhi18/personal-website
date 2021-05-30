@@ -7,8 +7,8 @@ authors:
   - Soumya Basu
   - admin
   - Constantine Caramanis
-publication: International Conference on Machine Learning 2020
-publication_short: ICML 2020
+publication: International Conference on Machine Learning
+publication_short: ICML
 abstract: >-
   We consider the problem of learning the weighted edges of a balanced mixture
   of two undirected graphs from epidemic cascades. While mixture models are
@@ -21,9 +21,6 @@ abstract: >-
   We give complimentary results and provide sample-optimal (up to log factors) algorithms for mixtures of directed graphs of out-degree at least three, for mixture of undirected graphs of unbalanced and/or unknown priors.
 draft: false
 featured: false
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
-date: 2020-01-02T04:40:00.000Z
+url_pdf: https://arxiv.org/abs/1906.06057.pdf
+date: "2020"
 ---

@@ -10,8 +10,8 @@ author_notes:
   - Equal contribution
   - Equal contribution
   - Equal contribution
-publication: Neural Information Processing Systems 2019
-publication_short: NeurIPS 2019 (Spotlight)
+publication: Neural Information Processing Systems
+publication_short: NeurIPS (Spotlight)
 abstract: >-
   We consider the problem of computing the best-fitting ReLU with respect to
   square-loss on a training set when the examples have been drawn according to a
@@ -25,10 +25,6 @@ abstract: >-
   Prior work due to Soltanolkotabi [Sol17] showed that gradient descent can find the best-fitting ReLU with respect to Gaussian marginals, if the training set is exactly labeled by a ReLU.
 draft: false
 featured: false
-tags: []
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
-date: 2019-01-02T04:42:00.000Z
+url_pdf: https://arxiv.org/abs/1911.01462.pdf
+date: "2019"
 ---

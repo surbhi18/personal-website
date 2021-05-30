@@ -4,8 +4,8 @@ publication_types:
   - "1"
 authors:
   - admin
-publication: International Conference on Artificial Intelligence and Statistics 2020
-publication_short: AISTATS 2020
+publication: International Conference on Artificial Intelligence and Statistics
+publication_short: AISTATS
 abstract: >-
   We study the problem of learning graphical models with latent variables. We
   give the {\em first} efficient algorithms for learning: 1) ferromagnetic Ising
@@ -18,9 +18,6 @@ abstract: >-
   Our results rely on two structural properties of the underlying graphical models. These in turn allow us to design an influence function which can be maximized greedily to recover the structure of the underlying graphical model. These structural results may be of independent interest.
 draft: false
 featured: false
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
-date: 2020-01-02T04:41:00.000Z
+url_pdf: http://proceedings.mlr.press/v108/goel20a/goel20a.pdf
+date: "2020"
 ---
