@@ -14,7 +14,7 @@ organizations:
   url: https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests lie at the intersection of Theory and Machine Learning, specifically deep learning theory.
+bio: 
 
 # Interests to show in About widget
 interests:
@@ -53,9 +53,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
+ - icon: cv
+   icon_pack: ai
+   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: goel.surbhi@microsoft.com
@@ -64,8 +64,8 @@ email: goel.surbhi@microsoft.com
 highlight_name: true
 ---
 
-Surbhi Goel is a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. She obtained her Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. Prior to that, she received her Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
+I am a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. Previously, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. Prior to that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
-Her research interests lie at the intersection of theory and machine learning. She is particularly excited about building theoretical foundations of deep learning.
+My research interests lie at the intersection of theory and machine learning. I am particularly excited about building theoretical foundations of deep learning.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

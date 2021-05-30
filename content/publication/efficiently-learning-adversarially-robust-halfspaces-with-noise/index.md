@@ -17,9 +17,4 @@ abstract: We study the problem of learning adversarially robust halfspaces in
   problem with respect to any ℓp-perturbation.
 draft: false
 featured: false
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
-date: 2020-01-02T04:38:00.000Z
 ---

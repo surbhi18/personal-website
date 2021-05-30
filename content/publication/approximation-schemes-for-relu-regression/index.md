@@ -33,9 +33,4 @@ abstract: >-
   Our main insight is a new characterization of surrogate losses for nonconvex activations. While prior work had established the existence of convex surrogates for monotone activations, we show that properties of the underlying distribution actually induce strong convexity for the loss, allowing us to relate the global minimum to the activation's Chow parameters.
 draft: false
 featured: false
-image:
-  filename: featured
-  focal_point: Smart
-  preview_only: false
-date: 2020-01-02T04:26:00.000Z
 ---
