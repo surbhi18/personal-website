@@ -14,7 +14,8 @@ author_notes:
   - Equal contribution
 publication: Conference on Learning Theory
 publication_short: COLT
-abstract: We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
+abstract: >-
+We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
 which are functions of the form x 7→ max(0, w · x) with w ∈ S
 n−1
 . Our algorithm works in

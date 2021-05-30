@@ -9,7 +9,8 @@ authors:
   - Nathan Srebro
 publication: International Conference on Machine Learning
 publication_short: ICML
-abstract: We study the problem of learning adversarially robust halfspaces in
+abstract: >-
+We study the problem of learning adversarially robust halfspaces in
   the distribution-independent setting. In the realizable setting, we provide
   necessary and sufficient conditions on the adversarial perturbation sets under
   which halfspaces are efficiently robustly learnable. In the presence of random
