@@ -18,5 +18,5 @@ abstract: "We study the problem of learning graphical models with latent variabl
 draft: false
 featured: false
 url_pdf: http://proceedings.mlr.press/v108/goel20a/goel20a.pdf
-date: "2020"
+date: "2020-08-01"
 ---

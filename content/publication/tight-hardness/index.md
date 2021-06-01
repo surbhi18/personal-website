@@ -18,5 +18,5 @@ abstract: "We prove several hardness results for training depth-2 neural network
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/2011.13550.pdf
-date: "2021"
+date: "2021-01-01"
 ---

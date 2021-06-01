@@ -33,5 +33,5 @@ abstract: "We prove the first superpolynomial lower bounds for learning one-laye
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/2006.12011.pdf
-date: "2020"
+date: "2020-07-01"
 ---

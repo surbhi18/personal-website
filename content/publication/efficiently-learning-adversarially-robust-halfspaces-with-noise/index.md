@@ -18,5 +18,5 @@ abstract: "We study the problem of learning adversarially robust halfspaces in
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/2005.07652.pdf
-date: "2020"
+date: "2020-07-01"
 ---

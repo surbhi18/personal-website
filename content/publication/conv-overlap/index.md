@@ -17,5 +17,5 @@ Our algorithm, Convotron, is inspired by recent work applying isotonic regressio
 We also point out that learning one hidden convolutional layer with respect to a Gaussian distribution and just one disjoint patch P (the other patches may be arbitrary) is easy in the following sense, Convotron can efficiently recover the hidden weight vector by updating only in the direction of P."
 featured: false
 url_pdf: https://arxiv.org/abs/1802.02547.pdf
-date: "2018"
+date: "2018-07-01"
 ---

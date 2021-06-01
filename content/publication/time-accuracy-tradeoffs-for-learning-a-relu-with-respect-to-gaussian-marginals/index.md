@@ -25,5 +25,5 @@ abstract: "We consider the problem of computing the best-fitting ReLU with respe
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/1911.01462.pdf
-date: "2019"
+date: "2019-12-01"
 ---

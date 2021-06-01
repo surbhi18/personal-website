@@ -38,5 +38,5 @@ algorithms for noisy polynomial reconstruction of low-weight polynomials on the 
 draft: false
 featured: false
 url_pdf: https://arxiv.org/pdf/1611.10258.pdf
-date: "2017"
+date: "2017-07-01"
 ---

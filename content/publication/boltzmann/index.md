@@ -30,7 +30,7 @@ author_notes:
   - Equal contribution
 publication: Neural Information Processing Systems
 featured: false
-date: "2020"
+date: "2020-12-01"
 url_slides: ""
 url_poster: ""
 url_code: ""

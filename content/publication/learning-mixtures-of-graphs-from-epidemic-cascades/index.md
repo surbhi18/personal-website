@@ -21,5 +21,5 @@ abstract: "We consider the problem of learning the weighted edges of a balanced 
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/1906.06057.pdf
-date: "2020"
+date: "2020-07-01"
 ---
