@@ -1,6 +1,5 @@
 ---
-abstract: >-
-Graphical models are powerful tools for modeling high-dimensional
+abstract: Graphical models are powerful tools for modeling high-dimensional
   data, but learning graphical models in the presence of latent variables is
   well-known to be difficult. In this work we give new results for learning
   Restricted Boltzmann Machines, probably the most well-studied class of latent
