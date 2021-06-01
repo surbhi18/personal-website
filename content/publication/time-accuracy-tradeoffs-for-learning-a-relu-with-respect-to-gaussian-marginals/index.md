@@ -12,8 +12,7 @@ author_notes:
   - Equal contribution
 publication: Neural Information Processing Systems
 publication_short: NeurIPS (Spotlight)
-abstract: >-
-  We consider the problem of computing the best-fitting ReLU with respect to
+abstract: "We consider the problem of computing the best-fitting ReLU with respect to
   square-loss on a training set when the examples have been drawn according to a
   spherical Gaussian distribution (the labels can be arbitrary). Let 𝗈𝗉𝗍<1 be
   the population loss of the best-fitting ReLU. We prove:
@@ -22,7 +21,7 @@ abstract: >-
 
   2. There exists an efficient approximation algorithm for finding the best-fitting ReLU that achieves error O(opt^2/3). The algorithm uses a novel reduction to noisy halfspace learning with respect to 0/1 loss.
 
-  Prior work due to Soltanolkotabi [Sol17] showed that gradient descent can find the best-fitting ReLU with respect to Gaussian marginals, if the training set is exactly labeled by a ReLU.
+  Prior work due to Soltanolkotabi [Sol17] showed that gradient descent can find the best-fitting ReLU with respect to Gaussian marginals, if the training set is exactly labeled by a ReLU."
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/1911.01462.pdf

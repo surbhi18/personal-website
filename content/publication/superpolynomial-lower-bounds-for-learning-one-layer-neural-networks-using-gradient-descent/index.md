@@ -17,8 +17,7 @@ author_notes:
   - Equal contribution
 publication: International Conference on Machine Learning
 publication_short: ICML
-abstract: >-
-We prove the first superpolynomial lower bounds for learning one-layer
+abstract: "We prove the first superpolynomial lower bounds for learning one-layer
   neural networks with respect to the Gaussian distribution using gradient
   descent. We show that any classifier trained using gradient descent with
   respect to square-loss will fail to achieve small test error in polynomial
@@ -30,7 +29,7 @@ We prove the first superpolynomial lower bounds for learning one-layer
   of queries. Our lower bounds hold for broad classes of activations including
   ReLU and sigmoid. The core of our result relies on a novel construction of a
   simple family of neural networks that are exactly orthogonal with respect to
-  all spherically symmetric distributions.
+  all spherically symmetric distributions."
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/2006.12011.pdf

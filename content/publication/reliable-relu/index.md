@@ -14,9 +14,8 @@ author_notes:
   - Equal contribution
 publication: Conference on Learning Theory
 publication_short: COLT
-abstract: >-
-We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
-which are functions of the form x 7→ max(0, w · x) with w ∈ S
+abstract: "We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
+which are functions of the form x \\rightarrow max(0, w · x) with w ∈ S
 n−1
 . Our algorithm works in
 the challenging Reliable Agnostic learning model of Kalai, Kanade, and Mansour [18] where the
@@ -32,10 +31,10 @@ in contrast to known efficient algorithms for reliably learning linear threshold
 ǫ must be Ω(1) and strong assumptions are required on the marginal distribution. We can
 compose our results to obtain the first set of efficient algorithms for learning constant-depth
 networks of ReLUs.
-Our techniques combine kernel methods and polynomial approximations with a “dual-loss”
+Our techniques combine kernel methods and polynomial approximations with a \“dual-loss\”
 approach to convex programming. As a byproduct we obtain a number of applications including
-the first set of efficient algorithms for “convex piecewise-linear fitting” and the first efficient
-algorithms for noisy polynomial reconstruction of low-weight polynomials on the unit sphere.
+the first set of efficient algorithms for \“convex piecewise-linear fitting\” and the first efficient
+algorithms for noisy polynomial reconstruction of low-weight polynomials on the unit sphere."
 draft: false
 featured: false
 url_pdf: https://arxiv.org/pdf/1611.10258.pdf

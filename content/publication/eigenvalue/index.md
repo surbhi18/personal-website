@@ -10,8 +10,7 @@ author_notes:
   - Equal contribution
 publication: Neural Information Processing Systems
 publication_short: NeurIPS
-abstract: >-
-We consider the problem of learning function classes computed by neural networks
+abstract: "We consider the problem of learning function classes computed by neural networks
 with various activations (e.g. ReLU or Sigmoid), a task believed to be computationally
 intractable in the worst-case. A major open problem is to understand the minimal assumptions under which these classes admit provably efficient algorithms. In this work we show
 that a natural distributional assumption corresponding to eigenvalue decay of the Gram
@@ -22,7 +21,7 @@ square-loss. Milder decay assumptions also lead to improved algorithms. This is 
 purely distributional assumption that leads to polynomial-time algorithms for networks of
 ReLUs, even with one hidden layer. Further, unlike prior distributional assumptions (e.g.,
 the marginal distribution is Gaussian), eigenvalue decay has been observed in practice on
-common data sets.
+common data sets."
 draft: false
 featured: false
 url_pdf: https://arxiv.org/pdf/1708.03708.pdf

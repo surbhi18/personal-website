@@ -12,8 +12,7 @@ author_notes:
   - Equal contribution
 publication: Neural Information Processing Systems
 publication_short: NeurIPS
-abstract: >-
-We give the first statistical-query lower bounds for agnostically
+abstract: "We give the first statistical-query lower bounds for agnostically
   learning any non-polynomial activation with respect to Gaussian marginals
   (e.g., ReLU, sigmoid, sign). For the specific problem of ReLU regression
   (equivalently, agnostically learning a ReLU), we show that any
@@ -27,7 +26,7 @@ We give the first statistical-query lower bounds for agnostically
   The crucial new ingredient is the use of a nonstandard convex functional
   during the boosting procedure. This also yields a best-possible reduction
   between two commonly studied models of learning: agnostic learning and
-  probabilistic concepts.
+  probabilistic concepts."
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/2006.15812.pdf
