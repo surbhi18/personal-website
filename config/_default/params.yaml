@@ -6,7 +6,7 @@
 # Appearance
 
 theme: dark
-day_night: false
+day_night: true
 font: ''
 font_size: L
 
