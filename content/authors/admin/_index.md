@@ -68,4 +68,4 @@ I am a postdoctoral researcher at Microsoft Research NYC in the Machine Learning
 
 My research interests lie at the intersection of theory and machine learning. I am particularly excited about building theoretical foundations of deep learning.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
