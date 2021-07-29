@@ -66,6 +66,6 @@ highlight_name: true
 
 I am a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. Previously, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. Prior to that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
-My research interests lie at the intersection of theory and machine learning. I am particularly excited about building theoretical foundations of deep learning.
+My research interests lie at the intersection of theory and machine learning. I am particularly excited about building theoretical foundations for modern machine learning methods.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
