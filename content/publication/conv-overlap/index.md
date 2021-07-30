@@ -7,9 +7,9 @@ authors:
   - adamklivans
   - Raghu Meka
 author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: International Conference on Machine Learning
 publication_short: ICML (Full Oral)
 abstract: "We give the first provably efficient algorithm for learning a one hidden layer convolutional network with respect to a general class of (potentially overlapping) patches. Additionally, our algorithm requires only mild conditions on the underlying distribution. We prove that our framework captures commonly used schemes from computer vision, including one-dimensional and two-dimensional patch and stride convolutions.

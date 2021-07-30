@@ -6,8 +6,8 @@ authors:
   - admin
   - adamklivans
 author_notes:
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: Conference on Learning Theory
 publication_short: COLT
 abstract: "We give a polynomial-time algorithm for learning neural networks with one layer of sigmoids feeding into any Lipschitz, monotone activation function (e.g., sigmoid or ReLU). We make no assumptions on the structure of the network, and the algorithm succeeds with respect to {\em any} distribution on the unit ball in n dimensions (hidden weight vectors also have unit norm). This is the first assumption-free, provably efficient algorithm for learning neural networks with two nonlinear layers.

@@ -7,9 +7,9 @@ authors:
   - Sushrut Karmalkar
   - adamklivans
 author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: Neural Information Processing Systems
 publication_short: NeurIPS (Spotlight)
 abstract: "We consider the problem of computing the best-fitting ReLU with respect to

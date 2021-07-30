@@ -8,10 +8,10 @@ authors:
   - adamklivans
   - Justin Thaler
 author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: Conference on Learning Theory
 publication_short: COLT
 abstract: "We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),

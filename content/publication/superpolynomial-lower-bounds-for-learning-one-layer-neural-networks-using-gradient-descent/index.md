@@ -10,11 +10,11 @@ authors:
   - Sushrut Karmalkar
   - adamklivans
 author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: International Conference on Machine Learning
 publication_short: ICML
 abstract: "We prove the first superpolynomial lower bounds for learning one-layer

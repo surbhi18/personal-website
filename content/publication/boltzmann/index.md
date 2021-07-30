@@ -25,9 +25,9 @@ url_source: ""
 url_video: ""
 title: From Boltzmann Machines to Neural Networks and Back Again
 author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: Neural Information Processing Systems
 featured: false
 date: "2020-12-01"

@@ -9,11 +9,11 @@ authors:
   - adamklivans
   - Mahdi Soltanolkotabi
 author_notes:
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: Conference on Learning Theory
 publication_short: COLT
 abstract: >-

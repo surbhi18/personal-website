@@ -6,8 +6,8 @@ authors:
   - admin
   - adamklivans
 author_notes:
-  - Equal contribution
-  - Equal contribution
+  - Alphabetical Ordering
+  - Alphabetical Ordering
 publication: Neural Information Processing Systems
 publication_short: NeurIPS
 abstract: "We consider the problem of learning function classes computed by neural networks
