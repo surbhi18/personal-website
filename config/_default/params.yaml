@@ -68,7 +68,7 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
+date_format: 'January 2006'
 time_format: '3:04 PM'
 address_format: en-us
 
@@ -111,10 +111,10 @@ avatar:
   gravatar: false
   shape: circle
 publications:
-  date_format: January 2006
+  date_format: 'January 2006'
   citation_style: apa
 events:
-  date_format: January 2006
+  date_format: 'January 2006'
 # projects:
 #   post_view: 2
 #   publication_view: 2
