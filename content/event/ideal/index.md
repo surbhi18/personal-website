@@ -1,20 +1,20 @@
 ---
 title: Computational Complexity of Learning Neural Networks over Gaussian Marginals
 
-event: Statistics Seminar
+event: IDEAL Theory of Deep Learning Seminar Series
 
-location: Stanford University
+location: TTIC
 
 
-abstract: "A major challenge in the theory of deep learning is to understand the computational complexity of learning basic families of neural networks (NNs). It is well known that the learning problem is computationally intractable in the worst case. Positive results have circumvented this hardness by making assumptions on the distribution as well as the label noise.
+# abstract: "A major challenge in the theory of deep learning is to understand the computational complexity of learning basic families of neural networks (NNs). It is well known that the learning problem is computationally intractable in the worst case. Positive results have circumvented this hardness by making assumptions on the distribution as well as the label noise.
 
-In this talk, I will focus on the problem of learning shallow NNs under the benign gaussian input distribution. I will first discuss a super-polynomial Statistical Query (SQ) lower bound in the simple noiseless setting. I will further show how to use this result to obtain a super-polynomial SQ lower bound for learning a single neuron in the agnostic noise model. Lastly, on the positive side, I will describe a gradient-based algorithm for approximately learning a single neuron with ReLU activation which attains almost optimal sample and time complexity. 
+# In this talk, I will focus on the problem of learning shallow NNs under the benign gaussian input distribution. I will first discuss a super-polynomial Statistical Query (SQ) lower bound in the simple noiseless setting. I will further show how to use this result to obtain a super-polynomial SQ lower bound for learning a single neuron in the agnostic noise model. Lastly, on the positive side, I will describe a gradient-based algorithm for approximately learning a single neuron with ReLU activation which attains almost optimal sample and time complexity. 
 
-This talk is based on a series of works with Ilias Diakonikolas, Aravind Gollakota, Zhihan Jin, Sushrut Karmalkar, Adam Klivans and Mahdi Soltanolkotabi."
+# This talk is based on a series of works with Ilias Diakonikolas, Aravind Gollakota, Zhihan Jin, Sushrut Karmalkar, Adam Klivans and Mahdi Soltanolkotabi."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-07-27T13:00:00Z"
+date: "2020-11-10T13:00:00Z"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
