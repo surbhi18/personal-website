@@ -1,9 +1,9 @@
 ---
-title: Computational Complexity of Learning ReLUs
+title: Learning Ising Models with Independent Failures 
 
-event: Multifaceted Complexity of Machine Learning
+event: Research Fellow Talk
 
-location: Institute for Mathematical and Statistical Innovation (IMSI)
+location: Simons Institute for the Theory of Computing
 
 
 abstract: "" 
@@ -15,9 +15,9 @@ abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-04-15"
+date: "2019-07-01"
 # date_end: "2030-06-01T15:00:00Z"
-all_day: true
+all_day: false
 
 # Schedule page publish date (NOT talk date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -26,7 +26,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 # image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'

@@ -113,6 +113,8 @@ avatar:
 publications:
   date_format: January 2006
   citation_style: apa
+events:
+  date_format: January 2006
 # projects:
 #   post_view: 2
 #   publication_view: 2
