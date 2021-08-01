@@ -1,9 +1,9 @@
 ---
-title: Computational Complexity of Learning Neural Networks over Gaussian Marginals
+title: Exploring Surrogate Losses for Learning Neural Networks
 
-event: ARC Colloquium
+event: Young Researcher Seminar Series
 
-location: Georgia Tech
+location: TTIC
 
 
 abstract: "" 
@@ -15,9 +15,9 @@ abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-11-09T13:00:00Z"
+date: "2019-12-05T13:00:00Z"
 # date_end: "2030-06-01T15:00:00Z"
-all_day: true
+all_day: false
 
 # Schedule page publish date (NOT talk date).
 # publishDate: "2017-01-01T00:00:00Z"

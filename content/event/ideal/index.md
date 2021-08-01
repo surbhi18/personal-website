@@ -6,7 +6,8 @@ event: IDEAL Theory of Deep Learning Seminar Series
 location: TTIC
 
 
-# abstract: "A major challenge in the theory of deep learning is to understand the computational complexity of learning basic families of neural networks (NNs). It is well known that the learning problem is computationally intractable in the worst case. Positive results have circumvented this hardness by making assumptions on the distribution as well as the label noise.
+abstract: "" 
+# "A major challenge in the theory of deep learning is to understand the computational complexity of learning basic families of neural networks (NNs). It is well known that the learning problem is computationally intractable in the worst case. Positive results have circumvented this hardness by making assumptions on the distribution as well as the label noise.
 
 # In this talk, I will focus on the problem of learning shallow NNs under the benign gaussian input distribution. I will first discuss a super-polynomial Statistical Query (SQ) lower bound in the simple noiseless setting. I will further show how to use this result to obtain a super-polynomial SQ lower bound for learning a single neuron in the agnostic noise model. Lastly, on the positive side, I will describe a gradient-based algorithm for approximately learning a single neuron with ReLU activation which attains almost optimal sample and time complexity. 
 
@@ -25,7 +26,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 # image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -57,9 +58,7 @@ featured: true
 # - example
 ---
 
-<!-- {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}} -->
+
 
 <!-- Slides can be added in a few ways:
 

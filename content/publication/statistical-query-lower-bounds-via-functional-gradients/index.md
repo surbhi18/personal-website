@@ -16,5 +16,5 @@ abstract: "We give the first statistical-query lower bounds for agnostically lea
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/2006.15812.pdf
-date: "2020-12-01"
+date: "2020-12-00"
 ---
