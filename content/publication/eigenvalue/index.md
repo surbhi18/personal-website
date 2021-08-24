@@ -3,8 +3,8 @@ title: Eigenvalue Decay Implies Polynomial-Time Learnability for Neural Networks
 publication_types:
   - "1"
 authors:
-  - admin
-  - adamklivans
+  - Surbhi Goel
+  - Adam Klivans
 author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering

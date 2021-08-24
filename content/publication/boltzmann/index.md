@@ -17,12 +17,10 @@ url_pdf: https://arxiv.org/abs/2007.12815.pdf
 publication_types:
   - "1"
 authors:
-  - admin
-  - adamklivans
-  - fredkoehler
+  - Surbhi Goel
+  - Adam Klivans
+  - Frederic Koehler
 publication_short: NeurIPS
-url_source: ""
-url_video: ""
 title: From Boltzmann Machines to Neural Networks and Back Again
 author_notes:
   - Alphabetical Ordering
@@ -31,8 +29,4 @@ author_notes:
 publication: Neural Information Processing Systems
 featured: false
 date: "2020-12-01"
-url_slides: ""
-url_poster: ""
-url_code: ""
-doi: ""
 ---

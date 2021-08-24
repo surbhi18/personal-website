@@ -3,7 +3,7 @@ title: Learning Ising and Potts Models with Latent Variables
 publication_types:
   - "1"
 authors:
-  - admin
+  - Surbhi Goel
 publication: International Conference on Artificial Intelligence and Statistics
 publication_short: AISTATS
 abstract: "We study the problem of learning graphical models with latent variables. We

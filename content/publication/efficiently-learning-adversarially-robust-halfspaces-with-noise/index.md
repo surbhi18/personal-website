@@ -4,7 +4,7 @@ publication_types:
   - "1"
 authors:
   - Omar Montasser
-  - admin
+  - Surbhi Goel
   - Ilias Diakonikolas
   - Nathan Srebro
 publication: International Conference on Machine Learning

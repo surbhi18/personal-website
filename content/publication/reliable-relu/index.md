@@ -3,9 +3,9 @@ title: Reliably Learning the ReLU in Polynomial Time
 publication_types:
   - "1"
 authors:
-  - admin
+  - Surbhi Goel
   - Varun Kanade
-  - adamklivans
+  - Adam Klivans
   - Justin Thaler
 author_notes:
   - Alphabetical Ordering

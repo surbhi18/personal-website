@@ -4,11 +4,11 @@ title: Superpolynomial Lower Bounds for Learning One-Layer Neural Networks using
 publication_types:
   - "1"
 authors:
-  - admin
+  - Surbhi Goel
   - Aravind Gollakota
   - Zhihan Jin
   - Sushrut Karmalkar
-  - adamklivans
+  - Adam Klivans
 author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering

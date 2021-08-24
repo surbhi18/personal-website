@@ -5,7 +5,7 @@ publication_types:
 authors:
   - Jessica Hoffmann
   - Soumya Basu
-  - admin
+  - Surbhi Goel
   - Constantine Caramanis
 publication: International Conference on Machine Learning
 publication_short: ICML
