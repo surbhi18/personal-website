@@ -13,5 +13,5 @@ abstract: "Giving provable guarantees for learning neural networks is a core cha
 draft: false
 featured: false
 url_pdf: https://arxiv.org/abs/1903.09231.pdf
-date: "2010-03-01"
+date: "2019-03-01"
 ---
