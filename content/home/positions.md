@@ -40,7 +40,36 @@ item:
   organization: Women in Machine Learning Theory (WiML-T)
   organization_url: https://www.wiml-t.org/mentoring-program
   title: 'Mentor'
-
+- date_end: ""
+  date_start: "2020-07-01"
+  organization: One World Seminar Series on the Mathematics of Machine Learning
+  organization_url: https://www.oneworldml.org/
+  title: 'Co-organizer'
+- date_end: "2021-08-05"
+  date_start: "2021-05-01"
+  organization: COLT 2021 LeT-All Mentorship Workshop
+  organization_url: https://www.let-all.com/colt.html
+  title: 'Co-organizer'
+- date_end: "2021-03-15"
+  date_start: "2020-10-01"
+  organization: ALT 2021 LeT-All Mentorship Workshop
+  organization_url: https://www.let-all.com/alt.html
+  title: 'Co-organizer'
+- date_end: "2020-11-1"
+  date_start: "2021-01-01"
+  organization: Conference on Algorithmic Learning Theory (ALT) 2021 
+  organization_url: http://algorithmiclearningtheory.org/alt2021/
+  title: 'Program Committee'
+- date_end: "2021-11-1"
+  date_start: "2022-01-01"
+  organization: Conference on Algorithmic Learning Theory (ALT) 2022 
+  organization_url: http://algorithmiclearningtheory.org/alt2021/
+  title: 'Program Committee'
+- date_end: "2021-02-1"
+  date_start: "2021-05-01"
+  organization: Conference on Learning Theory (COLT) 2021
+  organization_url: http://www.learningtheory.org/colt2021/
+  title: 'Program Committee'
 design:
   columns: '2' 
 ---
