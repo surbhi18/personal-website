@@ -1,7 +1,7 @@
 ---
-title: Learning Ising Models with Independent Failures 
+title: Computational Barriers For Learning Some Generalized Linear Models
 
-event: Research Fellow Talk
+event: Rigorous Evidence for Information-Computation Trade-offs Workshop
 
 location: Simons Institute for the Theory of Computing, UC Berkeley
 
@@ -15,9 +15,9 @@ abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-07-01"
+date: "2021-09-17"
 # date_end: "2030-06-01T15:00:00Z"
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -26,7 +26,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 # image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -39,8 +39,8 @@ featured: false
 #   url: https://twitter.com/georgecushen
 # url_code: ""
 # url_pdf: ""
-# url_slides: ""
-# url_video: ""
+url_slides: "https://simons.berkeley.edu/sites/default/files/docs/18289/simons-rigorousevidence.pdf"
+url_video: "https://youtu.be/eYW8IbyRFhA"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
