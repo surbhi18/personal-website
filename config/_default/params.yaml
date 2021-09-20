@@ -75,6 +75,7 @@ address_format: en-us
 # Site features
 
 highlight: true
+highlight_superuser: true
 highlight_languages:
   - r
 math: true
