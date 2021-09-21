@@ -31,7 +31,7 @@ item:
   organization_url: https://www.learningtheory.org/colt2021
   title: Virtual Experience Chair
 
-- date_end: "Present"
+- date_end: ""
   date_start: "2020-07-01"
   organization: One World Seminar Series on the Mathematics of Machine Learning
   organization_url: https://www.oneworldml.org/

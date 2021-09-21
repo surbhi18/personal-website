@@ -23,14 +23,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- date_end: "Present"
+- date_end: ""
   date_start: "2020-09-01"
   description: "Co-founded this mentorship initiative for the learning theory community. Co-organized mentorship workshops at ALT 2021 and COLT 2021."
   organization: Learning Theory Alliance (LeT-All)
   organization_url: https://www.let-all.com
   title: Co-organizer
 
-- date_end: "Present"
+- date_end: ""
   date_start: "2021-03-01"
   organization: Women in Machine Learning Theory (WiML-T)
   organization_url: https://www.wiml-t.org/mentoring-program
