@@ -26,7 +26,6 @@ item:
 
 - date_end: "2021-08-19"
   date_start: "2021-05-01"
-  description: "Co-organized the virtual-only days and supported the virtual components during hybrid days at COLT 2021."
   organization: Conference on Learning Theory (COLT) 2021
   organization_url: https://www.learningtheory.org/colt2021
   title: Virtual Experience Chair
