@@ -36,18 +36,6 @@ item:
   organization_url: https://www.wiml-t.org/mentoring-program
   title: Mentor
 
-# - date_end: "2021-08-05"
-#   date_start: "2021-05-01"
-#   organization: COLT 2021 LeT-All Mentorship Workshop
-#   organization_url: https://www.let-all.com/colt.html
-#   title: Co-organizer
-
-# - date_end: "2021-03-15"
-#   date_start: "2020-10-01"
-#   organization: ALT 2021 LeT-All Mentorship Workshop
-#   organization_url: https://www.let-all.com/alt.html
-#   title: Co-organizer
-
 design:
   columns: '2' 
 ---
