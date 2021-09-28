@@ -1,7 +1,7 @@
 ---
 title: "Gone Fishing: Neural Active Learning with Fisher Embeddings"
 publication_types:
-  - "3"
+  - "1"
 authors:
   - Jordan Ash
   - Surbhi Goel
@@ -13,5 +13,8 @@ abstract: >-
 draft: false
 featured: false
 url_pdf: https://arxiv.org/pdf/2106.09675.pdf
+publication_short: NeurIPS
+publication: Neural Information Processing Systems
+featured: false
 date: "2021-06-01"
 ---
