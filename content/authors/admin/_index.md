@@ -66,7 +66,7 @@ highlight_name: true
 
 I am a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group.  
 
-My research interests lie at the intersection of theory and machine learning. I am particularly excited about building theoretical foundations for modern machine learning methods. My work attempts to understand the limitations of existing algorithms and design new provably efficient algorithms for several machine learning problems.
+My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms including deep learning. My work attempts to quantify the limitations of existing approaches and design new efficient algorithms with provable guarantees.
 
 Prior to joining MSR, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
