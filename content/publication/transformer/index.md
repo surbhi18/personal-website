@@ -3,7 +3,7 @@ title: Inductive Biases and Variable Creation in Self-Attention Mechanisms
 publication_types:
   - "3"
 authors:
-  - Bejamin L. Edelman
+  - Benjamin L. Edelman
   - Surbhi Goel
   - Sham Kakade
   - Cyril Zhang
