@@ -29,6 +29,7 @@ item:
   organization: Conference on Learning Theory (COLT) 2021
   organization_url: https://www.learningtheory.org/colt2021
   title: Virtual Experience Chair
+  description: "Co-organized the virtual part of the hybrid conference, including the 2-day virtual-only program."
 
 - date_end: ""
   date_start: "2020-07-01"
@@ -53,6 +54,12 @@ item:
   organization: Conference on Learning Theory (COLT) 2021
   organization_url: http://www.learningtheory.org/colt2021/
   title: Program Committee
+
+- date_end: "2016-01-01"
+  date_start: "2017-01-01"
+  organization: Graduate Representative Association of Computer Sciences (GRACS)
+  organization_url: 
+  title: Treasurer
 
 design:
   columns: '2' 

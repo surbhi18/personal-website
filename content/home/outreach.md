@@ -25,7 +25,7 @@ date_format: Jan 2006
 item:
 - date_end: ""
   date_start: "2020-09-01"
-  description: "Co-founded this mentorship initiative for the learning theory community. Co-organized mentorship workshops at ALT 2021 and COLT 2021."
+  description: "Co-founded this community building and mentorship initiative for the learning theory community. Co-organized mentorship workshops at ALT 2021 and COLT 2021. Co-organized a graduate applications support program in collaboration with WiML-T."
   organization: Learning Theory Alliance (LeT-All)
   organization_url: https://www.let-all.com
   title: Co-organizer
@@ -34,6 +34,11 @@ item:
   date_start: "2021-03-01"
   organization: Women in Machine Learning Theory (WiML-T)
   organization_url: https://www.wiml-t.org/mentoring-program
+  title: Mentor
+- date_end: "2019-03-01"
+  date_start: "2018-03-01"
+  organization: Women in Computer Science (GWC-WiCS) at UT Austin
+  organization_url: 
   title: Mentor
 
 design:
