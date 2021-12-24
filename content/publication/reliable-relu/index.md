@@ -15,7 +15,7 @@ author_notes:
 publication: Conference on Learning Theory (COLT) 2017
 publication_short: COLT 2017
 abstract: >-
-    We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
+  We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
   which are functions of the form $x \rightarrow \max(0, w \cdot x)$ with $w \in S^{n−1}$. Our algorithm works in
   the challenging Reliable Agnostic learning model of Kalai, Kanade, and Mansour [18] where the
   learner is given access to a distribution $\mathcal{D}$ on labeled examples but the labeling may be arbitrary.
