@@ -7,8 +7,8 @@ authors:
   - Surbhi Goel
   - Ilias Diakonikolas
   - Nathan Srebro
-publication: International Conference on Machine Learning
-publication_short: ICML
+publication: International Conference on Machine Learning (ICML) 2020
+publication_short: ICML 2020
 abstract: "We study the problem of learning adversarially robust halfspaces in
   the distribution-independent setting. In the realizable setting, we provide
   necessary and sufficient conditions on the adversarial perturbation sets under

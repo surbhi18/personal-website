@@ -20,13 +20,12 @@ authors:
   - Surbhi Goel
   - Adam Klivans
   - Frederic Koehler
-publication_short: NeurIPS
+publication_short: NeurIPS 2020
 title: From Boltzmann Machines to Neural Networks and Back Again
 author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering
-  - Alphabetical Ordering
-publication: Neural Information Processing Systems
+  - Alphabetical Ordering (NeurIPS) 2020
 featured: false
 date: "2020-12-01"
 ---

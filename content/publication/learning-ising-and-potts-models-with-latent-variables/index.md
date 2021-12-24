@@ -4,8 +4,8 @@ publication_types:
   - "1"
 authors:
   - Surbhi Goel
-publication: International Conference on Artificial Intelligence and Statistics
-publication_short: AISTATS
+publication: International Conference on Artificial Intelligence and Statistics (AISTATS) 2020
+publication_short: AISTATS 2020
 abstract: "We study the problem of learning graphical models with latent variables. We
   give the {\em first} efficient algorithms for learning: 1) ferromagnetic Ising
   models with latent variables under {\em arbitrary} external fields, and 2)

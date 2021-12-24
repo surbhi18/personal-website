@@ -14,8 +14,8 @@ author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering
   - Alphabetical Ordering
-publication: Conference on Learning Theory
-publication_short: COLT
+publication: Conference on Learning Theory (COLT) 2020
+publication_short: COLT 2020
 abstract: >-
   We consider the fundamental problem of ReLU regression, where the goal is to
   output the best fitting ReLU with respect to square loss given access to draws

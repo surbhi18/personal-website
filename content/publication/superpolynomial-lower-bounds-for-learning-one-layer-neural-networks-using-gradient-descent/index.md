@@ -15,8 +15,8 @@ author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering
   - Alphabetical Ordering
-publication: International Conference on Machine Learning
-publication_short: ICML
+publication: International Conference on Machine Learning (ICML) 2020
+publication_short: ICML 2020
 abstract: "We prove the first superpolynomial lower bounds for learning one-layer
   neural networks with respect to the Gaussian distribution using gradient
   descent. We show that any classifier trained using gradient descent with

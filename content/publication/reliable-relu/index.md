@@ -12,8 +12,8 @@ author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering
   - Alphabetical Ordering
-publication: Conference on Learning Theory
-publication_short: COLT
+publication: Conference on Learning Theory (COLT) 2017
+publication_short: COLT 2017
 abstract: "We give the first dimension-efficient algorithms for learning Rectified Linear Units (ReLUs),
 which are functions of the form x -> max(0, w · x) with w ∈ S
 n−1

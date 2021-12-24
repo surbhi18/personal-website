@@ -13,8 +13,8 @@ abstract: >-
 draft: false
 featured: false
 url_pdf: https://arxiv.org/pdf/2106.09675.pdf
-publication_short: NeurIPS
-publication: Neural Information Processing Systems
+publication_short: NeurIPS 2021
+publication: Neural Information Processing Systems (NeurIPS) 2021
 featured: false
 date: "2021-06-01"
 ---

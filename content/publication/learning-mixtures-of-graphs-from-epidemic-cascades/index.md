@@ -7,8 +7,8 @@ authors:
   - Soumya Basu
   - Surbhi Goel
   - Constantine Caramanis
-publication: International Conference on Machine Learning
-publication_short: ICML
+publication: International Conference on Machine Learning (ICML) 2020
+publication_short: ICML 2020
 abstract: "We consider the problem of learning the weighted edges of a balanced mixture
   of two undirected graphs from epidemic cascades. While mixture models are
   popular modeling tools, algorithmic development with rigorous guarantees has
