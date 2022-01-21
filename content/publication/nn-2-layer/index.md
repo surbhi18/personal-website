@@ -15,7 +15,7 @@ abstract: >-
   Our algorithm-- $Alphatron$-- is a simple, iterative update rule that combines isotonic regression with kernel methods. It outputs a hypothesis that yields efficient oracle access to interpretable features. It also suggests a new approach to Boolean learning problems via real-valued conditional-mean functions, sidestepping traditional hardness results from computational learning theory.
   Along these lines, we subsume and improve many longstanding results for PAC learning Boolean functions to the more general, real-valued setting of $probabilistic\ concepts$, a model that (unlike PAC learning) requires non-i.i.d. noise-tolerance.
 draft: false
-featured: false
+featured: true
 url_pdf: https://arxiv.org/abs/1709.06010.pdf
 date: "2019-07-01"
 ---

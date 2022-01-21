@@ -32,7 +32,7 @@ abstract: >-
   simple family of neural networks that are exactly orthogonal with respect to
   all spherically symmetric distributions.
 draft: false
-featured: false
+featured: true
 url_pdf: https://arxiv.org/abs/2006.12011.pdf
 date: "2020-07-01"
 ---
