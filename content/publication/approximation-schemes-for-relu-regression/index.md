@@ -4,7 +4,7 @@ publication_types:
   - "1"
 authors:
   - Ilias Diakonikolas
-  - Surbhi Goel
+  - admin
   - Sushrut Karmalkar
   - Adam Klivans
   - Mahdi Soltanolkotabi
