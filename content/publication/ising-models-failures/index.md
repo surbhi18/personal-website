@@ -4,7 +4,7 @@ title: Learning Ising Models with Independent Failures
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Daniel Kane
   - Adam Klivans
 author_notes:

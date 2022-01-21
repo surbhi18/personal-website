@@ -5,7 +5,7 @@ publication_types:
 authors:
   - Jordan Ash
   - Cyril Zhang
-  - Surbhi Goel
+  - admin
   - Akshay Krishnamurthy
   - Sham Kakade
 

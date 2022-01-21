@@ -3,7 +3,7 @@ title: Recovering the Lowest Layer of Deep Networks with High Threshold Activati
 publication_types:
   - "0"
 authors:
-  - Surbhi Goel
+  - admin
   - Rina Panigrahy
 author_notes:
   - Alphabetical Ordering

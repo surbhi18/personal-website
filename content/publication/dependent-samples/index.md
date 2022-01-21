@@ -6,7 +6,7 @@ authors:
   - Yuval Dagan
   - Constantinos Daskalakis
   - Nishanth Dikkala
-  - Surbhi Goel
+  - admin
   - Vardis Kandiros
 author_notes:
   - Alphabetical Ordering

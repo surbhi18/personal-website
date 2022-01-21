@@ -3,7 +3,7 @@ title: Tight Hardness Results for Training Depth-2 ReLU Networks
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Adam Klivans
   - Pasin Manurangsi
   - Daniel Reichman

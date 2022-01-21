@@ -3,7 +3,7 @@ title: Learning Ising and Potts Models with Latent Variables
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
 publication: International Conference on Artificial Intelligence and Statistics (AISTATS) 2020
 publication_short: AISTATS 2020
 abstract: >-

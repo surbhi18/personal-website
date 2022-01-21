@@ -3,7 +3,7 @@ title: Learning One Convolutional Layer with Overlapping Patches
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Adam Klivans
   - Raghu Meka
 author_notes:

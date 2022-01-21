@@ -4,7 +4,7 @@ publication_types:
   - "3"
 authors:
   - Benjamin L. Edelman
-  - Surbhi Goel
+  - admin
   - Sham Kakade
   - Cyril Zhang
 author_notes:

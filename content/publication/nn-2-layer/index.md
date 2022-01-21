@@ -3,7 +3,7 @@ title: Learning Neural Networks with Two Nonlinear Layers in Polynomial Time
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Adam Klivans
 author_notes:
   - Alphabetical Ordering

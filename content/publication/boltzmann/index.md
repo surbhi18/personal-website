@@ -17,7 +17,7 @@ url_pdf: https://arxiv.org/abs/2007.12815.pdf
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Adam Klivans
   - Frederic Koehler
 publication_short: NeurIPS 2020

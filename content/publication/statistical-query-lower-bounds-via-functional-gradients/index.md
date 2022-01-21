@@ -3,7 +3,7 @@ title: Statistical-Query Lower Bounds via Functional Gradients
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Aravind Gollakota
   - Adam Klivans
 author_notes:

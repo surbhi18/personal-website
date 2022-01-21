@@ -3,7 +3,7 @@ title: Time/Accuracy Tradeoffs for Learning a ReLU with respect to Gaussian Marg
 publication_types:
   - "1"
 authors:
-  - Surbhi Goel
+  - admin
   - Sushrut Karmalkar
   - Adam Klivans
 author_notes:

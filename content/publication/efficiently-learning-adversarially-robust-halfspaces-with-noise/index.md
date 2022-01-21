@@ -4,7 +4,7 @@ publication_types:
   - "1"
 authors:
   - Omar Montasser
-  - Surbhi Goel
+  - admin
   - Ilias Diakonikolas
   - Nathan Srebro
 publication: International Conference on Machine Learning (ICML) 2020

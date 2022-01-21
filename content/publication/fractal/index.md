@@ -4,7 +4,7 @@ publication_types:
   - "1"
 authors:
   - Naman Agarwal
-  - Surbhi Goel
+  - admin
   - Cyril Zhang
 author_notes:
   - Alphabetical Ordering

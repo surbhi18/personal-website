@@ -5,7 +5,7 @@ publication_types:
 authors:
   - Matt Jordan
   - Naren Manoj
-  - Surbhi Goel
+  - admin
   - Alex Dimakis
  
 abstract: "Recent work has shown that additive threat models, which only permit the addition of bounded noise to the pixels of an image, are insufficient for fully capturing the space of imperceivable adversarial examples. For example, small rotations and spatial transformations can fool classifiers, remain imperceivable to humans, but have large additive distance from the original images. In this work, we leverage quantitative perceptual metrics like LPIPS and SSIM to define a novel threat model for adversarial attacks.

@@ -4,7 +4,7 @@ publication_types:
   - "0"
 authors:
   - Simon Du
-  - Surbhi Goel
+  - admin
 author_notes:
   - Alphabetical Ordering
   - Alphabetical Ordering

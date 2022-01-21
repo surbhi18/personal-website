@@ -5,7 +5,7 @@ publication_types:
 authors:
   - Jessica Hoffmann
   - Soumya Basu
-  - Surbhi Goel
+  - admin
   - Constantine Caramanis
 publication: International Conference on Machine Learning (ICML) 2020
 publication_short: ICML 2020

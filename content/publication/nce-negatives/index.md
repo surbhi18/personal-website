@@ -4,7 +4,7 @@ publication_types:
   - "1"
 authors:
   - Jordan Ash
-  - Surbhi Goel
+  - admin
   - Akshay Krishnamurthy
   - Dipendra Misra
 author_notes:
