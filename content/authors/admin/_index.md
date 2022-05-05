@@ -70,6 +70,6 @@ My research interests lie at the intersection of theoretical computer science an
 
 Prior to joining MSR, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
-**I am on the job market for positions starting in Fall 2022.**
+**Starting Fall 2022/Spring 2023 (TBD), I will be an Assistant Professor of Computer and Information Science at Penn.**
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
