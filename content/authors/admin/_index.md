@@ -64,13 +64,11 @@ email: "[first name][last initial]@cis.upenn.edu"
 highlight_name: true
 ---
 
-I am a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group.  
+I am currently a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. In Spring 2023, I will be starting as the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania. 
+ 
+My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms especially deep learning. 
 
-My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms including deep learning. My work attempts to quantify the limitations of existing approaches and design new efficient algorithms with provable guarantees.
-
-Prior to joining MSR, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
-
-In Spring 2023, I will be starting as the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania. 
+Prior to joining MSR, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
 For prospective students who are interested in working with me: if you are a UPenn student, send me an email; if you are applying for grad school this cycle, please apply {{<a href="https://www.cis.upenn.edu/graduate/program-offerings/doctoral-program/">}}here{{</a>}} and list me as a potential research advisor.
 
