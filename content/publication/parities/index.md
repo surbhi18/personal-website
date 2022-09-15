@@ -1,7 +1,7 @@
 ---
 title: "Hidden Progress in Deep Learning: SGD Learns Parities Near the Computational Limit"
 publication_types:
-  - "3"
+  - "1"
 authors:
   - Boaz Barak
   - Benjamin L. Edelman
@@ -20,5 +20,7 @@ abstract: "There is mounting empirical evidence of \emph{emergent phenomena} in 
 draft: false
 featured: true
 url_pdf: https://arxiv.org/abs/2207.08799.pdf
+publication_short: NeurIPS 2022
+publication: Neural Information Processing Systems (NeurIPS) 2022
 date: "2022-07-18"
 ---

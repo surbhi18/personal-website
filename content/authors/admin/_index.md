@@ -58,7 +58,7 @@ social:
 #   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: goel.surbhi@microsoft.com
+email: "[first name][last initial]@cis.upenn.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -70,6 +70,8 @@ My research interests lie at the intersection of theoretical computer science an
 
 Prior to joining MSR, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
-In Spring 2023, I will be starting as the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania.
+In Spring 2023, I will be starting as the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania. 
+
+For prospective students who are interested in working with me: if you are a UPenn student, send me an email; if you are applying for grad school this cycle, please apply {{<a href="https://www.cis.upenn.edu/graduate/program-offerings/doctoral-program/">}}here{{</a>}} and list me as a potential research advisor.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
