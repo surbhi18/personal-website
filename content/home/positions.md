@@ -49,11 +49,29 @@ item:
   organization_url: http://algorithmiclearningtheory.org/alt2022/
   title: Program Committee
 
+- date_end: "2023-01-01"
+  date_start: "2022-10-01"
+  organization: Conference on Algorithmic Learning Theory (ALT) 2023 
+  organization_url: http://algorithmiclearningtheory.org/alt2023/
+  title: Program Committee
+
 - date_end: "2021-05-01"
   date_start: "2021-02-01"
   organization: Conference on Learning Theory (COLT) 2021
   organization_url: http://www.learningtheory.org/colt2021/
   title: Program Committee
+
+- date_end: "2022-05-01"
+  date_start: "2022-02-01"
+  organization: Conference on Learning Theory (COLT) 2022
+  organization_url: http://www.learningtheory.org/colt2022/
+  title: Program Committee
+
+- date_end: "2023-01-01"
+  date_start: "2022-10-01"
+  organization: Conference on Artificial Intelligence and Statistics (AISTATS) 2023 
+  organization_url: https://aistats.org/aistats2023/
+  title: Area Chair
 
 - date_end: "2016-01-01"
   date_start: "2017-01-01"
