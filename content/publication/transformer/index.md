@@ -18,5 +18,5 @@ abstract: "Self-attention, an architectural motif designed to model long-range i
 draft: false
 featured: true
 url_pdf: https://arxiv.org/abs/2110.10090.pdf
-date: "2021-10-19"
+date: "2022-07-01"
 ---

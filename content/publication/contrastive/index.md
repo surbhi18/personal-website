@@ -18,5 +18,5 @@ abstract: "Contrastive learning is a popular form of self-supervised learning th
 draft: false
 featured: true
 url_pdf: https://arxiv.org/abs/2202.14037.pdf
-date: "2022-02-28"
+date: "2022-07-01"
 ---
