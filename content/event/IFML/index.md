@@ -3,7 +3,7 @@ title: What Functions Do Transformers Prefer to Represent?
 
 event: Joint IFML/Data-Driven Decision Processes Workshop
 
-location: Scimons Institute, UC Berkeley
+location: Simons Institute, UC Berkeley
 
 
 abstract: "" 

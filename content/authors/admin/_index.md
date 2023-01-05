@@ -6,12 +6,12 @@ title: Surbhi Goel
 superuser: true
 
 # Role/position/tagline
-role: Postdoc Researcher
+role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Microsoft Research, New York City
-  url: https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/
+- name: University of Pennsylvania, Philadelphia
+  url: https://www.cis.upenn.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -64,12 +64,12 @@ email: "[first name][last initial]@cis.upenn.edu"
 highlight_name: true
 ---
 
-I am currently a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. In Spring 2023, I will be starting as the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania. 
+I am the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania. Prior to this, I was a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. 
  
 My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms especially deep learning. 
 
-Prior to joining MSR, I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
+I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
-For prospective students who are interested in working with me: if you are a UPenn student, send me an email; if you are applying for grad school this cycle, please apply to UPenn CIS and list me as a potential research advisor.
+For prospective students who are interested in working with me: if you are a UPenn student, send me an email with your CV and a brief description of your research interests; if you are applying for grad school this cycle, please apply to UPenn CIS and list me as a potential research advisor.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
