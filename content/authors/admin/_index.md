@@ -58,18 +58,20 @@ social:
 #   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "[first name][last initial]@cis.upenn.edu"
+email: surbhig@cis.upenn.edu
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am the Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania. Prior to this, I was a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. 
+I am the Magerman Term Assistant Professor of [Computer and Information Science](https://www.cis.upenn.edu/) at University of Pennsylvania. Prior to this, I was a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. 
  
 My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms especially deep learning. 
 
-I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by Adam Klivans. My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
+I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by [Adam Klivans](https://www.cs.utexas.edu/users/klivans/). My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
-For prospective students who are interested in working with me: if you are a UPenn student, send me an email with your CV and a brief description of your research interests; if you are applying for grad school this cycle, please apply to UPenn CIS and list me as a potential research advisor.
+**For prospective students who are interested in working with me:** send me an email with your CV, an overview of your research interests, and a brief description of 1-2 recent papers (not mine) you have read and enjoyed.
+
+I am currently co-teaching [CIS 5200: Machine Learning](https://machine-learning-upenn.github.io/) with [Eric Wong](https://riceric22.github.io/).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
