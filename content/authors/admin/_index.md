@@ -64,11 +64,11 @@ email: surbhig@cis.upenn.edu
 highlight_name: true
 ---
 
-I am the Magerman Term Assistant Professor of [Computer and Information Science](https://www.cis.upenn.edu/) at University of Pennsylvania. Prior to this, I was a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. 
+I am the Magerman Term Assistant Professor of [Computer and Information Science](https://www.cis.upenn.edu/) at University of Pennsylvania. I’m also a part of the [ASSET Center](https://blog.seas.upenn.edu/penn-engineerings-new-asset-center-will-focus-on-the-safety-explainability-and-trustworthiness-of-ai-systems/) on Safe, Explainable, and Trustworthy AI Systems, and the [Warren Center](https://warrencenter.upenn.edu/) for Network and Data Sciences. 
  
 My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms especially deep learning. 
 
-I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by [Adam Klivans](https://www.cs.utexas.edu/users/klivans/). My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
+Prior to this, I was a postdoctoral researcher at Microsoft Research NYC in the Machine Learning group. I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin advised by [Adam Klivans](https://www.cs.utexas.edu/users/klivans/). My dissertation was awarded UTCS's Bert Kay Dissertation award. My Ph.D. research was generously supported by the JP Morgan AI Fellowship and several fellowships from UT Austin. During my PhD, I visited IAS for the Theoretical Machine learning program and the Simons Institute for the Theory of Computing at UC Berkeley for the Foundations of Deep Learning program (supported by the Simons-Berkeley Research Fellowship). Before that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi majoring in Computer Science and Engineering.
 
 **For prospective students who are interested in working with me:** send me an email with your CV, an overview of your research interests, and a brief description of 1-2 recent papers (not mine) you have read and enjoyed.
 
