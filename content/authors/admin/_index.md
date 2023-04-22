@@ -64,7 +64,7 @@ email: surbhig@cis.upenn.edu
 highlight_name: true
 ---
 
-I am the Magerman Term Assistant Professor of [Computer and Information Science](https://www.cis.upenn.edu/) at University of Pennsylvania. I am associated with the [theory group](http://theory.cis.upenn.edu/), the [ASSET Center](https://blog.seas.upenn.edu/penn-engineerings-new-asset-center-will-focus-on-the-safety-explainability-and-trustworthiness-of-ai-systems/) on Safe, Explainable, and Trustworthy AI Systems, and the [Warren Center](https://warrencenter.upenn.edu/) for Network and Data Sciences. 
+I am the Magerman Term Assistant Professor of [Computer and Information Science](https://www.cis.upenn.edu/) at University of Pennsylvania. I am associated with the [theory group](http://theory.cis.upenn.edu/), the [ASSET Center](https://blog.seas.upenn.edu/penn-engineerings-new-asset-center-will-focus-on-the-safety-explainability-and-trustworthiness-of-ai-systems/) on safe, explainable, and trustworthy AI systems, and the [Warren Center](https://warrencenter.upenn.edu/) for network and data sciences. 
  
 My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms especially deep learning. 
 
