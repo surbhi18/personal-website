@@ -1,14 +1,14 @@
 ---
 title: "Thinking Fast with Transformers: Algorithmic Reasoning via Shortcuts"
 
-event: ASSET Seminar
+event: "Youth in High-Dimensions: Recent Progress in Machine Learning, High-Dimensional Statistics and Inference"
 
-location: University of Pennsylvania
+location: "ICTP, Trieste, Italy"
 
 
 abstract: "" 
 
-date: "2023-04-19"
+date: "2023-06-01"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

@@ -1,14 +1,14 @@
 ---
-title: "Thinking Fast with Transformers: Algorithmic Reasoning via Shortcuts"
+title: "Beyond Worst-case Sequential Prediction: Adversarial Robustness via Abstention"
 
-event: ASSET Seminar
+event: FODSI Workshop on Computational Complexity of Statistical Problems
 
-location: University of Pennsylvania
+location: MIT
 
 
 abstract: "" 
 
-date: "2023-04-19"
+date: "2023-06-14"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
