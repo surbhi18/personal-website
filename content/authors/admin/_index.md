@@ -72,6 +72,6 @@ Prior to this, I was a postdoctoral researcher at Microsoft Research NYC in the 
 
 **For prospective students who are interested in working with me:** send me an email with your CV, an overview of your research interests, and a brief description of 1-2 recent papers (not mine) you have read and enjoyed.
 
-In Fall 2023, I will teach a special topics course on 'Foundations of Modern Machine Learning: Theory and Empirics'. In Spring 2023, I co-taught [CIS 5200: Machine Learning](https://machine-learning-upenn.github.io/) with [Eric Wong](https://riceric22.github.io/).
+In Fall 2023, I will teach a special topics course [CIS 7000: Foundations of Modern Machine Learning: Theory and Empirics](https://surbhi18.github.io/FoMML/). In Spring 2023, I co-taught [CIS 5200: Machine Learning](https://machine-learning-upenn.github.io/) with [Eric Wong](https://riceric22.github.io/).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
