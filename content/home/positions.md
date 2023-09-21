@@ -37,6 +37,13 @@ item:
   organization_url: https://www.learningtheory.org/colt2023
   title: Virtual Experience Chair
 
+- date_end: "2023-12-19"
+  date_start: "2023-05-01"
+  organization: Advances in Neural Information Processing (NeurIPS) 2023
+  organization_url: https://sites.google.com/view/m3l-2023/home
+  title: Co-organzier of the Mathematics for Modern Machine Learning (M3L) Workshop
+
+
 - date_end: ""
   date_start: "2023-08-01"
   organization: Intenational Conference on Representation Learning (ICLR) 2024
