@@ -80,12 +80,6 @@ item:
   organization_url: http://algorithmiclearningtheory.org/alt2023/
   title: Program Committee
 
-- date_end: "2024-01-01"
-  date_start: "2023-10-01"
-  organization: Conference on Algorithmic Learning Theory (ALT) 2024 
-  organization_url: http://algorithmiclearningtheory.org/alt2023/
-  title: Senior Program Committee
-
 - date_end: "2021-05-01"
   date_start: "2021-02-01"
   organization: Conference on Learning Theory (COLT) 2021
