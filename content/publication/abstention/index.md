@@ -1,7 +1,9 @@
 ---
 title: "Adversarial Resilience in Sequential Prediction via Abstention"
 publication_types:
-  - "3"
+  - "1"
+publication: Neural Information Processing Systems (NeurIPS) 2023
+publication_short: NeurIPS 2023
 authors:
   - admin
   - Steve Hanneke

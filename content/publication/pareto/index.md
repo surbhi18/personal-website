@@ -1,7 +1,9 @@
 ---
 title: "Pareto Frontiers in Neural Feature Learning: Data, Compute, Width, and Luck"
 publication_types:
-  - "3"
+  - "1"
+publication: Neural Information Processing Systems (NeurIPS) 2023 [Spotlight]
+publication_short: NeurIPS 2023 [Spotlight]
 authors:
   - Benjamin L. Edelman
   - admin

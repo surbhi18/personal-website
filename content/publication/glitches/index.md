@@ -1,7 +1,9 @@
 ---
 title: "Exposing Attention Glitches with Flip-Flop Language Modeling"
 publication_types:
-  - "3"
+  - "1"
+publication: Neural Information Processing Systems (NeurIPS) 2023 [Spotlight]
+publication_short: NeurIPS 2023 [Spotlight]
 authors:
   - Bingbin Liu
   - Jordan T. Ash
