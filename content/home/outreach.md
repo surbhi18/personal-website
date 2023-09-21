@@ -41,5 +41,6 @@ item:
   title: Mentor
 
 design:
-  columns: '2' 
+  columns: '1' 
+  view: '1'
 ---

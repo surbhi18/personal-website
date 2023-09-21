@@ -44,7 +44,7 @@ item:
   title: Co-organzier of the Mathematics for Modern Machine Learning (M3L) Workshop
 
 
-- date_end: ""
+- date_end: ''
   date_start: "2023-08-01"
   organization: Intenational Conference on Representation Learning (ICLR) 2024
   organization_url: https://iclr.cc/Conferences/2024
@@ -62,7 +62,7 @@ item:
   organization_url: http://algorithmiclearningtheory.org/alt2021/
   title: Program Committee
 
-- date_end: ""
+- date_end: ''
   date_start: "2024-10-01"
   organization: Conference on Algorithmic Learning Theory (ALT) 2024 
   organization_url: http://algorithmiclearningtheory.org/alt2024/
@@ -94,7 +94,7 @@ item:
 
 - date_end: "2023-01-01"
   date_start: "2022-10-01"
-  organization: Conference on Artificial Intelligence and Statistics (AISTATS) 2023 
+  organization: Conference on Artificial Intelligence and Statistics (AISTATS) 2023
   organization_url: https://aistats.org/aistats2023/
   title: Area Chair
 
@@ -111,5 +111,6 @@ item:
   title: Treasurer
 
 design:
-  columns: '2' 
+  view: '1'
+  columns: '1' 
 ---
