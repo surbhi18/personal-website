@@ -31,6 +31,12 @@ item:
   title: Virtual Experience Chair
   description: "Co-organized the virtual part of the hybrid conference, including the 2-day virtual-only program."
 
+- date_end: "2023-08-01"
+  date_start: "2024-05-01"
+  organization: Intenational Conference on Representation Learning (ICLR) 2024
+  organization_url: https://iclr.cc/Conferences/2024
+  title: Office Hours Chair
+
 - date_end: ""
   date_start: "2020-07-01"
   organization: One World Seminar Series on the Mathematics of Machine Learning
@@ -55,6 +61,12 @@ item:
   organization_url: http://algorithmiclearningtheory.org/alt2023/
   title: Program Committee
 
+- date_end: "2024-01-01"
+  date_start: "2023-10-01"
+  organization: Conference on Algorithmic Learning Theory (ALT) 2024 
+  organization_url: http://algorithmiclearningtheory.org/alt2023/
+  title: Senior Program Committee
+
 - date_end: "2021-05-01"
   date_start: "2021-02-01"
   organization: Conference on Learning Theory (COLT) 2021
@@ -71,6 +83,12 @@ item:
   date_start: "2022-10-01"
   organization: Conference on Artificial Intelligence and Statistics (AISTATS) 2023 
   organization_url: https://aistats.org/aistats2023/
+  title: Area Chair
+
+- date_end: "2023-05-01"
+  date_start: "2022-09-01"
+  organization: Advances in Neural Information Processing Systems (NeurIPS) 2023 
+  organization_url: https://nips.cc/Conferences/2023
   title: Area Chair
 
 - date_end: "2016-01-01"

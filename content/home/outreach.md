@@ -25,11 +25,10 @@ date_format: Jan 2006
 item:
 - date_end: ""
   date_start: "2020-09-01"
-  description: "Co-founded this community building and mentorship initiative for the learning theory community. Co-organized mentorship workshops at ALT 2021, COLT 2021, ALT 2022, and Fall 2022. Co-organized a graduate applications support program in collaboration with WiML-T."
+  description: "Co-founded this community building and mentorship initiative for the learning theory community. Co-organized mentorship workshops at ALT 2021, COLT 2021, ALT 2022, and Fall 2022 (with FODSI). Co-organized a graduate applications support program in collaboration with WiML-T."
   organization: Learning Theory Alliance (LeT-All)
   organization_url: https://www.let-all.com
   title: Co-organizer
-
 - date_end: ""
   date_start: "2021-03-01"
   organization: Women in Machine Learning Theory (WiML-T)
