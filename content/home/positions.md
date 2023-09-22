@@ -111,6 +111,6 @@ item:
   title: Treasurer
 
 design:
-  view: '1'
+  view: '2'
   columns: '1' 
 ---

@@ -42,5 +42,5 @@ item:
 
 design:
   columns: '1' 
-  view: '1'
+  view: '2'
 ---
