@@ -13,15 +13,15 @@ main:
   - name: Publications
     url: '#publications'
     weight: 30
-  - name: Outreach
-    url: '#outreach'
-    weight: 40
-  - name: Professional Services
-    url: '#positions'
-    weight: 50
+  # - name: Outreach
+  #   url: '#outreach'
+  #   weight: 40
+  # - name: Professional Services
+  #   url: '#positions'
+  #   weight: 50
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 40
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
