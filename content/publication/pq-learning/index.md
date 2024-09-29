@@ -1,7 +1,9 @@
 ---
 title: "Tolerant Algorithms for Learning with Arbitrary Covariate Shift"
 publication_types:
-  - "3"
+  - "1"
+publication: Neural Information Processing Systems (NeurIPS) 2024 [Spotlight]
+publication_short: NeurIPS 2024 [Spotlight]
 authors:
   - admin
   - Abhishek Shetty

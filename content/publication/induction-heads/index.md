@@ -1,7 +1,9 @@
 ---
 title: "The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains"
 publication_types:
-  - "3"
+  - "1"
+publication: Neural Information Processing Systems (NeurIPS) 2024
+publication_short: NeurIPS 2024
 authors:
   - Benjamin L. Edelman
   - Ezra Edelman
