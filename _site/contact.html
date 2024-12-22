@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Contact | Surbhi Goel’s Website</title>
 <meta name="generator" content="Jekyll v3.9.5" />
 <meta property="og:title" content="Contact" />
 <meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/contact.html" />
+<meta property="og:url" content="http://localhost:4000/contact.html" />
 <meta property="og:site_name" content="Surbhi Goel’s Website" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contact" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Contact","url":"/contact.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Contact","url":"http://localhost:4000/contact.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=2aa1794b32809b37ad87778dab3862febb93d9bb">
+    <link rel="stylesheet" href="/assets/css/style.css?v=bf5a83818a0321a62196050f806354ca399862d7">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -36,25 +38,13 @@
  <style>
   /* Define base styles */
   :root {
-    /* Light mode colors */
-    --base-background-color: #ffffff;
-    --base-text-color: #1a1a1a;
-    --accent-color: #2962ff;
-    --highlight-color: #742793;
-    --nav-background: #333;
+    /* Dark mode colors */
+    --base-text-color: #ffffff;
+    --base-background-color: #000000;
     --nav-text: #ffffff;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      /* Dark mode colors */
-      --base-background-color: #1a1a1a;
-      --base-text-color: #ffffff;
-      --accent-color: #5c8aff;  /* Lighter blue for better contrast */
-      --highlight-color: #742793;
-      --nav-background: #000000;
-      --nav-text: #ffffff;
-    }
+    --nav-background: #000000;
+    --link-color: #58a6ff;
+    --border-color: rgba(255, 255, 255, 0.1);
   }
 
   body {
@@ -68,7 +58,7 @@
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding-top: 50px;
+    padding-top: 60px;
     min-height: 100vh;
   }
 
@@ -192,16 +182,14 @@
 
   /* Style links to prevent changes on hover */
   a {
-    color: #4a80ff !important; /* Slightly lighter shade of blue with !important */
+    color: var(--link-color);
     text-decoration: none;
     font-weight: 300;
   }
 
   /* Disable font weight change on hover */
   a:hover {
-    color: #4a80ff !important; /* Ensure hover state uses the same lighter color with !important */
-    text-decoration: none;
-    font-weight: 300;
+    text-decoration: underline;
   }
 
   /* Additional styling for headings */
@@ -473,35 +461,250 @@
     font-weight: bold;
   }
 
-  .spotlight {
-    color: #ff8c00; /* Orange color */
-    font-weight: bold; /* Optional: make it bold to stand out */
+  /* Responsive Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--nav-background);
+    color: var(--nav-text);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 60px;
+  }
+
+  .nav-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    width: 50%;
+    align-self: center;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+    gap: 5px;
+    width: 50%;
+    justify-content: flex-start;
+    align-self: flex-end;
+    padding-bottom: 5px;
+  }
+
+  .nav-list li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list li a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+    padding: 8px 8px;
+    display: inline-block;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      min-height: 50px;
+      padding: 5px 15px;
+    }
+
+    .nav-title {
+      width: auto;
+    }
+
+    .menu-toggle {
+      display: block;
+      padding: 5px;
+    }
+
+    .nav-list {
+      display: none;
+      position: fixed;
+      top: 50px;
+      right: 0;
+      width: auto;
+      min-width: 150px;
+      background-color: var(--nav-background);
+      flex-direction: column;
+      align-items: flex-start;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+      margin: 0;
+      padding: 0;
+      height: fit-content; /* Only take up as much space as needed */
+    }
+
+    .nav-list.active {
+      display: flex;
+    }
+
+    .nav-list li {
+      width: 100%;
+      border-top: 1px solid var(--border-color);
+      background-color: var(--nav-background);
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li:last-child {
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 0; /* Ensure no space after last item */
+    }
+
+    .nav-list li a {
+      padding: 6px 15px;
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+    }
+
+    /* Ensure content stays below navbar */
+    .wrapper {
+      padding: 1em 15px;
+      margin-top: 50px; /* Match navbar height */
+      position: relative;
+      z-index: 1; /* Lower than navbar */
+    }
+  }
+
+  /* Two-column layout styles */
+  .two-column .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 20px;
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  .left-column {
+    width: 100%;
+    max-width: 200px;
+    margin: 0;
+  }
+
+  .left-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .right-column {
+    text-align: justify;
+    min-width: 0;
+    width: 100%;
+  }
+
+  /* Mobile-specific adjustments */
+  @media screen and (max-width: 768px) {
+    .two-column .wrapper {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 1em 15px;
+    }
+
+    .left-column {
+      max-width: 200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .right-column {
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    /* Adjust text sizing for mobile */
+    body {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    /* Ensure proper spacing */
+    p, li {
+      margin: 0.75em 0;
+    }
+  }
+
+  /* Small mobile devices */
+  @media screen and (max-width: 480px) {
+    .two-column .wrapper {
+      padding: 1em 10px;
+    }
+
+    .left-column {
+      max-width: 150px;
+    }
+
+    body {
+      font-size: 13px;
+    }
+  }
+
+  /* Remove extra spacing and lines */
+  .wrapper section {
+    display: none; /* Hide empty sections */
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      margin-bottom: 0; /* Remove bottom margin */
+    }
+
+    section {
+      margin: 0;
+      padding: 0;
+      border: none; /* Remove any borders */
+    }
   }
 </style>
   </head>
   <body class="single-column">
     <!-- Navigation Bar -->
-    <nav>
-      <ul>
-        <li class="nav-title">
-          <span>Surbhi Goel</span>
-        </li>
-        <li>
-          <ul class="nav-links">
-            <li><a href="/">About</a></li>
-            <li><a href="/research/">Research</a></li>
-            <li><a href="/group/">Group</a></li>
-            <li><a href="/teaching/">Teaching</a></li>
-            <li><a href="/activities">Activities</a></li>
-            <li><a href="https://unprovenalgos.github.io/">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </li>
+    <nav class="navbar">
+      <span class="nav-title">Surbhi Goel</span>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-list">
+        <li><a href="/">About</a></li>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/group/">Group</a></li>
+        <li><a href="/teaching/">Teaching</a></li>
+        <li><a href="/activities">Activities</a></li>
+        <li><a href="https://unprovenalgos.github.io/">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
 
     <div class="wrapper">
-      <p><strong>For prospective students who are interested in working with me:</strong> Please apply to the <a href="https://www.cis.upenn.edu/graduate/how-to-apply/">CIS PhD program</a> and list me as a potential advisor. Unfortunately I will not be able to respond to individual emails from prospective PhD applicants at this time. If you are a current Penn student looking to do an independent research project, send me an email with your CV, an overview of your research interests, and a brief description of 1-2 recent papers (not necessarily mine) you have read and enjoyed. <em>I do not have any current opportunities for external students.</em></p>
+      <p><strong>For prospective students:</strong> Please apply to the <a href="https://www.cis.upenn.edu/graduate/how-to-apply/">CIS PhD program</a> and list me as a potential advisor. Unfortunately I will not be able to respond to individual emails from prospective PhD applicants at this time. If you are a current Penn student looking to do an independent research project, send me an email with your CV, an overview of your research interests, and a brief description of 1-2 recent papers (not necessarily mine) you have read and enjoyed. <em>I do not have any current opportunities for external students.</em></p>
 
 <h2 id="email">Email</h2>
 <p><a href="mailto:surbhig@cis.upenn.edu">surbhig@cis.upenn.edu</a></p>
@@ -510,12 +713,13 @@
 <p>Amy Gutman Hall, 623</p>
 
 
-
-      <section>
-        <!-- Add your sections here -->
-      </section>
-
     </div>
+    <script>
+      function toggleMenu() {
+        const navList = document.querySelector('.nav-list');
+        navList.classList.toggle('active');
+      }
+    </script>
     <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>
