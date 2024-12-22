@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Surbhi Goel | Surbhi Goel’s Website</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Surbhi Goel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Minimal is a Jekyll theme for GitHub Pages" />
+<meta property="og:description" content="Minimal is a Jekyll theme for GitHub Pages" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Surbhi Goel’s Website" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Surbhi Goel" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Minimal is a Jekyll theme for GitHub Pages","headline":"Surbhi Goel","name":"Surbhi Goel’s Website","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c27a30cb27997bd3ed45ba5a77bd97bd27cbeb64">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+ <style>
+  /* Define base styles */
+  :root {
+    /* Light mode colors */
+    --base-background-color: #ffffff;
+    --base-text-color: #1a1a1a;
+    --accent-color: #2962ff;
+    --highlight-color: #742793;
+    --nav-background: #333;
+    --nav-text: #ffffff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Dark mode colors */
+      --base-background-color: #1a1a1a;
+      --base-text-color: #ffffff;
+      --accent-color: #5c8aff;  /* Lighter blue for better contrast */
+      --highlight-color: #742793;
+      --nav-background: #000000;
+      --nav-text: #ffffff;
+    }
+  }
+
+  body {
+    font-family: "AvenirNext-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color: var(--base-background-color);
+    color: var(--base-text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 50px;
+    min-height: 100vh;
+  }
+
+  /* Navigation Bar */
+  nav {
+    background-color: var(--nav-background);
+    color: var(--nav-text);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .nav-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-title a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+  }
+
+  .nav-title span {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--nav-text);
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .nav-links li a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* Header Section */
+  header {
+    display: none;
+  }
+
+  /* Image and text wrapper */
+  .image-text-wrapper {
+    display: none;
+  }
+
+  /* Style for the wrapper to center the content */
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 20px;
+    background-color: var(--base-background-color);
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  /* Create left column for image */
+  .left-column {
+    width: 100%;
+    max-width: 200px;
+    flex-shrink: 0;
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  /* Create right column for text */
+  .right-column {
+    text-align: justify;
+    min-width: 0;
+    width: 100%;
+  }
+
+  /* Ensure text respects new lines and spaces */
+  p, li, a, blockquote {
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 1em 0;
+    color: var(--base-text-color);
+    text-align: justify;
+  }
+
+  /* Style links to prevent changes on hover */
+  a {
+    color: #4a80ff !important; /* Slightly lighter shade of blue with !important */
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  /* Disable font weight change on hover */
+  a:hover {
+    color: #4a80ff !important; /* Ensure hover state uses the same lighter color with !important */
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  /* Additional styling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "AvenirNext-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+  }
+
+  h1 {
+    color: #f8f8f8; /* Very light gray */
+  }
+
+  h2 {
+    color: #f0f0f0; /* Slightly darker light gray */
+  }
+
+  h3 {
+    color: #e8e8e8; /* Light gray */
+  }
+
+  h4 {
+    color: #e0e0e0; /* Medium light gray */
+  }
+
+  h5 {
+    color: #d8d8d8; /* Darker light gray */
+  }
+
+  h6 {
+    color: #d0d0d0; /* Darkest light gray */
+  }
+
+  /* Style for blockquotes */
+  blockquote {
+    color: var(--base-text-color);
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1em;
+    margin: 1em 0;
+    font-weight: 300;
+  }
+
+  /* Responsive adjustments for all devices */
+  @media screen and (max-width: 1260px) {
+    .wrapper, nav ul {
+      max-width: 90%;
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    .wrapper {
+      max-width: 95%;
+      padding: 1em 10px;
+      gap: 40px;
+      grid-template-columns: 1fr;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0.75em;
+      margin-bottom: 0.5em;
+    }
+
+    p, li, blockquote {
+      margin: 0.75em 0;
+    }
+
+    nav {
+      width: 100%;
+      border-radius: 0;
+    }
+    
+    nav ul {
+      width: 95%;
+      max-width: 95%;
+      padding: 0 10px;
+      gap: 10px;
+    }
+
+    .image-text-wrapper {
+      gap: 30px;
+    }
+    
+    .image-text-wrapper img {
+      width: 200px;
+    }
+
+    .left-column {
+      max-width: 200px;
+      margin: 0 auto 20px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 13px;
+    }
+
+    .wrapper {
+      padding: 1em;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    em, i {
+      font-weight: 500;
+    }
+
+    p, li, blockquote {
+      margin: 0.5em 0;
+    }
+
+    .image-text-wrapper {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .image-text-wrapper img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .left-column {
+      max-width: 160px;
+      margin: 0 auto 20px;
+    }
+  }
+
+  /* Ensure content is always visible and scrollable */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Improve touch and click targets on mobile */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Improve readability on high-DPI screens */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  }
+
+  /* Update styles for profile info */
+  .profile-info {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .profile-info h2 {
+    margin: 0;
+    font-size: 32px;
+    color: var(--base-text-color);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .profile-info p {
+    margin: 15px 0 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--base-text-color);
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Single-column layout */
+  .single-column .wrapper {
+      max-width: 800px; /* Adjust width as needed */
+      margin: 0 auto;
+      padding: 2em 20px;
+      display: block; /* Use block display for single column */
+  }
+
+  /* Two-column layout */
+  .two-column .wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2em 20px;
+      background-color: var(--base-background-color);
+      display: grid;
+      grid-template-columns: 200px minmax(0, 1fr);
+      gap: 40px;
+      align-items: start;
+  }
+
+  /* Research page specific styles */
+  .single-column ol {
+    padding-left: 20px;
+    margin: 0.5em 0;
+  }
+
+  .single-column ol li {
+    margin: 0.8em 0;
+  }
+
+  .single-column ol li p {
+    margin: 0.2em 0;
+  }
+
+  /* Fix heading spacing */
+  .single-column h1 {
+    margin-bottom: 0.8em;
+  }
+
+  .single-column h2 {
+    margin-top: 1.2em;
+    margin-bottom: 0.8em;
+  }
+
+  .single-column h3 {
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+  }
+
+  /* Fix text wrapping and alignment */
+  .single-column p, 
+  .single-column li {
+    white-space: normal;
+    text-align: left;
+  }
+
+  /* Style for publication titles and author names */
+  .single-column strong {
+    display: inline-block;
+    margin-bottom: 0.2em;
+  }
+
+  /* Style for author name underline */
+  .author-name {
+    text-decoration: underline;
+    font-weight: normal;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--accent-color);
+  }
+
+  /* Style for highlighted presentations */
+  .highlight-presentation {
+    color: #ff8c00; /* Orange color */
+    font-weight: bold; /* Optional: make it bold to stand out */
+  }
+
+  body {
+    font-family: "AvenirNext-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  strong, b {
+    color: inherit; /* Use the same color as surrounding text */
+    font-weight: bold;
+  }
+
+  .spotlight {
+    color: #ff8c00; /* Orange color */
+    font-weight: bold; /* Optional: make it bold to stand out */
+  }
+</style>
+  </head>
+  <body class="two-column">
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li class="nav-title">
+          <span>Surbhi Goel</span>
+        </li>
+        <li>
+          <ul class="nav-links">
+            <li><a href="/">About</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/group/">Group</a></li>
+            <li><a href="/teaching/">Teaching</a></li>
+            <li><a href="/activities">Activities</a></li>
+            <li><a href="https://unprovenalgos.github.io/">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="left-column">
+    <img src="assets/img/avatar.jpg" alt="Surbhi Goel" style="border-radius: 10px;" />
+    <div class="profile-info">
+        <h2>Surbhi Goel</h2>
+        <p>Assistant Professor</p>
+        <p>University of Pennsylvania</p>
+        <p><a href="mailto:surbhi@cis.upenn.edu">surbhi@cis.upenn.edu</a></p>
+    </div>
+</div>
+
+<div class="right-column">
+    <p>I am the Magerman Term Assistant Professor of <a href="https://www.cis.upenn.edu/">Computer and Information Science</a> at the University of Pennsylvania. I am affiliated with the <a href="http://theory.cis.upenn.edu/">Theory group</a>, the <a href="https://asset.seas.upenn.edu/">ASSET Center</a> on safe, explainable, and trustworthy AI systems, and the <a href="https://warrencenter.upenn.edu/">Warren Center</a> for network and data sciences. My research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms. My group's research is generously supported by grants from Microsoft Research and OpenAI.</p>
+
+    <p>Before joining Penn, I was a postdoc at Microsoft Research NYC in the Machine Learning group. I obtained my Ph.D. in the Computer Science department at the University of Texas at Austin where I was fortunate to be advised by <a href="https://www.cs.utexas.edu/users/klivans/">Adam Klivans</a>. My thesis was awarded the Bert Kay Dissertation award by the Department of Computer Science at UT Austin, and my Ph.D. research was generously supported by the JP Morgan AI Fellowship and the Simons-Berkeley Research Fellowship. During my PhD, I visited IAS at Princeton and the Simons Institute for the Theory of Computing at UC Berkeley. Prior to that, I received my Bachelors degree from Indian Institute of Technology (IIT) Delhi.</p>
+
+    <p>For more information, see my <a href="/assets/files/cv.pdf" target="_blank">CV</a>.</p>
+</div>
+
+
+
+      <section>
+        <!-- Add your sections here -->
+      </section>
+
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+title: Surbhi Goel's Website
+show_downloads: true
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
