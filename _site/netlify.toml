@@ -1,6 +1,10 @@
 [build]
   command = "npm run build"
-  publish = "public"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.1.0"
+  PYTHON_VERSION = "3.13.1"
 
 [[redirects]]
   from = "/*"
