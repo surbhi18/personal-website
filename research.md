@@ -94,7 +94,7 @@ title: Research
   *ICLR 2022*
 
 * **[Investigating the Role of Negatives in Contrastive Representation Learning](https://arxiv.org/abs/2106.09943)**  
-  Jordan T. Ash*, <span class="author-name">Surbhi Goel</span>*, Akshay Krishnamurthy*, Dipendra Misra*  
+  (α-β) Jordan T. Ash, <span class="author-name">Surbhi Goel</span>, Akshay Krishnamurthy, Dipendra Misra 
   *AISTATS 2022*
 
 * **[Gone Fishing: Neural Active Learning with Fisher Embeddings](https://arxiv.org/abs/2106.09675)**  
