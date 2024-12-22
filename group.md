@@ -11,7 +11,7 @@ title: Group
 
 ### Undergraduate Students
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles)
-* [Maya Gambhir](https://www.linkedin.com/in/maya-gambhir)
+* [Maya Gambhir](https://mayapalgambhir.com/)
 
 ## Past Students
 ### Masters Student(s)

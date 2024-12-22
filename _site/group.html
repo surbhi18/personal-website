@@ -685,6 +685,40 @@
       border: none; /* Remove any borders */
     }
   }
+
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 20px;
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      min-height: 50px;
+      padding: 5px 15px;
+    }
+
+    .wrapper {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 1em 15px;
+    }
+
+    .left-column,
+    .right-column {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .left-column img {
+      max-width: 200px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
 </style>
   </head>
   <body class="single-column">
@@ -718,7 +752,7 @@
 <h3 id="undergraduate-students">Undergraduate Students</h3>
 <ul>
   <li><a href="https://www.linkedin.com/in/max-rubin-toles">Maxon Rubin-Toles</a></li>
-  <li><a href="https://www.linkedin.com/in/maya-gambhir">Maya Gambhir</a></li>
+  <li><a href="https://mayapalgambhir.com/">Maya Gambhir</a></li>
 </ul>
 
 <h2 id="past-students">Past Students</h2>
