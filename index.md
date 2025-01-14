@@ -10,7 +10,7 @@ layout_type: two-column
         <h2>Surbhi Goel</h2>
         <p>Assistant Professor</p>
         <p>University of Pennsylvania</p>
-        <p><a href="mailto:surbhi@cis.upenn.edu">surbhi@cis.upenn.edu</a></p>
+        <p><a href="mailto:surbhig@cis.upenn.edu">surbhig@cis.upenn.edu</a></p>
     </div>
 </div>
 
