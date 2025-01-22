@@ -169,7 +169,7 @@ title: Research
   *COLT 2017*  
   *<span class="highlight-presentation">Oral presentation</span>, Optimization for Machine Learning (OPT-ML) Workshop, NeurIPS 2016*
 
-### Unpublished Manuscripts
+### Reports
 
 * **[Encoding Structural Symmetry is Key for Length Generalization in Arithmetic Tasks](https://arxiv.org/abs/2406.01895)**  
   Mahdi Sabbaghi, George J. Pappas, Hamed Hassani, <span class="author-name">Surbhi Goel</span>
