@@ -15,23 +15,25 @@ title: Research
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
   *Pluralistic Alignment Workshop, NeurIPS 2024*
 
+### Conference Papers
 * **[Conformal Language Model Reasoning with Coherent Factuality]()**  
   Maxon Rubin-Toles, Maya Gambhir, Keshav Ramji, Aaron Roth, <span class="author-name">Surbhi Goel</span>  
+  *ICLR 2025 (to appear)* 
   *Statistical Foundations of LLMs and Foundation Models Workshop, NeurIPS 2024*
 
 * **[Progressive Distillation Induces an Implicit Curriculum](https://arxiv.org/abs/2410.05464)**  
   Abhishek Panigrahy, Bingbin Liu, Sadhika Malladi, Andrej Risteski, <span class="author-name">Surbhi Goel</span>  
+  *ICLR 2025 (to appear)* 
   *Mechanistic Interpretability Workshop, ICML 2024*  
   *Theoretical Foundations of Foundation Models (T2FM) Workshop, ICML 2024*  
   *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2024*
 
 * **[Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075)**  
   Anton Xue, Avishree Khare, Rajeev Alur, <span class="author-name">Surbhi Goel</span>, Eric Wong  
+  *ICLR 2025 (to appear)* 
   *New Frontiers in Adversarial Machine Learning (AdvML-Frontiers) Workshop, NeurIPS 2024*  
   *Safe & Trustworthy Agents (SATA) Workshop, NeurIPS 2024*  
   *Workshop on Scientific Methods for Understanding Deep Learning, NeurIPS 2024*
-
-### Conference Papers
 
 * **[The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains](https://arxiv.org/abs/2402.11004)**  
   Ezra Edelman, Nikolaos Tsilivis, Benjamin L. Edelman, Eran Malach, <span class="author-name">Surbhi Goel</span>  
