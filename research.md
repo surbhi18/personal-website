@@ -8,7 +8,7 @@ title: Research
 
 ### Preprints
 
-* **[Testing Noise Assumptions of Learning Algorithms]()**  
+* **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
 
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
