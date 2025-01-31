@@ -11,11 +11,12 @@ title: Research
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
 
+### Conference Papers
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
+  *STOC 2025 (to appear)*  
   *Pluralistic Alignment Workshop, NeurIPS 2024*
 
-### Conference Papers
 * **[Conformal Language Model Reasoning with Coherent Factuality]()**  
   Maxon Rubin-Toles, Maya Gambhir, Keshav Ramji, Aaron Roth, <span class="author-name">Surbhi Goel</span>  
   *ICLR 2025 (to appear)*   
