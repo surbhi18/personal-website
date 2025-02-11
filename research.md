@@ -24,7 +24,7 @@ title: Research
 
 * **[Progressive Distillation Induces an Implicit Curriculum](https://arxiv.org/abs/2410.05464)**  
   Abhishek Panigrahy, Bingbin Liu, Sadhika Malladi, Andrej Risteski, <span class="author-name">Surbhi Goel</span>  
-  *ICLR 2025 (to appear)*   
+  *<span class="highlight-presentation">Oral presentation</span>, ICLR 2025 (to appear)*   
   *Mechanistic Interpretability Workshop, ICML 2024*  
   *Theoretical Foundations of Foundation Models (T2FM) Workshop, ICML 2024*  
   *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2024*
