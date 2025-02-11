@@ -13,6 +13,8 @@ title: Group
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles)
 * [Maya Gambhir](https://mayapalgambhir.com/)
 
+I am fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
+
 ## Past Students
 ### Masters Student(s)
 * [GuanWen Qiu](https://www.linkedin.com/in/guanwen-qiu-92b6651b0)
