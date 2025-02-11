@@ -3,7 +3,7 @@ layout: default
 title: Activities
 ---
 
-## Workshops
+## Workshop Organization
 * [Bootcamp on LLMs and Transformers](https://simons.berkeley.edu/workshops/special-year-large-language-models-transformers-part-1-boot-camp#simons-tabs) (2024)  
   _Simons Institute's Special Year on LLMs and Transformers_
 * [Transformers as a Computational Model](https://simons.berkeley.edu/workshops/transformers-computational-model\#simons-tabs) (2024)  
