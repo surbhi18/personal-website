@@ -14,24 +14,24 @@ title: Research
 ### Conference Papers
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
-  **STOC 2025 (to appear)**  
+  **STOC 2025**  
   *Pluralistic Alignment Workshop, NeurIPS 2024*
 
 * **[Conformal Language Model Reasoning with Coherent Factuality]()**  
   Maxon Rubin-Toles, Maya Gambhir, Keshav Ramji, Aaron Roth, <span class="author-name">Surbhi Goel</span>  
-  **ICLR 2025 (to appear)**   
+  **ICLR 2025**   
   *Statistical Foundations of LLMs and Foundation Models Workshop, NeurIPS 2024*
 
 * **[Progressive Distillation Induces an Implicit Curriculum](https://arxiv.org/abs/2410.05464)**  
   Abhishek Panigrahy, Bingbin Liu, Sadhika Malladi, Andrej Risteski, <span class="author-name">Surbhi Goel</span>  
-  **<span class="highlight-presentation">Oral presentation</span>, ICLR 2025 (to appear)**   
+  **<span class="highlight-presentation">Oral presentation</span>, ICLR 2025**   
   *Mechanistic Interpretability Workshop, ICML 2024*  
   *Theoretical Foundations of Foundation Models (T2FM) Workshop, ICML 2024*  
   *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2024*
 
 * **[Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075)**  
   Anton Xue, Avishree Khare, Rajeev Alur, <span class="author-name">Surbhi Goel</span>, Eric Wong  
-  **ICLR 2025 (to appear)**   
+  **ICLR 2025**   
   *New Frontiers in Adversarial Machine Learning (AdvML-Frontiers) Workshop, NeurIPS 2024*  
   *Safe & Trustworthy Agents (SATA) Workshop, NeurIPS 2024*  
   *Workshop on Scientific Methods for Understanding Deep Learning, NeurIPS 2024*
@@ -154,7 +154,7 @@ title: Research
 
 * **[Learning Neural Networks with Two Nonlinear Layers in Polynomial Time](https://arxiv.org/abs/1709.06010)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans  
-  **COLT 2019**  
+  **COLT 2019**
   *Deep Learning: Bridging Theory and Practice Workshop, NeurIPS 2017*
 
 * **[Learning One Convolutional Layer with Overlapping Patches](https://arxiv.org/abs/1802.02547)**  
