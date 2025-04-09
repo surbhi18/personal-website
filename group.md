@@ -7,23 +7,28 @@ title: Group
 * [Ezra Edelman](https://www.ezraedelman.com/) (they/them)
 
 ### Masters Student(s)
-* [Dante Lokitiyakul](https://dante-hl.github.io/)
+* [Yufa Zhou](https://masterzhou1.github.io/)
 
 ### Undergraduate Students
-* [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles)
-* [Maya Gambhir](https://mayapalgambhir.com/)
+* [Aaron Mei](https://www.linkedin.com/in/aaron-mei-513b73a2)
+* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
+* [James Wang](https://www.linkedin.com/in/jwang541)
+* [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
 
 I am also fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
 
 ## Past Students
-### Masters Student(s)
+### Masters Students
 * [GuanWen Qiu](https://www.linkedin.com/in/guanwen-qiu-92b6651b0)
+* [Dante Lokitiyakul](https://dante-hl.github.io/)
+* [Nimay Kumar](https://nimaykumar.com/)
 
 ### Undergraduate Student(s)
-* [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
 * [Keshav Ramji](https://www.keshavramji.com/), now a researcher at IBM Research
+* [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles)
+* [Maya Gambhir](https://mayapalgambhir.com/)
 
-### Interns at Microsoft Research
+### Interns at Microsoft Research (I co-advised)
 * [Ben Edelman](https://benjaminedelman.com/), now a TechCongress AI Safety Fellow at the US AI Safety Institute  
 * [Nikunj Saunshi](https://www.nikunjsaunshi.com/), now a Research Scientist at Google
 * [Bingbin Liu](https://clarabing.github.io/), now a Kempner Fellow at Harvard
