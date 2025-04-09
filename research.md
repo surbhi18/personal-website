@@ -11,7 +11,7 @@ title: Research
 * **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
   (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
 
-* **[A Theory of Learning with Autoregressive Chain of Thought](https://arxiv.org/abs/2503.07932)**
+* **[A Theory of Learning with Autoregressive Chain of Thought](https://arxiv.org/abs/2503.07932)**  
   Nirmit Joshi, Gal Vardi, Adam Block, <span class="author-name">Surbhi Goel</span>, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro
 
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
@@ -126,11 +126,11 @@ title: Research
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Frederic Koehler  
   *NeurIPS 2020*
 
-* **[Statistical-Query Lower Bounds via Functional Gradients](https://arxiv.org/abs/2006.15812%20)**  
+* **[Statistical-Query Lower Bounds via Functional Gradients](https://arxiv.org/abs/2006.15812)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Aravind Gollakota, Adam R. Klivans  
   *NeurIPS 2020*
 
-* **[Superpolynomial Lower Bounds for Learning One-Layer Neural Networks using Gradient Descent](https://arxiv.org/abs/2007.12815)**  
+* **[Superpolynomial Lower Bounds for Learning One-Layer Neural Networks using Gradient Descent](https://arxiv.org/abs/2006.12011)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Aravind Gollakota, Zhihan Jin, Sushrut Karmalkar, Adam R. Klivans  
   *ICML 2020*
 
