@@ -160,7 +160,7 @@ title: Research
 
 * **[Learning Neural Networks with Two Nonlinear Layers in Polynomial Time](https://arxiv.org/abs/1709.06010)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans  
-  *COLT 2019*
+  *COLT 2019*  
   *Deep Learning: Bridging Theory and Practice Workshop, NeurIPS 2017*
 
 * **[Learning One Convolutional Layer with Overlapping Patches](https://arxiv.org/abs/1802.02547)**  
