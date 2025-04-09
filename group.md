@@ -28,7 +28,7 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles)
 * [Maya Gambhir](https://mayapalgambhir.com/)
 
-### Interns at Microsoft Research (I co-advised)
+### Interns at Microsoft Research (I co-mentored)
 * [Ben Edelman](https://benjaminedelman.com/), now a TechCongress AI Safety Fellow at the US AI Safety Institute  
 * [Nikunj Saunshi](https://www.nikunjsaunshi.com/), now a Research Scientist at Google
 * [Bingbin Liu](https://clarabing.github.io/), now a Kempner Fellow at Harvard
