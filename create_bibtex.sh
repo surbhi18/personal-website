@@ -1,0 +1,369 @@
+#!/bin/bash
+
+# Create or clear the BibTeX file
+> references.bib
+
+# Add conference papers
+cat >> references.bib << 'EOL'
+% Conference Papers
+@inproceedings{collina2025tractable,
+  title={Tractable Agreement Protocols},
+  author={Collina, Natalie and Goel, Surbhi and Gupta, Varun and Roth, Aaron},
+  booktitle={Proceedings of the 57th Annual ACM Symposium on Theory of Computing (STOC)},
+  year={2025},
+  url={https://arxiv.org/abs/2411.19791}
+}
+
+@inproceedings{rubintoles2025conformal,
+  title={Conformal Language Model Reasoning with Coherent Factuality},
+  author={Rubin-Toles, Maxon and Gambhir, Maya and Ramji, Keshav and Roth, Aaron and Goel, Surbhi},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2025}
+}
+
+@inproceedings{panigrahy2025progressive,
+  title={Progressive Distillation Induces an Implicit Curriculum},
+  author={Panigrahy, Abhishek and Liu, Bingbin and Malladi, Sadhika and Risteski, Andrej and Goel, Surbhi},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2025},
+  url={https://arxiv.org/abs/2410.05464}
+}
+
+@inproceedings{xue2025logicbreaks,
+  title={Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference},
+  author={Xue, Anton and Khare, Avishree and Alur, Rajeev and Goel, Surbhi and Wong, Eric},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2025},
+  url={https://arxiv.org/abs/2407.00075}
+}
+
+@inproceedings{edelman2024evolution,
+  title={The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains},
+  author={Edelman, Ezra and Tsilivis, Nikolaos and Edelman, Benjamin L. and Malach, Eran and Goel, Surbhi},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2024},
+  url={https://arxiv.org/abs/2402.11004}
+}
+
+@inproceedings{goel2024tolerant,
+  title={Tolerant Algorithms for Learning with Arbitrary Covariate Shift},
+  author={Goel, Surbhi and Shetty, Abhishek and Stavropoulos, Konstantinos and Vasilyan, Arsen},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2024},
+  url={https://arxiv.org/abs/2406.02742}
+}
+
+@inproceedings{qiu2024complexity,
+  title={Complexity Matters: Feature Learning in the Presence of Spurious Correlations},
+  author={Qiu, GuanWen and Kuang, Da and Goel, Surbhi},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2024},
+  url={https://arxiv.org/abs/2403.03375}
+}
+
+@inproceedings{xu2024stochastic,
+  title={Stochastic Bandits with ReLU Neural Networks},
+  author={Xu, Kan and Bastani, Hamsa and Goel, Surbhi and Bastani, Osbert},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2024},
+  url={https://arxiv.org/abs/2405.07331}
+}
+
+@inproceedings{goel2023adversarial,
+  title={Adversarial Resilience in Sequential Prediction via Abstention},
+  author={Goel, Surbhi and Hanneke, Steve and Moran, Shay and Shetty, Abhishek},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  url={https://arxiv.org/abs/2306.13119}
+}
+
+@inproceedings{edelman2023pareto,
+  title={Pareto Frontiers in Neural Feature Learning: Data, Compute, Width, and Luck},
+  author={Edelman, Benjamin L. and Goel, Surbhi and Kakade, Sham M. and Malach, Eran and Zhang, Cyril},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  url={https://arxiv.org/abs/2309.03800}
+}
+
+@inproceedings{liu2023exposing,
+  title={Exposing Attention Glitches with Flip-Flop Language Modeling},
+  author={Liu, Bingbin and Ash, Jordan T. and Goel, Surbhi and Krishnamurthy, Akshay and Zhang, Cyril},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  url={https://arxiv.org/abs/2306.00946}
+}
+
+@inproceedings{chen2023learning,
+  title={Learning Narrow One-Hidden-Layer ReLU Networks},
+  author={Chen, Sitan and Dou, Zehao and Goel, Surbhi and Klivans, Adam R. and Meka, Raghu},
+  booktitle={Conference on Learning Theory (COLT)},
+  year={2023},
+  url={https://arxiv.org/abs/2304.10524}
+}
+
+@inproceedings{liu2023transformers,
+  title={Transformers Learn Shortcuts to Automata},
+  author={Liu, Bingbin and Ash, Jordan T. and Goel, Surbhi and Krishnamurthy, Akshay and Zhang, Cyril},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023},
+  url={https://arxiv.org/abs/2210.10749}
+}
+
+@inproceedings{goel2022recurrent,
+  title={Recurrent Convolutional Neural Networks Learn Succinct Learning Algorithms},
+  author={Goel, Surbhi and Kakade, Sham M. and Kalai, Adam T. and Zhang, Cyril},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  url={https://arxiv.org/abs/2209.00735}
+}
+
+@inproceedings{barak2022hidden,
+  title={Hidden Progress in Deep Learning: SGD Learns Parities Near the Computational Limit},
+  author={Barak, Boaz and Edelman, Benjamin L. and Goel, Surbhi and Kakade, Sham M. and Malach, Eran and Zhang, Cyril},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  url={https://arxiv.org/abs/2207.08799}
+}
+
+@inproceedings{edelman2022inductive,
+  title={Inductive Biases and Variable Creation in Self-Attention Mechanisms},
+  author={Edelman, Benjamin L. and Goel, Surbhi and Kakade, Sham M. and Zhang, Cyril},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2022},
+  url={https://arxiv.org/abs/2110.10090}
+}
+
+@inproceedings{saunshi2022understanding,
+  title={Understanding Contrastive Learning Requires Incorporating Inductive Biases},
+  author={Saunshi, Nikunj and Ash, Jordan T. and Goel, Surbhi and Misra, Dipendra and Zhang, Cyril and Arora, Sanjeev and Kakade, Sham M. and Krishnamurthy, Akshay},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2022},
+  url={https://arxiv.org/abs/2202.14037}
+}
+
+@inproceedings{ash2022anti,
+  title={Anti-Concentrated Confidence Bonuses For Scalable Exploration},
+  author={Ash, Jordan T. and Zhang, Cyril and Goel, Surbhi and Krishnamurthy, Akshay and Kakade, Sham M.},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2022},
+  url={https://arxiv.org/abs/2110.11202}
+}
+
+@inproceedings{ash2022investigating,
+  title={Investigating the Role of Negatives in Contrastive Representation Learning},
+  author={Ash, Jordan T. and Goel, Surbhi and Krishnamurthy, Akshay and Misra, Dipendra},
+  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year={2022},
+  url={https://arxiv.org/abs/2106.09943}
+}
+
+@inproceedings{ash2021gone,
+  title={Gone Fishing: Neural Active Learning with Fisher Embeddings},
+  author={Ash, Jordan T. and Goel, Surbhi and Krishnamurthy, Akshay and Kakade, Sham M.},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2021},
+  url={https://arxiv.org/abs/2106.09675}
+}
+
+@inproceedings{agarwal2021acceleration,
+  title={Acceleration via Fractal Learning Rate Schedules},
+  author={Agarwal, Naman and Goel, Surbhi and Zhang, Cyril},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2021},
+  url={https://arxiv.org/abs/2103.01338}
+}
+
+@inproceedings{kandiros2021statistical,
+  title={Statistical Estimation from Dependent Data},
+  author={Kandiros, Anthimos-Vardis and Dagan, Yuval and Dikkala, Nishanth and Goel, Surbhi and Daskalakis, Constantinos},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2021},
+  url={https://arxiv.org/abs/2107.09773}
+}
+
+@inproceedings{goel2021tight,
+  title={Tight Hardness Results for Learning One-Layer ReLU Networks},
+  author={Goel, Surbhi and Klivans, Adam R. and Manurangsi, Pasin and Reichman, Daniel},
+  booktitle={12th Innovations in Theoretical Computer Science Conference (ITCS)},
+  year={2021},
+  url={https://arxiv.org/abs/2011.13550}
+}
+
+@inproceedings{goel2020boltzmann,
+  title={From Boltzmann Machines to Neural Networks and Back Again},
+  author={Goel, Surbhi and Klivans, Adam R. and Koehler, Frederic},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2020},
+  url={https://arxiv.org/abs/2007.12815}
+}
+
+@inproceedings{goel2020statistical,
+  title={Statistical-Query Lower Bounds via Functional Gradients},
+  author={Goel, Surbhi and Gollakota, Aravind and Klivans, Adam R.},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2020},
+  url={https://arxiv.org/abs/2006.15812}
+}
+
+@inproceedings{goel2020superpolynomial,
+  title={Superpolynomial Lower Bounds for Learning One-Layer Neural Networks using Gradient Descent},
+  author={Goel, Surbhi and Gollakota, Aravind and Jin, Zhihan and Karmalkar, Sushrut and Klivans, Adam R.},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2020},
+  url={https://arxiv.org/abs/2006.12011}
+}
+
+@inproceedings{montasser2020efficiently,
+  title={Efficiently Learning Adversarially Robust Halfspaces with Noise},
+  author={Montasser, Omar and Goel, Surbhi and Diakonikolas, Ilias and Srebro, Nathan},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2020},
+  url={https://arxiv.org/abs/2005.07652}
+}
+
+@inproceedings{hoffmann2020learning,
+  title={Learning Mixtures of Graphs from Epidemic Cascades},
+  author={Hoffmann, Jessica and Basu, Soumya and Goel, Surbhi and Caramanis, Constantine},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2020},
+  url={https://arxiv.org/abs/1906.06057}
+}
+
+@inproceedings{diakonikolas2020approximation,
+  title={Approximation Schemes for ReLU Regression},
+  author={Diakonikolas, Ilias and Goel, Surbhi and Karmalkar, Sushrut and Klivans, Adam R. and Soltanolkotabi, Mahdi},
+  booktitle={Conference on Learning Theory (COLT)},
+  year={2020},
+  url={https://arxiv.org/abs/2005.12844}
+}
+
+@inproceedings{goel2020learning,
+  title={Learning Ising and Potts Models with Latent Variables},
+  author={Goel, Surbhi},
+  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year={2020},
+  url={https://arxiv.org/abs/1906.06595}
+}
+
+@inproceedings{goel2019time,
+  title={Time/Accuracy Trade-offs for Learning a ReLU with respect to Gaussian Marginals},
+  author={Goel, Surbhi and Karmalkar, Sushrut and Klivans, Adam R.},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2019},
+  url={https://arxiv.org/abs/1911.01462}
+}
+
+@inproceedings{goel2019learning,
+  title={Learning Ising Models with Independent Failures},
+  author={Goel, Surbhi and Kane, Daniel and Klivans, Adam R.},
+  booktitle={Conference on Learning Theory (COLT)},
+  year={2019},
+  url={https://arxiv.org/abs/1902.04728}
+}
+
+@inproceedings{goel2019learning_neural,
+  title={Learning Neural Networks with Two Nonlinear Layers in Polynomial Time},
+  author={Goel, Surbhi and Klivans, Adam R.},
+  booktitle={Conference on Learning Theory (COLT)},
+  year={2019},
+  url={https://arxiv.org/abs/1709.06010}
+}
+
+@inproceedings{goel2018learning,
+  title={Learning One Convolutional Layer with Overlapping Patches},
+  author={Goel, Surbhi and Klivans, Adam R. and Meka, Raghu},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2018},
+  url={https://arxiv.org/abs/1802.02547}
+}
+
+@inproceedings{goel2017eigenvalue,
+  title={Eigenvalue Decay Implies Polynomial-Time Learnability for Neural Networks},
+  author={Goel, Surbhi and Klivans, Adam R.},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2017},
+  url={https://arxiv.org/pdf/1708.03708}
+}
+
+@inproceedings{goel2017reliably,
+  title={Reliably Learning the ReLU in Polynomial Time},
+  author={Goel, Surbhi and Kanade, Varun and Klivans, Adam R. and Thaler, Justin},
+  booktitle={Conference on Learning Theory (COLT)},
+  year={2017},
+  url={https://arxiv.org/pdf/1611.10258}
+}
+EOL
+
+# Add preprints and reports
+cat >> references.bib << 'EOL'
+% Preprints and Reports
+@misc{collina2024collaborative,
+  title={Collaborative Prediction: Tractable Information Aggregation via Agreement},
+  author={Collina, Natalie and Globus-Harris, Ira and Goel, Surbhi and Gupta, Varun and Roth, Aaron and Shi, Mirah},
+  eprint={2504.06075},
+  archivePrefix={arXiv},
+  primaryClass={cs.GT},
+  year={2024},
+  url={https://arxiv.org/abs/2504.06075}
+}
+
+@misc{joshi2024theory,
+  title={A Theory of Learning with Autoregressive Chain of Thought},
+  author={Joshi, Nirmit and Vardi, Gal and Block, Adam and Goel, Surbhi and Li, Zhiyuan and Misiakiewicz, Theodor and Srebro, Nathan},
+  eprint={2503.07932},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2024},
+  url={https://arxiv.org/abs/2503.07932}
+}
+
+@misc{goel2025testing,
+  title={Testing Noise Assumptions of Learning Algorithms},
+  author={Goel, Surbhi and Klivans, Adam R. and Stavropoulos, Konstantinos and Vasilyan, Arsen},
+  eprint={2501.09189},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2025},
+  url={https://arxiv.org/abs/2501.09189}
+}
+
+@misc{sabbaghi2024encoding,
+  title={Encoding Structural Symmetry is Key for Length Generalization in Arithmetic Tasks},
+  author={Sabbaghi, Mahdi and Pappas, George J. and Hassani, Hamed and Goel, Surbhi},
+  eprint={2406.01895},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2024},
+  url={https://arxiv.org/abs/2406.01895}
+}
+
+@misc{goel2019recovering,
+  title={Recovering the Lowest Layer of Deep Networks with High Threshold Activations},
+  author={Goel, Surbhi and Panigrahy, Rina},
+  eprint={1903.09231},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2019},
+  url={https://arxiv.org/abs/1903.09231}
+}
+
+@misc{jordan2019quantifying,
+  title={Quantifying Perceptual Distortion of Adversarial Examples},
+  author={Jordan, Matthew and Manoj, Naren and Goel, Surbhi and Dimakis, Alexandros},
+  eprint={1902.08265},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2019},
+  url={https://arxiv.org/abs/1902.08265}
+}
+
+@misc{du2018improved,
+  title={Improved Learning of One-hidden-layer Convolutional Neural Networks with Overlaps},
+  author={Du, Simon and Goel, Surbhi},
+  eprint={1805.07798},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2018},
+  url={https://arxiv.org/abs/1805.07798}
+}
+EOL
