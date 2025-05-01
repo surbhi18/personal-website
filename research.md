@@ -17,6 +17,9 @@ title: Research
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
 
+* **[Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)**  
+  Helen Jin, Anton Xue, Weiqiu You, <span class="author-name">Surbhi Goel</span>, Eric Wong
+
 ### Conference Papers
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
