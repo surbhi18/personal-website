@@ -3,8 +3,10 @@ layout: default
 title: Group
 ---
 ## Current Students
-### PhD Student(s)
-* [Ezra Edelman](https://www.ezraedelman.com/) (they/them)
+### PhD Students
+* [Ezra Edelman](https://www.ezraedelman.com/) 
+* [Berkan Otlik](https://berkan.xyz/) (joining in Fall 2025)
+* [Honam Wong](https://matheart.github.io/) (joining in Fall 2025, co-advised with [Enric Boix-Adserà](https://web.mit.edu/eboix/www/))
 
 ### Masters Student(s)
 * [Yufa Zhou](https://masterzhou1.github.io/)
@@ -23,12 +25,12 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 * [Dante Lokitiyakul](https://dante-hl.github.io/)
 * [Nimay Kumar](https://nimaykumar.com/)
 
-### Undergraduate Student(s)
+### Undergraduate Students
 * [Keshav Ramji](https://www.keshavramji.com/), now a researcher at IBM Research
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles)
 * [Maya Gambhir](https://mayapalgambhir.com/)
 
-### Interns at Microsoft Research (I co-mentored)
+### Interns at Microsoft Research (co-mentored)
 * [Ben Edelman](https://benjaminedelman.com/), now a TechCongress AI Safety Fellow at the US AI Safety Institute  
 * [Nikunj Saunshi](https://www.nikunjsaunshi.com/), now a Research Scientist at Google
 * [Bingbin Liu](https://clarabing.github.io/), now a Kempner Fellow at Harvard

@@ -11,9 +11,6 @@ title: Research
 * **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
   (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
 
-* **[A Theory of Learning with Autoregressive Chain of Thought](https://arxiv.org/abs/2503.07932)**  
-  Nirmit Joshi, Gal Vardi, Adam Block, <span class="author-name">Surbhi Goel</span>, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro
-
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
 
@@ -21,6 +18,10 @@ title: Research
   Helen Jin, Anton Xue, Weiqiu You, <span class="author-name">Surbhi Goel</span>, Eric Wong
 
 ### Conference Papers
+* **[A Theory of Learning with Autoregressive Chain of Thought](https://arxiv.org/abs/2503.07932)**  
+  Nirmit Joshi, Gal Vardi, Adam Block, <span class="author-name">Surbhi Goel</span>, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro
+  *COLT 2025*
+
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
   *STOC 2025*  
