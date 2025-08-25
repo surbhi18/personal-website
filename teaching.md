@@ -4,8 +4,9 @@ title: Teaching
 ---
 
 ## Teaching at University of Pennsylvania
+* [CIS 3333: Mathematics of Machine Learning](https://surbhi18.github.io/MoML/) - Fall 2025
 * [CIS 5200: Machine Learning](https://machine-learning-upenn.github.io/) - Spring 2025, Spring 2024, Spring 2023
-* [CIS 7000: Foundations of Modern Machine Learning: Theory and Empirics](https://surbhi18.github.io/FoMML/) - Fall 2024
+* [CIS 7000: Foundations of Modern Machine Learning: Theory and Empirics](https://surbhi18.github.io/FoMML/) - Fall 2023
 
 ## Teaching Assistant at University of Texas at Austin
 * CS 314: Data Structures - Fall 2015
