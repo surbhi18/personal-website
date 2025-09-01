@@ -19,9 +19,9 @@ title: Research
 
 ### Conference Papers
 * **[A Theory of Learning with Autoregressive Chain of Thought](https://arxiv.org/abs/2503.07932)**  
-  Nirmit Joshi, Gal Vardi, Adam Block, <span class="author-name">Surbhi Goel</span>, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro
+  Nirmit Joshi, Gal Vardi, Adam Block, <span class="author-name">Surbhi Goel</span>, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro  
   *COLT 2025*
-
+  
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
   *STOC 2025*  
