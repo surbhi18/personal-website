@@ -10,6 +10,8 @@ title: Research
 
 * **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
   (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
+  *<span class="highlight-presentation">Spotlight presentation</span>, EC 2025 Workshop on Human-AI Collaboration*  
+  *<span class="highlight-presentation">Spotlight presentation</span>, 2025 TTIC Workshop on Incentives for Collaborative Learning and Data Sharing*  
 
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
