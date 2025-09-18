@@ -8,6 +8,9 @@ title: Research
 
 ### Preprints
 
+* **[Emergent Alignment via Competition]()**  
+  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi
+  
 * **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
   (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
   *<span class="highlight-presentation">Spotlight presentation</span>, EC 2025 Workshop on Human-AI Collaboration*  
@@ -16,10 +19,12 @@ title: Research
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
 
-* **[Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)**  
-  Helen Jin, Anton Xue, Weiqiu You, <span class="author-name">Surbhi Goel</span>, Eric Wong
-
 ### Conference Papers
+
+* **[Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)**  
+  Helen Jin, Anton Xue, Weiqiu You, <span class="author-name">Surbhi Goel</span>, Eric Wong  
+  *NeurIPS 2025*
+
 * **[A Theory of Learning with Autoregressive Chain of Thought](https://arxiv.org/abs/2503.07932)**  
   Nirmit Joshi, Gal Vardi, Adam Block, <span class="author-name">Surbhi Goel</span>, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro  
   *COLT 2025*
