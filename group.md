@@ -10,10 +10,8 @@ title: Group
 
 <!-- ### Masters Student(s) -->
 
-### Undergraduate Students
-* [Aaron Mei](https://www.linkedin.com/in/aaron-mei-513b73a2)
-* [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
-* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
+### Undergraduate Students  
+* [Maya Gambhir](https://mayapalgambhir.com/)
 * [James Wang](https://www.linkedin.com/in/jwang541)
 
 I am also fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
@@ -26,7 +24,9 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 * [Yufa Zhou](https://masterzhou1.github.io/), now a PhD student at Duke
 
 ### Undergraduate Students
-* [Maya Gambhir](https://mayapalgambhir.com/)
+* [Aaron Mei](https://www.linkedin.com/in/aaron-mei-513b73a2)
+* [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
+* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
 * [Keshav Ramji](https://www.keshavramji.com/), now a researcher at IBM Research
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles), *recipient of the 2025 Computer Science Academic Award*
 
