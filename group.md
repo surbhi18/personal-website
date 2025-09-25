@@ -16,10 +16,10 @@ title: Group
 
 I am also fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
 
-## Past Students
+## Alumni
 ### Masters Students
-* [Nimay Kumar](https://nimaykumar.com/)
-* [Dante Lokitiyakul](https://dante-hl.github.io/)
+* [Nimay Kumar](https://nimaykumar.com/), now a data scientist at TD Bank
+* [Dante Lokitiyakul](https://dante-hl.github.io/), now a machine learning engineer at Prompt Inversion
 * [GuanWen Qiu](https://www.linkedin.com/in/guanwen-qiu-92b6651b0), now a PhD student at Purdue
 * [Yufa Zhou](https://masterzhou1.github.io/), now a PhD student at Duke
 
