@@ -28,7 +28,7 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 * [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
 * [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
 * [Keshav Ramji](https://www.keshavramji.com/), now a researcher at IBM Research
-* [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles), *recipient of the 2025 Computer Science Academic Award*
+* [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles), no a PhD student at Harvard, also the *recipient of the 2025 Computer Science Academic Award*
 
 ### Interns at Microsoft Research (co-mentored)
 * [Ben L. Edelman](https://benjaminedelman.com/), now a TechCongress AI Safety Fellow at the US AI Safety Institute  
