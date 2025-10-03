@@ -10,16 +10,34 @@ title: Research
 
 * **[Emergent Alignment via Competition]()**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi
-  
-* **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
-  (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
-  *<span class="highlight-presentation">Spotlight presentation</span>, EC 2025 Workshop on Human-AI Collaboration*  
-  *<span class="highlight-presentation">Spotlight presentation</span>, 2025 TTIC Workshop on Incentives for Collaborative Learning and Data Sharing*  
+  *Algorithmic Collective Action Workshop, NeurIPS 2025*
 
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
-  (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan
+  (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan  
+  *Reliable ML Workshop, NeurIPS 2025*
+
+* **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation]()**  
+  Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>  
+  *Foundations of Reasoning in Language Models Workshop, NeurIPS 2025*  
+
+* **[Why Do Transformers Fail to Forecast Time Series In-Context?]()**  
+  Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
+  *What Can('t) Transformers Do? Workshop, NeurIPS 2025*
+
+* **[Optimal Lower Bounds and New Upper Bounds for Sequential Prediction with Abstention]()**  
+  Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
+  *Reliable ML Workshop, NeurIPS 2025*
+
+* **[Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts]()**  
+  James Wang, <span class="author-name">Surbhi Goel</span>  
 
 ### Conference Papers
+
+* **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
+  (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
+  *SODA 2026*  
+  *<span class="highlight-presentation">Spotlight presentation</span>, EC 2025 Workshop on Human-AI Collaboration*  
+  *<span class="highlight-presentation">Spotlight presentation</span>, 2025 TTIC Workshop on Incentives for Collaborative Learning and Data Sharing* 
 
 * **[Probabilistic Stability Guarantees for Feature Attributions](https://www.arxiv.org/abs/2504.13787)**  
   Helen Jin, Anton Xue, Weiqiu You, <span class="author-name">Surbhi Goel</span>, Eric Wong  
@@ -32,31 +50,31 @@ title: Research
 * **[Tractable Agreement Protocols](https://arxiv.org/abs/2411.19791)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth  
   *STOC 2025*  
-  *Pluralistic Alignment Workshop, NeurIPS 2024*
+  <!-- *Pluralistic Alignment Workshop, NeurIPS 2024* -->
 
 * **[Conformal Language Model Reasoning with Coherent Factuality]()**  
   Maxon Rubin-Toles, Maya Gambhir, Keshav Ramji, Aaron Roth, <span class="author-name">Surbhi Goel</span>  
   *ICLR 2025*   
-  *Statistical Foundations of LLMs and Foundation Models Workshop, NeurIPS 2024*
+  <!-- *Statistical Foundations of LLMs and Foundation Models Workshop, NeurIPS 2024* -->
 
 * **[Progressive Distillation Induces an Implicit Curriculum](https://arxiv.org/abs/2410.05464)**  
   Abhishek Panigrahy, Bingbin Liu, Sadhika Malladi, Andrej Risteski, <span class="author-name">Surbhi Goel</span>  
   *<span class="highlight-presentation">Oral presentation</span>, ICLR 2025*   
-  *Mechanistic Interpretability Workshop, ICML 2024*  
+  <!-- *Mechanistic Interpretability Workshop, ICML 2024*  
   *Theoretical Foundations of Foundation Models (T2FM) Workshop, ICML 2024*  
-  *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2024*
+  *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2024* -->
 
 * **[Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference](https://arxiv.org/abs/2407.00075)**  
   Anton Xue, Avishree Khare, Rajeev Alur, <span class="author-name">Surbhi Goel</span>, Eric Wong  
   *ICLR 2025*   
-  *New Frontiers in Adversarial Machine Learning (AdvML-Frontiers) Workshop, NeurIPS 2024*  
+  <!-- *New Frontiers in Adversarial Machine Learning (AdvML-Frontiers) Workshop, NeurIPS 2024*  
   *Safe & Trustworthy Agents (SATA) Workshop, NeurIPS 2024*  
-  *Workshop on Scientific Methods for Understanding Deep Learning, NeurIPS 2024*
+  *Workshop on Scientific Methods for Understanding Deep Learning, NeurIPS 2024* -->
 
 * **[The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains](https://arxiv.org/abs/2402.11004)**  
   Ezra Edelman, Nikolaos Tsilivis, Benjamin L. Edelman, Eran Malach, <span class="author-name">Surbhi Goel</span>  
   *NeurIPS 2024*  
-  *Workshop on Scientific Methods for Understanding Deep Learning, NeurIPS 2024*
+  <!-- *Workshop on Scientific Methods for Understanding Deep Learning, NeurIPS 2024* -->
 
 * **[Tolerant Algorithms for Learning with Arbitrary Covariate Shift](https://arxiv.org/abs/2406.02742)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Abhishek Shetty, Konstantinos Stavropoulos, Arsen Vasilyan  
@@ -65,7 +83,7 @@ title: Research
 * **[Complexity Matters: Feature Learning in the Presence of Spurious Correlations](https://arxiv.org/abs/2403.03375)**  
   GuanWen Qiu, Da Kuang, <span class="author-name">Surbhi Goel</span>  
   *ICML 2024*  
-  *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2023*
+  <!-- *Mathematics of Modern Machine Learning (M3L) Workshop, NeurIPS 2023* -->
 
 * **[Stochastic Bandits with ReLU Neural Networks](https://arxiv.org/abs/2405.07331)**  
   Kan Xu, Hamsa Bastani, <span class="author-name">Surbhi Goel</span>, Osbert Bastani  
@@ -82,8 +100,8 @@ title: Research
 * **[Exposing Attention Glitches with Flip-Flop Language Modeling](https://arxiv.org/abs/2306.00946)**  
   Bingbin Liu, Jordan T. Ash, <span class="author-name">Surbhi Goel</span>, Akshay Krishnamurthy, Cyril Zhang  
   *<span class="highlight-presentation">Spotlight presentation</span>, NeurIPS 2023*  
-  *Challenges of Deploying Generative AI Workshop, ICML 2023*  
-  *Knowledge and Logical Reasoning in the Era of Data-driven Learning Workshop, ICML 2023*
+  <!-- *Challenges of Deploying Generative AI Workshop, ICML 2023*  
+  *Knowledge and Logical Reasoning in the Era of Data-driven Learning Workshop, ICML 2023* -->
 
 * **[Learning Narrow One-Hidden-Layer ReLU Networks](https://arxiv.org/abs/2304.10524)**  
   (α-β) Sitan Chen, Zehao Dou, <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Raghu Meka  
@@ -172,7 +190,7 @@ title: Research
 * **[Learning Neural Networks with Two Nonlinear Layers in Polynomial Time](https://arxiv.org/abs/1709.06010)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans  
   *COLT 2019*  
-  *Deep Learning: Bridging Theory and Practice Workshop, NeurIPS 2017*
+  <!-- *Deep Learning: Bridging Theory and Practice Workshop, NeurIPS 2017* -->
 
 * **[Learning One Convolutional Layer with Overlapping Patches](https://arxiv.org/abs/1802.02547)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Raghu Meka  
