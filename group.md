@@ -12,6 +12,7 @@ title: Group
 
 ### Undergraduate Students  
 * [Maya Gambhir](https://mayapalgambhir.com/)
+* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
 * [James Wang](https://www.linkedin.com/in/jwang541)
 
 I am also fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
@@ -26,7 +27,6 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 ### Undergraduate Students
 * [Aaron Mei](https://www.linkedin.com/in/aaron-mei-513b73a2)
 * [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
-* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
 * [Keshav Ramji](https://www.keshavramji.com/), now a researcher at IBM Research
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles), no a PhD student at Harvard, also the *recipient of the 2025 Computer Science Academic Award*
 
