@@ -8,8 +8,8 @@ title: Research
 
 ### Preprints
 
-* **[Emergent Alignment via Competition]()**  
-  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi
+* **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
+  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
   *Algorithmic Collective Action Workshop, NeurIPS 2025*
 
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
@@ -22,7 +22,7 @@ title: Research
 
 * **[Why Do Transformers Fail to Forecast Time Series In-Context?]()**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
-  *What Can('t) Transformers Do? Workshop, NeurIPS 2025*
+  *<span class="highlight-presentation">Spotlight presentation</span>, What Can('t) Transformers Do? Workshop, NeurIPS 2025*
 
 * **[Optimal Lower Bounds and New Upper Bounds for Sequential Prediction with Abstention]()**  
   Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
