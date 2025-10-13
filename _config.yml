@@ -4,3 +4,13 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:title/
+
+markdown: kramdown
+kramdown:
+  input: kramdown
+  math_engine: mathjax
