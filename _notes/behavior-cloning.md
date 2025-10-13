@@ -91,7 +91,7 @@ This intuition is formalized by a lower bound showing that this is not just an a
 Let's define a simple "chain" MDP in the autoregressive framework.
 
 *   **Spaces:** The context space is a single point $\mathcal{X}=\{c\}$, and the action space is $\mathcal{A} = \{0, 1\}$
-*   **Expert Policy $\pi^*$**: The expert always chooses action 1: $\pi^*\_h(s\_h) = 1$ for all states $s\_h$ and steps $h$. The expert's trajectory is a sequence of all 1s.
+*   **Expert Policy** $\pi^*$: The expert always chooses action 1: $\pi^*\_h(s\_h) = 1$ for all states $s\_h$ and steps $h$. The expert's trajectory is a sequence of all 1s.
 *   **Learned Policy $\hat{\pi}$**: The learned policy has a per-step error probability of $\epsilon$. On the expert's path (i.e., when the history of actions is all 1s), it erroneously chooses action 0 with probability $\epsilon$:
     $$
     \hat{\pi}\_h(a\_h=0 | s\_h=(c, \underbrace{1,...,1}\_{h-1})) = \epsilon.

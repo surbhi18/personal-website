@@ -304,6 +304,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.9.3)
+  jekyll-commonmark-ghpages
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-minimal
