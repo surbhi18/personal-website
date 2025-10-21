@@ -20,7 +20,7 @@ title: Research
   Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>  
   *Foundations of Reasoning in Language Models Workshop, NeurIPS 2025*  
 
-* **[Why Do Transformers Fail to Forecast Time Series In-Context?]()**  
+* **[Why Do Transformers Fail to Forecast Time Series In-Context?](https://arxiv.org/html/2510.09776v1)**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
   *<span class="highlight-presentation">Spotlight presentation</span>, What Can('t) Transformers Do? Workshop, NeurIPS 2025*
 
