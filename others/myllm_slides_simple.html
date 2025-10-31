@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I Use LLMs & Workshop Overview</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #1a1a2e;
+            color: #f5f5f5;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            padding: 80px 120px;
+            justify-content: center;
+            flex-direction: column;
+            animation: fadeIn 0.4s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .slide.active { display: flex; }
+        
+        h1 { 
+            font-size: 84px; 
+            margin-bottom: 30px; 
+            font-weight: 800; 
+            color: #fff;
+            line-height: 1.1;
+        }
+        h2 { 
+            font-size: 56px; 
+            margin-bottom: 45px; 
+            font-weight: 700; 
+            color: #3b82f6;
+            line-height: 1.2;
+        }
+        h3 { 
+            font-size: 38px; 
+            margin-bottom: 20px; 
+            font-weight: 600; 
+            color: #60a5fa;
+        }
+        p { 
+            font-size: 32px; 
+            line-height: 1.7; 
+            margin-bottom: 20px; 
+            color: #e5e5e5;
+        }
+        em { 
+            color: #9ca3af; 
+            font-style: italic; 
+        }
+        ul, ol { 
+            font-size: 32px; 
+            line-height: 2; 
+            margin-left: 50px; 
+            color: #e5e5e5;
+        }
+        li { 
+            margin-bottom: 18px; 
+        }
+        strong { 
+            font-weight: 700;
+            color: #fbbf24;
+        }
+        .emoji { 
+            font-size: 40px; 
+            margin-right: 12px; 
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 35px;
+        }
+        .card {
+            background: #262640;
+            padding: 35px;
+            border-radius: 16px;
+            border: 2px solid #3b3b5e;
+        }
+        .card h3 {
+            font-size: 34px;
+            margin-bottom: 18px;
+            color: #60a5fa;
+        }
+        .card ul {
+            font-size: 28px;
+            line-height: 1.9;
+            margin-left: 35px;
+        }
+        .card li {
+            margin-bottom: 12px;
+        }
+        .card p {
+            font-size: 26px;
+            line-height: 1.6;
+            color: #d1d5db;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 30px;
+            margin-top: 35px;
+            background: #262640;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 22px 28px;
+            text-align: left;
+            color: #e5e5e5;
+        }
+        th {
+            background: #3b3b5e;
+            font-weight: 700;
+            font-size: 28px;
+            color: #60a5fa;
+        }
+        tr {
+            border-bottom: 1px solid #3b3b5e;
+        }
+        tr:last-child {
+            border-bottom: none;
+        }
+        .controls {
+            position: fixed;
+            bottom: 35px;
+            right: 35px;
+            display: flex;
+            gap: 15px;
+            z-index: 100;
+        }
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+        button:hover { 
+            background: #2563eb; 
+            transform: translateY(-2px);
+        }
+        button:disabled { 
+            background: #374151; 
+            cursor: not-allowed; 
+            transform: none;
+        }
+        .progress {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 5px;
+            background: #3b82f6;
+            transition: width 0.3s;
+        }
+        .slide-number {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #6b7280;
+        }
+        .center { 
+            text-align: center; 
+            align-items: center;
+        }
+        .highlight {
+            background: #1e293b;
+            padding: 28px 35px;
+            border-radius: 12px;
+            border-left: 5px solid #fbbf24;
+            margin: 25px 0;
+        }
+        .highlight p {
+            color: #e5e5e5;
+        }
+        .small { 
+            font-size: 26px; 
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide active center">
+    <h1>How I Use LLMs</h1>
+    <p class="small"><em>Workshop Overview</em></p>
+</div>
+
+<div class="slide">
+    <h2>My LLM Research Workflow</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>🎯 Thinking Partner</h3>
+            <ul>
+                <li>Intuition → formalism</li>
+                <li>Spot hidden assumptions</li>
+                <li>Test alternative views</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>🔍 Critical Reflection</h3>
+            <ul>
+                <li>Find proof gaps</li>
+                <li>Generate counterexamples</li>
+                <li>Check consistency</li>
+            </ul>
+        </div>
+    </div>
+    <p class="small" style="margin-top: 35px;"><em>Goal: amplify insight, not automate proof writing</em></p>
+</div>
+
+<div class="slide">
+    <h2>Core Strengths vs. Weaknesses</h2>
+    <div class="grid">
+        <div class="card">
+            <h3 style="color: #4ade80;">What Works ✅</h3>
+            <ul>
+                <li>Translating intuition → formalism</li>
+                <li>Sketching proof structure</li>
+                <li>Detecting missing assumptions</li>
+                <li>Finding theoretical connections</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3 style="color: #f87171;">What Doesn't ❌</h3>
+            <ul>
+                <li>Novel proof techniques</li>
+                <li>Multi-step derivations</li>
+                <li>Confident but wrong answers</li>
+                <li><em>(Your job is to verify!)</em></li>
+            </ul>
+        </div>
+    </div>
+    <div class="highlight" style="margin-top: 45px;">
+        <p><strong>Time Sink Alert:</strong> Plausible-but-wrong rabbit holes. Set 10-15min time limits per direction.</p>
+    </div>
+</div>
+
+<div class="slide">
+    <h2>Real Examples from 2025</h2>
+    <div class="card" style="margin-bottom: 22px;">
+        <h3>Scott Aaronson: QMA Complexity</h3>
+        <p>GPT-5 suggested key technical step for quantum proof</p>
+        <p class="small" style="margin-top: 10px;"><a href="https://scottaaronson.blog/?p=9183" style="color: #60a5fa; text-decoration: none;">→ Blog post</a></p>
+    </div>
+    <div class="card" style="margin-bottom: 22px;">
+        <h3>Terence Tao: Freiman-Ruzsa</h3>
+        <p>LLM as collaborator navigating technical proofs</p>
+        <p class="small" style="margin-top: 10px;"><a href="https://mathoverflow.net/questions/501066" style="color: #60a5fa; text-decoration: none;">→ MathOverflow discussion</a></p>
+    </div>
+    <div class="card">
+        <h3>Nesterov Convergence Proof</h3>
+        <p>Open problem in optimization solved with ChatGPT</p>
+        <p class="small" style="margin-top: 10px;"><a href="https://arxiv.org/abs/2510.23513" style="color: #60a5fa; text-decoration: none;">→ arXiv paper</a></p>
+    </div>
+</div>
+
+<div class="slide">
+    <h2>Your Job: Verify, Don't Trust</h2>
+    <p>LLMs sound confident while being wrong. Your goal is to apply a critical mindset. A successful outcome is knowing what you <strong>cannot</strong> verify.</p>
+    <div class="highlight" style="margin-top: 30px;">
+        <p style="margin-bottom: 20px;">Use this verification spectrum to log your work:</p>
+        <ul style="font-size: 28px; line-height: 1.8; margin-left: 15px;">
+            <li><strong style="color: #10b981;">✓ Verified:</strong> You proved it yourself.</li>
+            <li><strong style="color: #ef4444;">✗ Error:</strong> You found a flaw.</li>
+            <li><strong style="color: #f59e0b;">? Uncertain:</strong> You'd need to ask an expert.</li>
+            <li><strong style="color: #fbbf24;">⚠ Trusted:</strong> You had to take it on faith.</li>
+        </ul>
+    </div>
+    <p class="small" style="margin-top: 30px;"><em>Your verification log is the most valuable output of this workshop.</em></p>
+</div>
+
+<div class="slide">
+    <h2>Effective Prompting</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>✅ Do</h3>
+            <ul>
+                <li>Progressive disclosure</li>
+                <li>Role assignment</li>
+                <li>Explicit constraints</li>
+                <li>Request verification</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>❌ Don't</h3>
+            <ul>
+                <li>Trust multi-step math</li>
+                <li>Use vague queries</li>
+                <li>Chase rabbits >15min</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="slide">
+    <h2>Synthesis Questions</h2>
+    <ol style="font-size: 34px; line-height: 2;">
+        <li>What can you verify vs trust?</li>
+        <li>What failure patterns emerged?</li>
+        <li>How much context was needed?</li>
+        <li>Has your calibration changed?</li>
+        <li>What will you actually use?</li>
+    </ol>
+    <p style="margin-top: 50px;"><strong>Goal:</strong> Collaborate effectively while maintaining rigor</p>
+</div>
+
+<div class="slide center">
+    <h1>Let's Begin!</h1>
+    <p style="margin-top: 45px; font-size: 38px;"><span class="emoji">📝</span> Download the student observation log</p>
+    <div class="highlight" style="margin-top: 50px; display: inline-block; text-align: left;">
+        <p class="small">Document as you go:</p>
+        <ul class="small" style="margin-top: 15px; line-height: 1.8;">
+            <li>Verification attempts</li>
+            <li>Successes & failures</li>
+            <li>Patterns you observe</li>
+        </ul>
+    </div>
+    <p style="margin-top: 45px;"><em>The learning is in the process</em></p>
+</div>
+
+<div class="progress"></div>
+<div class="slide-number"></div>
+<div class="controls">
+    <button id="prev">← Prev</button>
+    <button id="next">Next →</button>
+</div>
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const progress = document.querySelector('.progress');
+const slideNumber = document.querySelector('.slide-number');
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
+
+function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+    
+    progress.style.width = ((currentSlide + 1) / slides.length * 100) + '%';
+    slideNumber.textContent = `${currentSlide + 1} / ${slides.length}`;
+    
+    prevBtn.disabled = currentSlide === 0;
+    nextBtn.disabled = currentSlide === slides.length - 1;
+}
+
+prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
+nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') showSlide(currentSlide - 1);
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+        e.preventDefault();
+        showSlide(currentSlide + 1);
+    }
+    if (e.key === 'Home') showSlide(0);
+    if (e.key === 'End') showSlide(slides.length - 1);
+});
+
+// Swipe support for mobile
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+});
+
+document.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    if (touchStartX - touchEndX > 50) showSlide(currentSlide + 1);
+    if (touchEndX - touchStartX > 50) showSlide(currentSlide - 1);
+});
+
+showSlide(0);
+</script>
+
+</body>
+</html>
