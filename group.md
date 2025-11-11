@@ -18,6 +18,10 @@ title: Group
 I am also fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
 
 ## Alumni
+
+### Visiting Students
+* [Jingwen Liu](https://ljw0105.github.io/), PhD student at Columbia University
+
 ### Masters Students
 * [Nimay Kumar](https://nimaykumar.com/), now a data scientist at TD Bank
 * [Dante Lokitiyakul](https://dante-hl.github.io/), now a machine learning engineer at Prompt Inversion

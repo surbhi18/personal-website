@@ -8,17 +8,22 @@ title: Research
 
 ### Preprints
 
+* **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation](https://arxiv.org/abs/2511.02833)**  
+  Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>  
+
+  
+
 * **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
-  *Algorithmic Collective Action Workshop, NeurIPS 2025*
+  <!-- *Algorithmic Collective Action Workshop, NeurIPS 2025* -->
 
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan  
-  *Reliable ML Workshop, NeurIPS 2025*
+  <!-- *Reliable ML Workshop, NeurIPS 2025* -->
 
 * **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation]()**  
   Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>  
-  *Foundations of Reasoning in Language Models Workshop, NeurIPS 2025*  
+  <!-- *Foundations of Reasoning in Language Models Workshop, NeurIPS 2025*   -->
 
 * **[Why Do Transformers Fail to Forecast Time Series In-Context?](https://arxiv.org/html/2510.09776v1)**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
@@ -26,7 +31,7 @@ title: Research
 
 * **[Optimal Lower Bounds and New Upper Bounds for Sequential Prediction with Abstention]()**  
   Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
-  *Reliable ML Workshop, NeurIPS 2025*
+  <!-- *Reliable ML Workshop, NeurIPS 2025* -->
 
 * **[Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts]()**  
   James Wang, <span class="author-name">Surbhi Goel</span>  
