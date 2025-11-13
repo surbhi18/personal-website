@@ -2,6 +2,13 @@
 layout: default
 title: Group
 ---
+
+<div class="photo-gallery">
+    <div class="photo-item">
+        <img src="/assets/img/flash_back.jpg" alt="Group photo from an escape room">
+    </div>
+</div>
+
 ## Current Students
 ### PhD Students
 * [Ezra Edelman](https://www.ezraedelman.com/) 
