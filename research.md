@@ -15,10 +15,6 @@ title: Research
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
   <!-- *Algorithmic Collective Action Workshop, NeurIPS 2025* -->
 
-* **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
-  (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan  
-  <!-- *Reliable ML Workshop, NeurIPS 2025* -->
-
 * **[Why Do Transformers Fail to Forecast Time Series In-Context?](https://arxiv.org/html/2510.09776v1)**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
   *<span class="highlight-presentation">Spotlight presentation</span>, What Can('t) Transformers Do? Workshop, NeurIPS 2025*
@@ -30,6 +26,10 @@ title: Research
 * **[Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts]()**  
   James Wang, <span class="author-name">Surbhi Goel</span>  
 
+* **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
+  (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan  
+  *<span class="highlight-presentation">Best paper award</span>, Reliable ML Workshop, NeurIPS 2025*
+  
 ### Conference Papers
 
 * **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
