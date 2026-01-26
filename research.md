@@ -8,9 +8,6 @@ title: Research
 
 ### Preprints
 
-* **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation](https://arxiv.org/abs/2511.02833)**  
-  Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>
-
 * **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
   <!-- *Algorithmic Collective Action Workshop, NeurIPS 2025* -->
@@ -31,6 +28,10 @@ title: Research
   *<span class="highlight-presentation">Best paper award</span>, Reliable ML Workshop, NeurIPS 2025*
   
 ### Conference Papers
+
+* **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation](https://arxiv.org/abs/2511.02833)**  
+  Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>
+  *ICLR 2026*
 
 * **[Collaborative Prediction: Tractable Information Aggregation via Agreement](https://arxiv.org/abs/2504.06075)**  
   (α-β) Natalie Collina, Ira Globus-Harris, <span class="author-name">Surbhi Goel</span>, Varun Gupta, Aaron Roth, Mirah Shi  
