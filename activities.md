@@ -17,17 +17,19 @@ title: Service
 
 
 ## Service Roles
+* Workshop Co-chair (2026)  
+  _COLM 2026_
 * Steering Committee Member (2024-Present)  
   _Association for Algorithmic Learning Theory_
 * Action Editor (2024-Present)  
   _Transactions on Machine Learning Research_
 * Co-treasurer (2024-Present)  
   _Association for Computational Learning_
-* Program Co-organizer (2023-Present)  
+* Program Co-organizer (2023-2025)  
   _Simons Institute's Special Year on LLMs and Transformers_
 * Office Hours Co-chair (2023-24)  
   _ICLR 2024_ 
-* Virtual Experience Co-chair  
+* Virtual Experience Co-chair (2021, 2023) 
   _COLT 2021, 2023_
-* Co-founder (2020-Present)  
+* Co-founder and Excutive Committee Member (2020-Present)  
   _[Learning Theory Alliance](https://www.let-all.com) (LeT‐All)_
