@@ -1,0 +1,185 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{amsmath,amssymb}
+\usepackage[
+  margin=1in
+]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\skip\footins}{6pt}
+
+% Color commands for highlighting
+\newcommand{\award}[1]{{\color{Bittersweet}\textbf{\textit{#1}}}}
+\newcommand{\keyterm}[1]{{\color{Plum}\textbf{#1}}}
+
+% Boxed "main question" callout (used once per thrust)
+\newcommand{\mainquestion}[1]{%
+\begin{center}
+{\setlength{\fboxsep}{6pt}%
+\fcolorbox{Plum}{Plum!5}{%
+\begin{minipage}{0.93\linewidth}
+\centering\emph{#1}
+\end{minipage}}}%
+\end{center}
+}
+
+\usepackage{fancyhdr}
+\allowdisplaybreaks
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\url{www.surbhigoel.com}}
+\rhead{Surbhi Goel}
+\rfoot{Page \thepage}
+\headheight=0.75in
+\fancypagestyle{firstpage}{%
+  \lhead{ \fontsize{14}{12} \selectfont \textbf{Research Statement}}
+  \rhead{ \fontsize{14}{12} \selectfont \textbf{Surbhi Goel}}
+}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{Plum}\leaders\hrule height \headrulewidth\hfill}}
+\setlength{\headsep}{0.1in}
+
+\usepackage[bottom]{footmisc}
+\usepackage[style=alphabetic,sorting=none,backend=biber,maxnames=99,minnames=1,maxcitenames=6,mincitenames=1]{biblatex}
+\addbibresource{my_publications.bib}
+\addbibresource{other_publications.bib}
+
+% No filters needed - we'll use keyword option directly
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    urlcolor = Plum,
+    linkcolor = Plum,
+    citecolor = Plum
+}
+
+\begin{document}
+\thispagestyle{firstpage}
+
+% ====================
+% PAGE 1: OVERVIEW
+% ====================
+
+Modern AI presents a paradox: today’s large-scale models achieve impressive performance yet remain brittle and opaque in ways we cannot reliably predict or audit. Unlike engineered software, they are learned computational systems whose behavior emerges from data and optimization rather than explicit human design, making failure prediction fundamentally harder. These systems are already being deployed in high-stakes settings (e.g., healthcare, autonomous systems) where brittleness can translate into real harm. While current scaling and post-training interventions can improve average behavior of these systems, they do not by themselves make failures predictable or prevent them in new settings. 
+
+To make these systems truly reliable, we must move away from \emph{purely empirical patchwork} to \emph{constructive guarantees}, shifting from systems that are merely \emph{safe by observation} to those that are \emph{safe by design}. \textbf{My research develops the mathematical foundations necessary for designing and deploying trustworthy AI systems.} Towards this, my research program is organized around three interconnected thrusts:
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.5ex]
+    \item \textbf{Transparency:} \emph{What internal mechanisms do modern AI systems implement, and why do they fail?} I develop \emph{controlled theoretical sandboxes} to identify mechanisms and failure modes, including quantifying Transformer inductive biases and mechanisms~\cite{edelman2022inductive,liu2023transformers}, understanding emergent capabilities and training dynamics~\cite{barak2022hidden,edelman2023pareto,panigrahi2025progressive}, and characterizing failures under long horizons and adversarial prompting~\cite{liu2023exposing,qiu2024complexity,xue2025logicbreaks}.
+    
+    \item \textbf{Reliability:} \emph{How can we guarantee safe behavior under distribution shift?} I develop \emph{certifiable reliability} methods that attach explicit certificates to predictions (or refusals), including selective prediction under covariate shift, robust abstention in sequential settings, and conformal tools for uncertainty quantification in structured language-model reasoning under shift~\cite{goel2023adversarial,goel2024tolerant,goel2025testing,rubintoles2025conformal,wang2025conformal,edelman2025abstention}.
+    
+    \item \textbf{Collaboration:} \emph{How can we design interaction protocols that make human--AI teams reliably outperform either alone?} I develop protocols that enable collaboration without requiring either party to understand the other's internals, with guarantees that interaction improves outcomes and can mitigate misalignment in multi-model ecosystems~\cite{collina2025tractable,collina2025collaborative,collina2025competition}.
+\end{enumerate}
+
+A distinguishing feature of my research is studying problems simultaneously at multiple levels of abstraction and scales---from clean mathematical models that yield provable insights, to controlled empirical sandboxes that bridge theory and practice, to interventions on real systems. This multi-level approach is essential for understanding AI: theory alone cannot capture the full complexity of modern systems, while empiricism alone cannot provide the guarantees we need. Moreover, studying such a complex system requires making the right trade-offs between abstraction and detail. My work borrows from and extends classical techniques from learning theory, computational complexity, and game theory to design technical principles that explain model behavior, predict failures, and motivate reliable interventions in modern applications in AI safety and reliability. Consequently, my work is published in top theory conferences (STOC, COLT, SODA) and ML conferences (NeurIPS, ICML, ICLR).
+
+Moreover, my research agenda has already attracted over \$1.8M in external support from government, philanthropy, and industry, including an NSF Medium award, the AI 2050 Early Career Fellowship from Schmidt Sciences, two UK AI Safety Institute (AISI) Challenge Fund awards, an OpenAI Superalignment Fast Grant, an Amazon Research Award, and a Microsoft Accelerate Foundation Models Research Award.
+
+% ====================
+% PAGE 2+: DETAILED THRUSTS
+% ====================
+
+\section*{Thrust 1: Transparency}
+
+\mainquestion{What internal mechanisms drive modern AI behavior, and why do they fail?}
+
+\noindent\textit{Why this matters:} As foundation models are integrated into high-stakes workflows, we need to predict when they will fail and how to improve them. Yet modern language models are ``black boxes'': computational systems whose behavior emerges from data and optimization. Without transparency, we cannot attribute the observed behavior to specific design choices of our data, architecture, or training procedure.
+
+\noindent\textit{Why prior approaches fall short:} Much of modern interpretability is descriptive: it can surface patterns, but it rarely yields predictive statements about when a model will fail. Conversely, purely worst-case analyses often miss the mechanisms that training actually finds. We need a framework that makes model behavior both \emph{explainable} and \emph{predictable}. A big challenge towards this is the sheer scale of the models we are studying.
+
+My approach is to build \emph{controlled theoretical sandboxes}: minimalist environments grounded in well-understood mathematical problems---finite automata, sparse parities, Markov chains---that enable rigorous analysis while preserving the behaviors we care about in practice. In these settings, we can make specific, testable claims about what algorithm a model has learned, how that algorithm generalizes (or fails), and what computational and statistical resources are required to learn it. This sandbox methodology has motivated much of the recent work on understanding Transformers beyond my own work~\cite{power2022grokking,sanford2023representational,malach2023auto,DBLP:conf/iclr/MorwaniEOZK24,DBLP:conf/icml/NichaniDL24}.
+
+\paragraph{How do Transformers implement algorithms?}
+
+Self-attention mechanisms underpin virtually all modern AI breakthroughs. Unlike recurrent architectures with explicit temporal biases, self-attention directly models global interactions. This raises a basic question: \emph{which is the inductive bias of self-attention?} My work~\cite{edelman2022inductive} identified an inductive bias we termed \emph{sparse variable creation}: bounded-norm attention learns functions depending on only $s$ input coordinates from length-$T$ sequences with sample complexity scaling as \(O(s\log T)\) in the context length. This quantifies why scaling context length need not demand proportional data: attention can focus on a small number of positions and ignore the rest. Our results provided the first rigorous theoretical justification for why self-attention captures long-range dependencies efficiently.
+
+In subsequent work~\cite{liu2023transformers} (ICLR; \award{Notable top-5\% paper}), we asked how Transformers implement \emph{sequential} computations without any sequential structure like recurrence over the input. Using a finite-automata sandbox, we show that shallow Transformers can exactly simulate any automaton on length-\(T\) inputs via \emph{shortcut solutions}: instead of executing \(T\) recurrent steps, they represent the computation as a parallel circuit exploiting algebraic structure. We prove that polynomial-size \(O(\log T)\)-depth shortcuts always exist, and connect the limitations of constant-depth shortcuts to semigroup theory (Krohn--Rhodes) and circuit complexity. This work was a foundational contribution to understanding the representational power of Transformers and highlighting the strikingly different computational capabilities of Transformers compared to recurrent architectures.
+
+\paragraph{What failures do these mechanisms predict?}
+
+Understanding the representational power of Transformers has direct implications for reliability since it allows us to understand which internal computations are brittle.  and isolate several concrete failure modes in controlled settings.
+
+\textit{Closed-domain hallucinations.}
+LLMs can produce syntactically correct but factually incorrect outputs even on simple algorithmic tasks~\cite{ji2023survey,openai2023gpt4}. In~\cite{liu2023exposing} (NeurIPS; \award{Spotlight}), we introduce a synthetic \emph{flip-flop} task that emulates a minimal unit of sequential memory requiring a model to copy a binary symbol over long-range dependencies. We show that Transformers exhibit a \emph{long tail} of sporadic state-tracking errors (\emph{attention glitches}) even when they appear to solve the task in-distribution. These glitches are unpredictable at the instance level and persist despite regularization, providing a mechanistic sandbox for understanding closed-domain hallucinations in natural LLMs.
+
+\textit{Prompt-based subversion and jailbreaks.}
+Modern LLMs are increasingly deployed as rule-following agents (e.g., ``do not produce harmful content''), yet malicious prompts can subvert these instructions~\cite{zou2023universal,wei2024jailbroken}. In~\cite{xue2025logicbreaks}, we formalize rule-following as inference in propositional Horn logic---a minimal setting where rules have the form ``if $P$ and $Q$, then $R$.'' Within this sandbox, we prove that even theoretically faithful Transformers can be misled by maliciously crafted prompts, and we connect this mechanism to practice by showing that standard jailbreak algorithms induce attention patterns aligned with the theory.
+
+\textit{Time-series forecasting failures.}
+Time-series forecasting is a canonical prediction problem, but Transformer-style predictors can underperform simple linear baselines even as scale and context length increase. Under AR($p$) data, we \cite{zhou2025timeseries} show that linear self-attention \emph{cannot} beat classical linear predictors in expected MSE, and that chain-of-thought style inference can collapse to the mean exponentially. This highlights a key limitation of Transformers for predicting noisy sequences.
+
+\paragraph{How do training choices shape feature learning?}
+
+The failure modes above arise from what models \emph{learn}---which raises the question: can we understand and control \emph{what} features emerge during training? This is crucial for both diagnosis and intervention: if we understand how training behaves, we can design better training procedures. 
+
+Our work~\cite{barak2022hidden} analyzed feature learning dynamics in a controlled setting: learning sparse parities, where the label is the XOR of \(k\) unknown bits among \(n\) total. This sandbox is ``hard-but-learnable''---statistical query lower bounds capture computational barriers that rule out broad algorithm families---yet SGD succeeds near those barriers. We proved that this is not ``luck'' or random search. There is a \emph{hidden progress measure}---not visible in loss or accuracy---under which SGD steadily improves throughout training, and the sudden drop reflects hidden progress becoming observable. Moreover, the convergence time matches known computational lower bounds up to polynomial factors, showing that gradient-based optimization is succeeding near the computational limit. Conceptually, this gives a concrete explanation for capability ``phase transitions'': sharp changes in observed behavior can be driven by smooth improvement in internal structure. Our experiments in this setting also exhibit grokking-style phase transitions and have become a canonical example of emergence in the field~\cite{barak2022hidden}.
+
+Building on this hidden-progress perspective, we reinterpreted the computational barrier in sparse parity as a \emph{multi-resource tradeoff frontier}. In particular, successful feature learning requires being sufficiently rich (width), knowledgeable (data), patient (training time), or lucky (initialization)and show how width and sparse initialization can ``buy'' sample efficiency by increasing the probability of finding lottery-ticket subnetworks~\cite{edelman2023pareto} (NeurIPS; \award{Spotlight}). This mirrors a common empirical pattern: increasing model capacity can \emph{reduce} the amount of data needed to learn the right features, even when this seems counterintuitive from a purely statistical viewpoint.
+
+This perspective also suggests concrete \emph{interventions} for accelerating feature discovery. In our work on \emph{progressive distillation}~\cite{panigrahi2025progressive} (ICLR; \award{Oral}), we show (in sparse parity) that intermediate teacher checkpoints expose an \emph{implicit curriculum} of easier subtasks---including signals for the relevant coordinates---that is not available from the final converged teacher, yielding both empirical acceleration and a provable sample-complexity improvement for the student.
+Conceptually, this reframes distillation from a generalization tool to an \emph{optimization intervention} that makes hard features learnable earlier.
+
+More recently, we introduced \emph{in-context learning of Markov chains} (ICL-MC)~\cite{edelman2024evolution}, a sandbox that has become standard for studying how Transformers learn from context. The task of predicting the next token in sequences drawn from random Markov chains captures basic bigram structure and is solved precisely by the induction heads commonly observed in trained LLMs. We show that Transformers form these \emph{induction heads} that compute correct conditional probabilities, and that training proceeds through distinct phases (uniform $\to$ unigram $\to$ bigram) with rapid transitions. Notably, the model's bias toward simpler solutions hurts the speed of learning, a finding that challenges common beliefs about the benefits of simplicity bias.
+
+\section*{Thrust 2: Reliability}
+
+\mainquestion{How can we guarantee safe behavior under distribution shift?}
+
+\noindent\textit{Why this matters:} Reliability is fundamentally a \emph{certification} problem: when models are deployed under unknown (and potentially adversarial) distribution shift, we need guarantees that do not rest on untestable assumptions about the test environment~\cite{canonne2019testing,david2010impossibility}. Unlike worst-case algorithms in theory that come with correctness proofs for all inputs, learning systems are inherently data-driven and their guarantees often hinge on distributional conditions that cannot be audited in deployment.
+
+\noindent\textit{Why prior approaches fall short:} Classical domain adaptation techniques relate test error to a distance between train and test distributions (e.g., discrepancy-type measures)~\cite{ben2006analysis,ben2010theory,mansour2009domadapt}, but these quantities are hard to estimate and require assumptions about the test distribution that are not auditable in deployment. Conversely, purely empirical fixes such as fine-tuning, red-teaming, guardrails, and calibration heuristics can improve average behavior, but they do not provide certificates that failures will be rare under distribution shift.
+
+\noindent\textit{My approach: certifiable reliability.} My research develops \emph{certifiable reliability} via the \emph{tester--learner} (testable learning) paradigm of Rubinfeld and Vasilyan~\cite{rubinfeld2022testing}. Rather than assuming properties of the test distribution, we shift the burden to \emph{verifiable} training-data conditions: the learner is coupled with an explicit test, and whenever the test accepts, the system outputs a predictor together with a certificate of near-optimality on the test distribution; when certification is impossible, it \emph{fails gracefully} (e.g., by abstaining). Our work~\cite{goel2025testing} (Reliable ML Workshop @ NeurIPS; \award{Best Paper Award}) strengthened this paradigm by testing \emph{noise-model} assumptions from the training data before trusting a learner.
+
+\paragraph{When should a system abstain under distribution shift?}
+In high-stakes deployment, safe behavior often means \emph{knowing when not to answer}---abstaining, deferring to a human, or requesting more information. In~\cite{goel2024tolerant} (NeurIPS; \award{Spotlight}), we give the \textit{first} efficient algorithms achieving the best of both worlds for broad function classes: low error on predictions made, and low abstention on in-distribution data. The key innovation is improved spectral outlier-removal that handles \emph{arbitrarily large} outlier fractions while maintaining degree-independent moment bounds---essential when the test distribution may be \emph{mostly} outliers. This outlier-removal technique has already catalyzed breakthroughs in learning theory, including extending classic learning algorithms for constant-depth circuits to the harshest contamination (``nasty noise'') models~\cite{klivans2024ac0}.
+
+ While this setting considers a single test distribution, many real deployments are sequential: data arrives over time, and adversarial or out-of-distribution inputs can be injected into an otherwise stochastic stream. We formalized this setting in~\cite{goel2023adversarial}, where the learner may abstain on adversarial examples without incurring error proportional to the number of injections. Without abstention, guarantees depend on the Littlestone dimension (unbounded even for simple threshold classes); with abstention, we obtain stochastic-like guarantees with error depending only on the VC dimension (which characterizes the complexity of the stochastic setting), independent of the injection rate. We recently proved near-optimal lower bounds in~\cite{edelman2025abstention} for this model, separating it from the pure stochastic setting. This highlights the power of abstention as a principled way to handle distribution shift.
+
+\paragraph{How do these guarantees extend to modern settings?}
+
+These results hold for standard classification settings. Full \emph{certifiable} reliability for open-ended generative outputs remains an open problem, but we are developing rigorous steps in this direction via conformal prediction. In~\cite{rubintoles2025conformal} (ICLR 2025), we give a split-conformal method that provides distribution-free guarantees for \emph{coherent factuality} of language-model reasoning by calibrating over subgraphs in a deducibility graph. In complementary work on conformal inference under covariate shift~\cite{wang2025conformal}, we analyze weighted conformal prediction under unbounded shifts, giving guarantees for weight clipping and data-driven undercoverage correction. These provide auditable uncertainty-quantification tools for LLM outputs, though they do not yet constitute end-to-end certificates for all generations, a goal I am actively pursuing.
+
+\section*{Thrust 3: Collaboration}
+
+\mainquestion{How can we design interaction protocols that make human--AI teams reliably outperform either alone?}
+
+\noindent\textit{Why this matters:} In high-stakes deployment, what we ultimately deploy is not a model in isolation, but a \emph{human--AI system}. Humans and models hold complementary information, but naive interfaces (e.g., exposing a prediction or confidence score) need not produce complementarity and can even be counterproductive~\cite{bansal2021does}. The central question is therefore protocol-level: can interaction reliably aggregate distributed information and improve outcomes?
+
+\noindent\textit{Why prior approaches fall short:} Much prior human--AI work is empirical and interface-driven, and it offers limited guidance on \emph{when} and \emph{what} type of interaction will improve outcomes. Indeed, teaming studies show that naive combinations often fail to outperform the stronger partner~\cite{peng2024no}, and can even be detrimental in realistic settings~\cite{becker2025measuring}. 
+
+My approach is a clean abstraction: \emph{collaborative prediction} with distributed information. The human and model observe different features of the same instance and must predict a shared outcome without sharing raw features, reflecting limited bandwidth, privacy constraints, and the difficulty of articulating expertise. My work connects this setting to the rich literature on agreement from economics where classical results suggest that exchanging predictions can drive consensus~\cite{aumann1976}. 
+
+\paragraph{How can exchanging predictions improve outcomes?}
+
+Classical agreement theorems are not directly applicable to human--AI teaming: they assume perfect Bayesian agents with a shared prior and common knowledge of rationality, whereas modern AI systems are black boxes and humans are not Bayes-optimal reasoners. My work makes agreement \emph{algorithmically actionable} by replacing these assumptions with tractable, empirically auditable conditions under which exchanging predictions provably improves outcomes.
+
+Our STOC 2025 paper~\cite{collina2025tractable} introduces \emph{conversation calibration}: predictions unbiased conditional on one's own and the interlocutor's most recent prediction. This involves only polynomially many conditioning events, enforceable via standard online calibration---a tractable relaxation of Bayesian rationality. Under this condition, parties reach $\epsilon$-agreement in $O(1/\epsilon^2\delta)$ rounds on a $1-\delta$ fraction of interactions, with agreed predictions \emph{more accurate} than either's initial prediction. Our efficient reduction converts any black-box model into a conversation-calibrated protocol, enabling deployment without redesigning existing systems.
+
+An important next question is when collaboration can achieve something stronger than ``agreeing'': \emph{full information aggregation}. In follow-up work~\cite{collina2025collaborative} (SODA 2026), we give a boosting-style theorem showing that under a natural weak-learning condition (informally: whenever the joint feature space offers a nontrivial advantage, at least one party has some advantage on its own), exchanging only predictions suffices to match the performance of a predictor trained on pooled data. In other words, under this condition, a low-bandwidth protocol can recover pooled-data performance without sharing raw data or model internals.
+
+\paragraph{Can alignment emerge from competition among misaligned systems?}
+The protocols above assume cooperative parties. But in practice, alignment is plural and contested: different AI providers may optimize for different policies, incentives, and value systems. Can protocol design help even when the AI is not fully aligned with the user?
+
+In~\cite{collina2025competition}, we show that \emph{emergent alignment via competition} is possible: even if no single model is well aligned, a \emph{marketplace} of differently misaligned models can collectively deliver aligned outcomes. Our key condition is geometric and becomes easier to satisfy as more diverse models become available: the user's utility is approximately representable as a convex combination of the models' utilities. Under this condition, strategic competition yields strong equilibrium guarantees for the user---in particular, the user can achieve utility comparable to interacting with a perfectly aligned model (and, in settings where perfect alignment attains first-best, competition recovers first-best in equilibrium). The practical implication is that diversity and competition can sometimes substitute for perfect single-model alignment. Ongoing work on \textbf{pluralistic alignment} asks how to extend such guarantees to populations of users with heterogeneous utilities.
+
+
+\section*{Future Directions: Towards Safe AI by Construction}
+
+Across my research program, I have developed predictive understanding of how modern models implement internal mechanisms and fail, designed learning algorithms with formal reliability guarantees under distribution shift (including abstention/certification), and built protocol-level foundations for human--AI collaboration and multi-model ecosystems. Safety becomes increasingly important as AI systems become more capable and autonomous; going forward, I will unify these threads toward my overall goal of \emph{safe AI by construction}.
+
+\vspace{-1.5ex}\paragraph{How do we move from diagnosis to principled interventions?} My diagnostic work identifies failure modes; the next step is \emph{fixing} them. This means designing training procedures and architectures that provably induce robust behavior, shifting from diagnosing shortcut learning to enforcing robust algorithms. More broadly, I aim to develop a science of \emph{controllable} AI: understanding which properties can be reliably instilled through training, and which require architectural or algorithmic guarantees.
+
+\vspace{-1.5ex}\paragraph{What does it mean to certify safety for agentic AI?} As AI systems move from single-turn queries to autonomous agents acting over extended horizons, safety challenges compound. Agents face distribution shift at every step; errors propagate and amplify; adversaries can exploit multi-turn interactions. My work on sequential certification and online learning with abstention provide foundations, but agentic AI requires new frameworks for \emph{safe exploration}, \emph{recoverable errors}, and \emph{runtime monitoring} with formal guarantees.
+
+\vspace{-1.5ex}\paragraph{How can we safely interact with imperfectly aligned systems?} Current alignment approaches assume we can make AI systems reliably pursue human objectives. But what if alignment is imperfect or adversarial? My collaboration work shows that interaction protocols can extract value even from imperfectly aligned systems. Extending this to handle deception, hidden objectives, and strategic manipulation---using tools from mechanism design and cryptography---could provide safety guarantees that don't depend on solving alignment completely.
+
+\vspace{-1.5ex}\paragraph{How do we validate these guarantees in high-stakes deployment?} Ultimately, safety research must be validated in practice. I am eager to collaborate with researchers in medicine to deploy reliability and collaboration frameworks in clinical decision support, measuring whether theoretical guarantees translate to patient outcomes. 
+
+\printbibliography[heading=subbibliography,title={My Publications},keyword=mypublication]
+
+\printbibliography[heading=subbibliography,title={Other Publications},keyword=otherpublication]
+
+\end{document}
