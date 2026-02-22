@@ -8,8 +8,8 @@ title: Research
 
 ### Preprints
 
-<!-- * **[Personalization Aids Pluralistic Alignment Under Competition]()**   -->
-  <!-- (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi   -->
+* **[Personalization Aids Pluralistic Alignment Under Competition](https://arxiv.org/abs/2602.13451)**  
+  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi   
 
 * **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
