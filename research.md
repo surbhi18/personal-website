@@ -11,6 +11,13 @@ title: Research
 * **[Personalization Aids Pluralistic Alignment Under Competition](https://arxiv.org/abs/2602.13451)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi   
 
+* **[Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds](https://arxiv.org/abs/2602.20111)**  
+  (α-β) Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
+  <!-- *Reliable ML Workshop, NeurIPS 2025* -->
+
+* **[Model Agreement via Anchoring](https://arxiv.org/abs/2602.23360)**  
+  (α-β) Eric Eaton, <span class="author-name">Surbhi Goel</span>, Marcel Hussing, Michael Kearns, Aaron Roth, Sikata Bela Sengupta, Jessica Sorrell  
+
 * **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
   <!-- *Algorithmic Collective Action Workshop, NeurIPS 2025* -->
@@ -18,10 +25,6 @@ title: Research
 * **[Why Do Transformers Fail to Forecast Time Series In-Context?](https://arxiv.org/html/2510.09776v1)**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
   *<span class="highlight-presentation">Spotlight presentation</span>, What Can('t) Transformers Do? Workshop, NeurIPS 2025*
-
-* **[Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds]()**  
-  Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
-  <!-- *Reliable ML Workshop, NeurIPS 2025* -->
 
 * **[Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts]()**  
   James Wang, <span class="author-name">Surbhi Goel</span>  
