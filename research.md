@@ -8,8 +8,13 @@ title: Research
 
 ### Preprints
 
+<!-- * **[Less Data, Faster Training: Sampling Bias from Small Dataset can Speed up Training]()**  
+Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu
+  *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026* -->
+
 * **[Personalization Aids Pluralistic Alignment Under Competition](https://arxiv.org/abs/2602.13451)**  
-  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi   
+  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi  
+  *<span class="highlight-presentation">Oral presentation</span>, Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026*
 
 * **[Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds](https://arxiv.org/abs/2602.20111)**  
   (α-β) Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
