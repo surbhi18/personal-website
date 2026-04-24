@@ -8,17 +8,17 @@ title: Research
 
 ### Preprints
 
-<!-- * **[Less Data, Faster Training: Sampling Bias from Small Dataset can Speed up Training]()**  
-Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu
-  *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026* -->
+* **[Less Data, Faster Training: repeating smaller datasets speeds up learning via sampling biases]()**  
+Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu  
+  *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026*
 
 * **[Personalization Aids Pluralistic Alignment Under Competition](https://arxiv.org/abs/2602.13451)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi  
-  *<span class="highlight-presentation">Oral presentation</span>, Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026*
+  *<span class="highlight-presentation">Best paper award</span>, Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026*
 
 * **[Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds](https://arxiv.org/abs/2602.20111)**  
   (α-β) Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
-  <!-- *Reliable ML Workshop, NeurIPS 2025* -->
+  *FORC 2026 (Highlight track)*
 
 * **[Model Agreement via Anchoring](https://arxiv.org/abs/2602.23360)**  
   (α-β) Eric Eaton, <span class="author-name">Surbhi Goel</span>, Marcel Hussing, Michael Kearns, Aaron Roth, Sikata Bela Sengupta, Jessica Sorrell  
