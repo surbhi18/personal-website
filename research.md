@@ -38,7 +38,7 @@ title: Research
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
    *ICML 2026*  
 
-* **[Less Data, Faster Training: repeating smaller datasets speeds up learning via sampling biases]()**  
+* **[Less Data, Faster Training: Repeating Smaller Datasets Speeds up Learning via Sampling Biases]()**  
 Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu  
   *ICML 2026*  
   *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026*
