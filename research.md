@@ -8,10 +8,6 @@ title: Research
 
 ### Preprints
 
-* **[Less Data, Faster Training: repeating smaller datasets speeds up learning via sampling biases]()**  
-Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu  
-  *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026*
-
 * **[Personalization Aids Pluralistic Alignment Under Competition](https://arxiv.org/abs/2602.13451)**  
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi  
   *<span class="highlight-presentation">Best paper award</span>, Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026*
@@ -23,9 +19,6 @@ Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin
 * **[Model Agreement via Anchoring](https://arxiv.org/abs/2602.23360)**  
   (α-β) Eric Eaton, <span class="author-name">Surbhi Goel</span>, Marcel Hussing, Michael Kearns, Aaron Roth, Sikata Bela Sengupta, Jessica Sorrell  
 
-* **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
-  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
-  <!-- *Algorithmic Collective Action Workshop, NeurIPS 2025* -->
 
 * **[Why Do Transformers Fail to Forecast Time Series In-Context?](https://arxiv.org/html/2510.09776v1)**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
@@ -36,9 +29,23 @@ Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin
 
 * **[Testing Noise Assumptions of Learning Algorithms](https://arxiv.org/abs/2501.09189)**  
   (α-β) <span class="author-name">Surbhi Goel</span>, Adam R. Klivans, Konstantinos Stavropoulos, Arsen Vasilyan  
-  *<span class="highlight-presentation">Best paper award</span>, Reliable ML Workshop, NeurIPS 2025*
+  *<span class="highlight-presentation">Best paper award</span>, Reliable ML Workshop, NeurIPS 2025*  
+
   
 ### Conference Papers
+
+* **[Emergent Alignment via Competition](https://arxiv.org/abs/2509.15090)**  
+  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
+   *ICML 2026*  
+
+* **[Less Data, Faster Training: repeating smaller datasets speeds up learning via sampling biases]()**  
+Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu  
+  *ICML 2026*  
+  *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026*
+
+* **[Is Code Better than Language for Algorithmic Reasoning?]()**  
+  Terry Tong, Yu Feng, <span class="author-name">Surbhi Goel</span>, Dan Roth  
+  *ICML 2026*  
 
 * **[In Good GRACES: Principled Teacher Selection for Knowledge Distillation](https://arxiv.org/abs/2511.02833)**  
   Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham M. Kakade, <span class="author-name">Surbhi Goel</span>  
@@ -63,7 +70,7 @@ Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin
   *STOC 2025*  
   <!-- *Pluralistic Alignment Workshop, NeurIPS 2024* -->
 
-* **[Conformal Language Model Reasoning with Coherent Factuality]()**  
+* **[Conformal Language Model Reasoning with Coherent Factuality](https://arxiv.org/abs/2505.17126)**  
   Maxon Rubin-Toles, Maya Gambhir, Keshav Ramji, Aaron Roth, <span class="author-name">Surbhi Goel</span>  
   *ICLR 2025*   
   <!-- *Statistical Foundations of LLMs and Foundation Models Workshop, NeurIPS 2024* -->
