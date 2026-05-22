@@ -8,20 +8,25 @@ title: Research
 
 ### Preprints
 
+* **[Learning When to Stop: Selective Imitation Learning Under Arbitrary Dynamics Shift](https://arxiv.org/abs/2605.09183)**  
+  (α-β) <span class="author-name">Surbhi Goel</span>, Jonathan Pei, James Wang   
+
+* **[Narrowing the Collaboration Gap, Probably]()**  
+  Mirah Shi, Marcel Hussing, Natalie Collina, Ira Globus-Harris, Aaron Roth,  <span class="author-name">Surbhi Goel</span> 
+
 * **[Personalization Aids Pluralistic Alignment Under Competition](https://arxiv.org/abs/2602.13451)**  
-  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, and Mirah Shi  
+  (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Mirah Shi  
   *<span class="highlight-presentation">Best paper award</span>, Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026*
 
 * **[Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds](https://arxiv.org/abs/2602.20111)**  
   (α-β) Ezra Edelman, <span class="author-name">Surbhi Goel</span>   
   *FORC 2026 (Highlight track)*
 
-
 * **[Why Do Transformers Fail to Forecast Time Series In-Context?](https://arxiv.org/html/2510.09776v1)**  
   Yufa Zhou, Yixiao Wang, <span class="author-name">Surbhi Goel</span>, Anru Zhang  
   *<span class="highlight-presentation">Spotlight presentation</span>, What Can('t) Transformers Do? Workshop, NeurIPS 2025*
 
-* **[Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts]()**  
+* **[Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts](https://arxiv.org/abs/2605.02072)**  
   James Wang, <span class="author-name">Surbhi Goel</span>   
 
   
@@ -40,7 +45,7 @@ title: Research
   (α-β) Natalie Collina, <span class="author-name">Surbhi Goel</span>, Aaron Roth, Emily Ryu, and Mirah Shi  
    *ICML 2026*  
 
-* **[Less Data, Faster Training: Repeating Smaller Datasets Speeds up Learning via Sampling Biases]()**  
+* **[Less Data, Faster Training: Repeating Smaller Datasets Speeds up Learning via Sampling Biases](https://arxiv.org/abs/2605.20314v1)**  
 Jingwen Liu, Ezra Edelman, <span class="author-name">Surbhi Goel</span>, Bingbin Liu  
   *ICML 2026*  
   *<span class="highlight-presentation">Contributed talk</span>, Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026*

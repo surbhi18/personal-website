@@ -18,7 +18,6 @@ title: Group
 <!-- ### Masters Student(s) -->
 
 ### Undergraduate Students  
-* [Maya Gambhir](https://mayapalgambhir.com/), joining Princeton as a PhD student in Fall 2026, also the *recipient of the 2026 Wolf- Hallac Award*
 * [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
 * [James Wang](https://www.linkedin.com/in/jwang541), joining Columbia as a PhD student in Fall 2026
 
@@ -39,6 +38,7 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 * [Yufa Zhou](https://masterzhou1.github.io/), now a PhD student at Duke
 
 ### Undergraduate Students
+* [Maya Gambhir](https://mayapalgambhir.com/), joining Princeton as a PhD student in Fall 2026, also the *recipient of the 2026 Wolf- Hallac Award*
 * [Terry Tong](https://terrytong-git.github.io/), joining Columbia as a PhD student in Fall 2026 supported by *NSF GRFP*
 * [Aaron Mei](https://www.linkedin.com/in/aaron-mei-513b73a2)
 * [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
