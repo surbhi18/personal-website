@@ -1,0 +1,5 @@
+{%- comment -%}Renders one publication as a <li>. Usage: {% include publication.html pub=pub %}{%- endcomment -%}
+<li><p><strong>{% if include.pub.url and include.pub.url != "" %}<a href="{{ include.pub.url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}</strong><br />
+{% if include.pub.alpha_beta %}(α-β) {% endif %}{% for author in include.pub.authors %}{% if author == "Surbhi Goel" %}<span class="author-name">Surbhi Goel</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if include.pub.venue %}<br />
+<em>{{ include.pub.venue }}</em>{% endif %}{% for h in include.pub.highlights %}<br />
+<em>{% if h.badge %}<span class="highlight-presentation">{{ h.badge }}</span>{% endif %}{{ h.context }}</em>{% endfor %}</p></li>

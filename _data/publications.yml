@@ -1,0 +1,350 @@
+# Publications data, rendered by _includes/publication.html via a loop in research.md.
+#
+# Per-entry schema:
+#   title:       (required) paper title
+#   url:         link target; omit or leave "" for no link
+#   authors:     (required) ordered list of author names.
+#                Any author exactly equal to "Surbhi Goel" is auto-highlighted.
+#   alpha_beta:  true to prepend the "(α-β)" alphabetical-ordering note
+#   venue:       published venue, e.g. "COLT 2026" (italic line; optional)
+#   highlights:  optional list of recognitions, each an italic line:
+#                  - badge:   text shown in the orange highlight style (optional)
+#                    context: trailing plain text, e.g. ", NeurIPS 2025 Workshop"
+#
+# Sections (preprints / conference / reports) map to the headings in research.md.
+# To migrate the remaining sections, add entries under `conference` and `reports`
+# following the same schema, then replace those sections in research.md with the
+# same loop used for preprints.
+
+preprints:
+  - title: "Learning When to Stop: Selective Imitation Learning Under Arbitrary Dynamics Shift"
+    url: "https://arxiv.org/abs/2605.09183"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Jonathan Pei", "James Wang"]
+
+  - title: "Narrowing the Collaboration Gap, Probably"
+    url: ""
+    authors: ["Mirah Shi", "Marcel Hussing", "Natalie Collina", "Ira Globus-Harris", "Aaron Roth", "Surbhi Goel"]
+
+  - title: "Personalization Aids Pluralistic Alignment Under Competition"
+    url: "https://arxiv.org/abs/2602.13451"
+    alpha_beta: true
+    authors: ["Natalie Collina", "Surbhi Goel", "Aaron Roth", "Mirah Shi"]
+    highlights:
+      - badge: "Best paper award"
+        context: ", Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026"
+
+  - title: "Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds"
+    url: "https://arxiv.org/abs/2602.20111"
+    alpha_beta: true
+    authors: ["Ezra Edelman", "Surbhi Goel"]
+    venue: "FORC 2026 (Highlight track)"
+
+  - title: "Why Do Transformers Fail to Forecast Time Series In-Context?"
+    url: "https://arxiv.org/html/2510.09776v1"
+    authors: ["Yufa Zhou", "Yixiao Wang", "Surbhi Goel", "Anru Zhang"]
+    highlights:
+      - badge: "Spotlight presentation"
+        context: ", What Can('t) Transformers Do? Workshop, NeurIPS 2025"
+
+  - title: "Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts"
+    url: "https://arxiv.org/abs/2605.02072"
+    authors: ["James Wang", "Surbhi Goel"]
+
+conference:
+  - title: "Testing Noise Assumptions of Learning Algorithms"
+    url: "https://arxiv.org/abs/2501.09189"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Adam R. Klivans", "Konstantinos Stavropoulos", "Arsen Vasilyan"]
+    venue: "COLT 2026"
+    highlights:
+      - badge: "Best paper award"
+        context: ", Reliable ML Workshop, NeurIPS 2025"
+
+  - title: "Model Agreement via Anchoring"
+    url: "https://arxiv.org/abs/2602.23360"
+    alpha_beta: true
+    authors: ["Eric Eaton", "Surbhi Goel", "Marcel Hussing", "Michael Kearns", "Aaron Roth", "Sikata Bela Sengupta", "Jessica Sorrell"]
+    venue: "COLT 2026"
+
+  - title: "Emergent Alignment via Competition"
+    url: "https://arxiv.org/abs/2509.15090"
+    alpha_beta: true
+    authors: ["Natalie Collina", "Surbhi Goel", "Aaron Roth", "Emily Ryu", "Mirah Shi"]
+    venue: "ICML 2026"
+
+  - title: "Less Data, Faster Training: Repeating Smaller Datasets Speeds up Learning via Sampling Biases"
+    url: "https://arxiv.org/abs/2605.20314v1"
+    authors: ["Jingwen Liu", "Ezra Edelman", "Surbhi Goel", "Bingbin Liu"]
+    venue: "ICML 2026"
+    highlights:
+      - badge: "Contributed talk"
+        context: ", Workshop on Scientific Methods for Understanding Deep Learning, ICLR 2026"
+
+  - title: "Is Code Better than Language for Algorithmic Reasoning?"
+    url: ""
+    authors: ["Terry Tong", "Yu Feng", "Surbhi Goel", "Dan Roth"]
+    venue: "ICML 2026"
+
+  - title: "In Good GRACES: Principled Teacher Selection for Knowledge Distillation"
+    url: "https://arxiv.org/abs/2511.02833"
+    authors: ["Abhishek Panigrahi", "Bingbin Liu", "Sadhika Malladi", "Sham M. Kakade", "Surbhi Goel"]
+    venue: "ICLR 2026"
+
+  - title: "Collaborative Prediction: Tractable Information Aggregation via Agreement"
+    url: "https://arxiv.org/abs/2504.06075"
+    alpha_beta: true
+    authors: ["Natalie Collina", "Ira Globus-Harris", "Surbhi Goel", "Varun Gupta", "Aaron Roth", "Mirah Shi"]
+    venue: "SODA 2026"
+    highlights:
+      - badge: "Spotlight presentation"
+        context: ", EC 2025 Workshop on Human-AI Collaboration"
+      - badge: "Spotlight presentation"
+        context: ", 2025 TTIC Workshop on Incentives for Collaborative Learning and Data Sharing"
+
+  - title: "Probabilistic Stability Guarantees for Feature Attributions"
+    url: "https://www.arxiv.org/abs/2504.13787"
+    authors: ["Helen Jin", "Anton Xue", "Weiqiu You", "Surbhi Goel", "Eric Wong"]
+    venue: "NeurIPS 2025"
+
+  - title: "A Theory of Learning with Autoregressive Chain of Thought"
+    url: "https://arxiv.org/abs/2503.07932"
+    authors: ["Nirmit Joshi", "Gal Vardi", "Adam Block", "Surbhi Goel", "Zhiyuan Li", "Theodor Misiakiewicz", "Nathan Srebro"]
+    venue: "COLT 2025"
+
+  - title: "Tractable Agreement Protocols"
+    url: "https://arxiv.org/abs/2411.19791"
+    alpha_beta: true
+    authors: ["Natalie Collina", "Surbhi Goel", "Varun Gupta", "Aaron Roth"]
+    venue: "STOC 2025"
+
+  - title: "Conformal Language Model Reasoning with Coherent Factuality"
+    url: "https://arxiv.org/abs/2505.17126"
+    authors: ["Maxon Rubin-Toles", "Maya Gambhir", "Keshav Ramji", "Aaron Roth", "Surbhi Goel"]
+    venue: "ICLR 2025"
+
+  - title: "Progressive Distillation Induces an Implicit Curriculum"
+    url: "https://arxiv.org/abs/2410.05464"
+    authors: ["Abhishek Panigrahy", "Bingbin Liu", "Sadhika Malladi", "Andrej Risteski", "Surbhi Goel"]
+    highlights:
+      - badge: "Oral presentation"
+        context: ", ICLR 2025"
+
+  - title: "Logicbreaks: A Framework for Understanding Subversion of Rule-based Inference"
+    url: "https://arxiv.org/abs/2407.00075"
+    authors: ["Anton Xue", "Avishree Khare", "Rajeev Alur", "Surbhi Goel", "Eric Wong"]
+    venue: "ICLR 2025"
+
+  - title: "The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains"
+    url: "https://arxiv.org/abs/2402.11004"
+    authors: ["Ezra Edelman", "Nikolaos Tsilivis", "Benjamin L. Edelman", "Eran Malach", "Surbhi Goel"]
+    venue: "NeurIPS 2024"
+
+  - title: "Tolerant Algorithms for Learning with Arbitrary Covariate Shift"
+    url: "https://arxiv.org/abs/2406.02742"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Abhishek Shetty", "Konstantinos Stavropoulos", "Arsen Vasilyan"]
+    highlights:
+      - badge: "Spotlight presentation"
+        context: ", NeurIPS 2024"
+
+  - title: "Complexity Matters: Feature Learning in the Presence of Spurious Correlations"
+    url: "https://arxiv.org/abs/2403.03375"
+    authors: ["GuanWen Qiu", "Da Kuang", "Surbhi Goel"]
+    venue: "ICML 2024"
+
+  - title: "Stochastic Bandits with ReLU Neural Networks"
+    url: "https://arxiv.org/abs/2405.07331"
+    authors: ["Kan Xu", "Hamsa Bastani", "Surbhi Goel", "Osbert Bastani"]
+    venue: "ICML 2024"
+
+  - title: "Adversarial Resilience in Sequential Prediction via Abstention"
+    url: "https://arxiv.org/abs/2306.13119"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Steve Hanneke", "Shay Moran", "Abhishek Shetty"]
+    venue: "NeurIPS 2023"
+
+  - title: "Pareto Frontiers in Neural Feature Learning: Data, Compute, Width, and Luck"
+    url: "https://arxiv.org/abs/2309.03800"
+    alpha_beta: true
+    authors: ["Benjamin L. Edelman", "Surbhi Goel", "Sham M. Kakade", "Eran Malach", "Cyril Zhang"]
+    highlights:
+      - badge: "Spotlight presentation"
+        context: ", NeurIPS 2023"
+
+  - title: "Exposing Attention Glitches with Flip-Flop Language Modeling"
+    url: "https://arxiv.org/abs/2306.00946"
+    authors: ["Bingbin Liu", "Jordan T. Ash", "Surbhi Goel", "Akshay Krishnamurthy", "Cyril Zhang"]
+    highlights:
+      - badge: "Spotlight presentation"
+        context: ", NeurIPS 2023"
+
+  - title: "Learning Narrow One-Hidden-Layer ReLU Networks"
+    url: "https://arxiv.org/abs/2304.10524"
+    alpha_beta: true
+    authors: ["Sitan Chen", "Zehao Dou", "Surbhi Goel", "Adam R. Klivans", "Raghu Meka"]
+    venue: "COLT 2023"
+
+  - title: "Transformers Learn Shortcuts to Automata"
+    url: "https://arxiv.org/abs/2210.10749"
+    authors: ["Bingbin Liu", "Jordan T. Ash", "Surbhi Goel", "Akshay Krishnamurthy", "Cyril Zhang"]
+    highlights:
+      - badge: "Notable top-5% paper"
+        context: ", ICLR 2023"
+
+  - title: "Recurrent Convolutional Neural Networks Learn Succinct Learning Algorithms"
+    url: "https://arxiv.org/abs/2209.00735"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Sham M. Kakade", "Adam T. Kalai", "Cyril Zhang"]
+    venue: "NeurIPS 2022"
+
+  - title: "Hidden Progress in Deep Learning: SGD Learns Parities Near the Computational Limit"
+    url: "https://arxiv.org/abs/2207.08799"
+    alpha_beta: true
+    authors: ["Boaz Barak", "Benjamin L. Edelman", "Surbhi Goel", "Sham M. Kakade", "Eran Malach", "Cyril Zhang"]
+    venue: "NeurIPS 2022"
+
+  - title: "Inductive Biases and Variable Creation in Self-Attention Mechanisms"
+    url: "https://arxiv.org/abs/2110.10090"
+    alpha_beta: true
+    authors: ["Benjamin L. Edelman", "Surbhi Goel", "Sham M. Kakade", "Cyril Zhang"]
+    venue: "ICML 2022"
+
+  - title: "Understanding Contrastive Learning Requires Incorporating Inductive Biases"
+    url: "https://arxiv.org/abs/2202.14037"
+    authors: ["Nikunj Saunshi", "Jordan T. Ash", "Surbhi Goel", "Dipendra Misra", "Cyril Zhang", "Sanjeev Arora", "Sham M. Kakade", "Akshay Krishnamurthy"]
+    venue: "ICML 2022"
+
+  - title: "Anti-Concentrated Confidence Bonuses For Scalable Exploration"
+    url: "https://arxiv.org/abs/2110.11202"
+    authors: ["Jordan T. Ash", "Cyril Zhang", "Surbhi Goel", "Akshay Krishnamurthy", "Sham M. Kakade"]
+    venue: "ICLR 2022"
+
+  - title: "Investigating the Role of Negatives in Contrastive Representation Learning"
+    url: "https://arxiv.org/abs/2106.09943"
+    alpha_beta: true
+    authors: ["Jordan T. Ash", "Surbhi Goel", "Akshay Krishnamurthy", "Dipendra Misra"]
+    venue: "AISTATS 2022"
+
+  - title: "Gone Fishing: Neural Active Learning with Fisher Embeddings"
+    url: "https://arxiv.org/abs/2106.09675"
+    authors: ["Jordan T. Ash", "Surbhi Goel", "Akshay Krishnamurthy", "Sham M. Kakade"]
+    venue: "NeurIPS 2021"
+
+  - title: "Acceleration via Fractal Learning Rate Schedules"
+    url: "https://arxiv.org/abs/2103.01338"
+    alpha_beta: true
+    authors: ["Naman Agarwal", "Surbhi Goel", "Cyril Zhang"]
+    venue: "ICML 2021"
+
+  - title: "Statistical Estimation from Dependent Data"
+    url: "https://arxiv.org/abs/2107.09773"
+    authors: ["Anthimos-Vardis Kandiros", "Yuval Dagan", "Nishanth Dikkala", "Surbhi Goel", "Constantinos Daskalakis"]
+    venue: "ICML 2021"
+
+  - title: "Tight Hardness Results for Learning One-Layer ReLU Networks"
+    url: "https://arxiv.org/abs/2011.13550"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Adam R. Klivans", "Pasin Manurangsi", "Daniel Reichman"]
+    venue: "ITCS 2021"
+
+  - title: "From Boltzmann Machines to Neural Networks and Back Again"
+    url: "https://arxiv.org/abs/2007.12815"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Adam R. Klivans", "Frederic Koehler"]
+    venue: "NeurIPS 2020"
+
+  - title: "Statistical-Query Lower Bounds via Functional Gradients"
+    url: "https://arxiv.org/abs/2006.15812"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Aravind Gollakota", "Adam R. Klivans"]
+    venue: "NeurIPS 2020"
+
+  - title: "Superpolynomial Lower Bounds for Learning One-Layer Neural Networks using Gradient Descent"
+    url: "https://arxiv.org/abs/2006.12011"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Aravind Gollakota", "Zhihan Jin", "Sushrut Karmalkar", "Adam R. Klivans"]
+    venue: "ICML 2020"
+
+  - title: "Efficiently Learning Adversarially Robust Halfspaces with Noise"
+    url: "https://arxiv.org/abs/2005.07652"
+    authors: ["Omar Montasser", "Surbhi Goel", "Ilias Diakonikolas", "Nathan Srebro"]
+    venue: "ICML 2020"
+
+  - title: "Learning Mixtures of Graphs from Epidemic Cascades"
+    url: "https://arxiv.org/abs/1906.06057"
+    authors: ["Jessica Hoffmann", "Soumya Basu", "Surbhi Goel", "Constantine Caramanis"]
+    venue: "ICML 2020"
+
+  - title: "Approximation Schemes for ReLU Regression"
+    url: "https://arxiv.org/abs/2005.12844"
+    alpha_beta: true
+    authors: ["Ilias Diakonikolas", "Surbhi Goel", "Sushrut Karmalkar", "Adam R. Klivans", "Mahdi Soltanolkotabi"]
+    venue: "COLT 2020"
+
+  - title: "Learning Ising and Potts Models with Latent Variables"
+    url: "https://arxiv.org/abs/1906.06595"
+    authors: ["Surbhi Goel"]
+    venue: "AISTATS 2020"
+
+  - title: "Time/Accuracy Trade-offs for Learning a ReLU with respect to Gaussian Marginals"
+    url: "https://arxiv.org/abs/1911.01462"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Sushrut Karmalkar", "Adam R. Klivans"]
+    highlights:
+      - badge: "Spotlight presentation"
+        context: ", NeurIPS 2019"
+
+  - title: "Learning Ising Models with Independent Failures"
+    url: "https://arxiv.org/abs/1902.04728"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Daniel Kane", "Adam R. Klivans"]
+    venue: "COLT 2019"
+
+  - title: "Learning Neural Networks with Two Nonlinear Layers in Polynomial Time"
+    url: "https://arxiv.org/abs/1709.06010"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Adam R. Klivans"]
+    venue: "COLT 2019"
+
+  - title: "Learning One Convolutional Layer with Overlapping Patches"
+    url: "https://arxiv.org/abs/1802.02547"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Adam R. Klivans", "Raghu Meka"]
+    highlights:
+      - badge: "Oral presentation"
+        context: ", ICML 2018"
+
+  - title: "Eigenvalue Decay Implies Polynomial-Time Learnability for Neural Networks"
+    url: "https://arxiv.org/pdf/1708.03708"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Adam R. Klivans"]
+    venue: "NeurIPS 2017"
+
+  - title: "Reliably Learning the ReLU in Polynomial Time"
+    url: "https://arxiv.org/pdf/1611.10258"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Varun Kanade", "Adam R. Klivans", "Justin Thaler"]
+    venue: "COLT 2017"
+    highlights:
+      - badge: "Oral presentation"
+        context: ", Optimization for Machine Learning (OPT-ML) Workshop, NeurIPS 2016"
+
+reports:
+  - title: "Encoding Structural Symmetry is Key for Length Generalization in Arithmetic Tasks"
+    url: "https://arxiv.org/abs/2406.01895"
+    authors: ["Mahdi Sabbaghi", "George J. Pappas", "Hamed Hassani", "Surbhi Goel"]
+
+  - title: "Recovering the Lowest Layer of Deep Networks with High Threshold Activations"
+    url: "https://arxiv.org/abs/1903.09231"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Rina Panigrahy"]
+
+  - title: "Quantifying Perceptual Distortion of Adversarial Examples"
+    url: "https://arxiv.org/abs/1902.08265"
+    authors: ["Matthew Jordan", "Naren Manoj", "Surbhi Goel", "Alexandros Dimakis"]
+
+  - title: "Improved Learning of One-hidden-layer Convolutional Neural Networks with Overlaps"
+    url: "https://arxiv.org/abs/1805.07798"
+    alpha_beta: true
+    authors: ["Simon Du", "Surbhi Goel"]

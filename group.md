@@ -3,11 +3,49 @@ layout: default
 title: Group
 ---
 
-<div class="photo-gallery">
-    <div class="photo-item">
+<div class="photo-gallery" data-carousel>
+    <div class="photo-item is-active" data-carousel-slide>
         <img src="/assets/img/flash_back.jpg" alt="Group photo from an escape room">
     </div>
+    <div class="photo-item" data-carousel-slide>
+        <img src="/assets/img/1000066157.jpg" alt="Group photo outdoors">
+    </div>
+    <button class="carousel-button carousel-button-prev" type="button" aria-label="Show previous photo" data-carousel-prev>&#8249;</button>
+    <button class="carousel-button carousel-button-next" type="button" aria-label="Show next photo" data-carousel-next>&#8250;</button>
+    <div class="carousel-dots" aria-label="Choose group photo">
+        <button class="carousel-dot is-active" type="button" aria-label="Show photo 1" data-carousel-dot></button>
+        <button class="carousel-dot" type="button" aria-label="Show photo 2" data-carousel-dot></button>
+    </div>
 </div>
+
+<script>
+    document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+        const slides = Array.from(carousel.querySelectorAll('[data-carousel-slide]'));
+        const dots = Array.from(carousel.querySelectorAll('[data-carousel-dot]'));
+        const previousButton = carousel.querySelector('[data-carousel-prev]');
+        const nextButton = carousel.querySelector('[data-carousel-next]');
+        let currentSlide = 0;
+
+        const showSlide = (index) => {
+            currentSlide = (index + slides.length) % slides.length;
+
+            slides.forEach((slide, slideIndex) => {
+                slide.classList.toggle('is-active', slideIndex === currentSlide);
+            });
+
+            dots.forEach((dot, dotIndex) => {
+                dot.classList.toggle('is-active', dotIndex === currentSlide);
+            });
+        };
+
+        previousButton.addEventListener('click', () => showSlide(currentSlide - 1));
+        nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+
+        dots.forEach((dot, dotIndex) => {
+            dot.addEventListener('click', () => showSlide(dotIndex));
+        });
+    });
+</script>
 
 ## Current Students
 ### PhD Students
@@ -18,7 +56,8 @@ title: Group
 <!-- ### Masters Student(s) -->
 
 ### Undergraduate Students  
-* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei)
+* [Megan Mann](https://www.linkedin.com/in/megan-mann23), REU'26
+* [Jonathan Pei](https://www.linkedin.com/in/jonathanpei), REU'26
 * [James Wang](https://www.linkedin.com/in/jwang541), joining Columbia as a PhD student in Fall 2026
 
 ### Visiting Student(s)
