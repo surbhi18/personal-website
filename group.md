@@ -10,11 +10,15 @@ title: Group
     <div class="photo-item" data-carousel-slide>
         <img src="/assets/img/1000066157.jpg" alt="Group photo outdoors">
     </div>
+    <div class="photo-item" data-carousel-slide>
+        <img src="/assets/img/1000069095.jpg" alt="Group photo indoors">
+    </div>
     <button class="carousel-button carousel-button-prev" type="button" aria-label="Show previous photo" data-carousel-prev>&#8249;</button>
     <button class="carousel-button carousel-button-next" type="button" aria-label="Show next photo" data-carousel-next>&#8250;</button>
     <div class="carousel-dots" aria-label="Choose group photo">
         <button class="carousel-dot is-active" type="button" aria-label="Show photo 1" data-carousel-dot></button>
         <button class="carousel-dot" type="button" aria-label="Show photo 2" data-carousel-dot></button>
+        <button class="carousel-dot" type="button" aria-label="Show photo 3" data-carousel-dot></button>
     </div>
 </div>
 
@@ -67,7 +71,7 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 
 ## Alumni
 
-### Visiting Students
+### Visiting Student(s)
 * [Jingwen Liu](https://ljw0105.github.io/), PhD student at Columbia
 
 ### Masters Students
