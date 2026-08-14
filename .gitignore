@@ -7,3 +7,11 @@ public/
 jsconfig.json
 node_modules/
 _site/
+
+# CIS 6200 LaTeX artifacts (the configured build writes to tmp/pdfs instead)
+/course-materials/cis6200/master.pdf
+/course-materials/cis6200/master.xdv
+/course-materials/cis6200/master-blx.bib
+/course-materials/*
+/output/*
+/tmp/*
