@@ -619,7 +619,7 @@ button {
    CIS 6200 course page
    ========================================================= */
 .course-page {
-  --course-board: #20362f;
+  --course-board: #011f5b;
   --course-board-line: rgba(242, 238, 227, 0.22);
   --course-chalk: #f2eee3;
   --course-chalk-dim: rgba(242, 238, 227, 0.68);
@@ -834,7 +834,7 @@ button {
 }
 
 /* Course prose. */
-.course-main h2 {
+.course-main > h2 {
   position: relative;
   margin-top: 3.2rem;
   margin-bottom: 0.9rem;
@@ -844,7 +844,7 @@ button {
   line-height: 1.25;
 }
 
-.course-main h2::before {
+.course-main > h2::before {
   position: absolute;
   top: 0;
   left: 1.25rem;
@@ -854,45 +854,66 @@ button {
   content: "";
 }
 
-.course-main h3 {
+.course-main > h3 {
   margin-top: 2rem;
   margin-bottom: 0.6rem;
   font-size: 1.12rem;
   font-weight: 600;
 }
 
-.course-main p {
+.course-main > p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.course-page a {
+.course-main > p a,
+.course-main > ol a,
+.course-main > ul a,
+.course-main > table a,
+.course-footer a {
   color: var(--course-accent);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
 
-.course-page a:hover {
+.course-main > p a:hover,
+.course-main > ol a:hover,
+.course-main > ul a:hover,
+.course-main > table a:hover,
+.course-footer a:hover {
   text-decoration-thickness: 2px;
 }
 
-.course-main ol {
+.course-main > ol {
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
+  padding-left: 1.4rem;
+  list-style: decimal;
+}
+
+.course-main > ol > li {
+  margin: 0 0 1.15rem;
+  padding-left: 0.2rem;
+}
+
+.course-main > ol > li strong {
+  font-weight: 700;
+}
+
+.course-main > #topics + ol {
   padding-left: 0;
   list-style: none;
   counter-reset: topic;
 }
 
-.course-main ol > li {
+.course-main > #topics + ol > li {
   position: relative;
-  margin: 0 0 1.15rem;
   padding-left: 2.4rem;
   counter-increment: topic;
 }
 
-.course-main ol > li::before {
+.course-main > #topics + ol > li::before {
   position: absolute;
   top: 0.18em;
   left: 0;
@@ -909,28 +930,56 @@ button {
   content: counter(topic);
 }
 
-.course-main ol > li strong {
+.course-main > #topics + ol > li strong {
   font-weight: 700;
 }
 
-.course-main ul {
+.course-main > ul,
+.course-main li > ul {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-left: 1.25rem;
 }
 
-.course-main ul li {
+.course-main > ul li,
+.course-main li > ul li {
   margin: 0.35rem 0;
 }
 
-/* Dates now, schedule later. */
-.course-main table {
+.course-schedule {
+  margin: 1.2rem auto 1.4rem;
+  border-top: 2px solid var(--course-ink);
+  font-size: 0.98rem;
+}
+
+.course-schedule-row {
+  display: grid;
+  grid-template-columns: minmax(11rem, 0.42fr) 1fr;
+  gap: 1.2rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--course-rule);
+}
+
+.course-schedule-date {
+  color: var(--course-muted);
+  font-family: var(--course-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.course-schedule-item {
+  line-height: 1.45;
+}
+
+.course-main > table {
   width: 100%;
   margin: 1.2rem 0 1.4rem;
   border-collapse: collapse;
   font-size: 0.98rem;
 }
 
-.course-main th {
+.course-main > table th {
   padding: 0 0.9rem 0.5rem 0;
   border-bottom: 2px solid var(--course-ink);
   color: var(--course-muted);
@@ -942,14 +991,14 @@ button {
   text-transform: uppercase;
 }
 
-.course-main td {
+.course-main > table td {
   padding: 0.55rem 0.9rem 0.55rem 0;
   border-bottom: 1px solid var(--course-rule);
   vertical-align: top;
 }
 
-.course-main td:first-child,
-.course-main th:first-child {
+.course-main > table td:first-child,
+.course-main > table th:first-child {
   white-space: nowrap;
 }
 
@@ -967,8 +1016,13 @@ button {
 }
 
 @media (max-width: 480px) {
-  .course-main td:first-child,
-  .course-main th:first-child {
+  .course-schedule-row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .course-main > table td:first-child,
+  .course-main > table th:first-child {
     white-space: normal;
   }
 }
