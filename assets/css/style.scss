@@ -627,9 +627,9 @@ button {
   --course-accent: #153567;
   --course-serif: "STIX Two Text", "Times New Roman", Georgia, serif;
   --course-sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
-  --course-col: 44rem;
-  --course-band-col: 52rem;
-  --course-band-pad: max(1.25rem, calc((100% - var(--course-band-col)) / 2));
+  --course-col: 50rem;
+  --course-gutter: 1.25rem;
+  --course-band-pad: max(var(--course-gutter), calc((100% - var(--course-col)) / 2));
 
   margin: 0;
   padding: 0;
@@ -693,11 +693,11 @@ button {
 }
 
 .course-main > * {
-  max-width: var(--course-col);
+  max-width: calc(var(--course-col) + (2 * var(--course-gutter)));
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: var(--course-gutter);
+  padding-right: var(--course-gutter);
 }
 
 .course-main > .course-hero,
@@ -758,8 +758,8 @@ button {
 
 .course-info-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 1.2rem 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem 2rem;
   margin: 0;
   padding-top: 1.35rem;
   padding-bottom: 2.1rem;
@@ -945,14 +945,29 @@ button {
 
 .course-main > ul,
 .course-main li > ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding-left: 1.25rem;
+  margin-top: 0.65rem;
+  margin-bottom: 1.25rem;
+  padding-left: 0;
+  list-style: none;
 }
 
-.course-main > ul li,
-.course-main li > ul li {
-  margin: 0.35rem 0;
+.course-main > ul > li,
+.course-main li > ul > li {
+  position: relative;
+  margin: 0.45rem 0;
+  padding-left: 1.15rem;
+}
+
+.course-main > ul > li::before,
+.course-main li > ul > li::before {
+  position: absolute;
+  top: 0.78em;
+  left: 0;
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 50%;
+  background: var(--course-accent);
+  content: "";
 }
 
 .course-schedule {
