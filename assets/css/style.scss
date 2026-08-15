@@ -790,6 +790,16 @@ button {
   line-height: 1.4;
 }
 
+.course-info-grid a {
+  color: var(--course-chalk);
+  text-decoration: none;
+}
+
+.course-info-grid a:hover,
+.course-info-grid a:focus-visible {
+  text-decoration: underline;
+}
+
 /* Section navigation. */
 .course-nav {
   position: sticky;
