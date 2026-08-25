@@ -87,11 +87,11 @@ I am also fortunate to collaborate with several PhD students at Penn (and other 
 
 ### Undergraduate Students
 * [Maya Gambhir](https://mayapalgambhir.com/), joining Princeton as a PhD student in Fall 2026, also the *recipient of the 2026 Wolf- Hallac Award*
-* [Terry Tong](https://terrytong-git.github.io/), joining Columbia as a PhD student in Fall 2026 supported by *NSF GRFP*
 * [Aaron Mei](https://www.linkedin.com/in/aaron-mei-513b73a2)
 * [Alyssa Nie](https://www.linkedin.com/in/alyssanie)
 * [Keshav Ramji](https://www.keshavramji.com/), now a researcher at IBM Research
 * [Maxon Rubin-Toles](https://www.linkedin.com/in/max-rubin-toles), now a PhD student at Harvard supported by *NSF GRFP*, also the recipient of the *2025 Computer Science Academic Award*
+* [Terry Tong](https://terrytong-git.github.io/), joining Columbia as a PhD student in Fall 2026 supported by *NSF GRFP*
 
 ### Interns at Microsoft Research (co-mentored)
 * [Ben L. Edelman](https://benjaminedelman.com/), now a TechCongress AI Safety Fellow at the US AI Safety Institute  
