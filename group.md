@@ -13,6 +13,9 @@ title: Group
     <div class="photo-item" data-carousel-slide>
         <img src="/assets/img/1000069095.jpg" alt="Group photo indoors">
     </div>
+    <div class="photo-item" data-carousel-slide>
+        <img src="/assets/img/IMG_0958.png" alt="Group photo restaurant">
+    </div>
     <button class="carousel-button carousel-button-prev" type="button" aria-label="Show previous photo" data-carousel-prev>&#8249;</button>
     <button class="carousel-button carousel-button-next" type="button" aria-label="Show next photo" data-carousel-next>&#8250;</button>
     <div class="carousel-dots" aria-label="Choose group photo">
