@@ -58,7 +58,8 @@ title: Group
 ## Current Students
 ### PhD Students
 * [Ezra Edelman](https://www.ezraedelman.com/), AWS ASSET Fellow 2025
-* [Berkan Otlik](https://berkan.xyz/), supported by *NSF GRFP*
+* [Berkan Otlik](https://berkan.xyz/), supported by *NSF GRFP*  
+* [Sophia Pi](https://hemlock-pi.github.io/) (co-advised with [Meena Jagadeesan](https://mjagadeesan.github.io/), [Michael Kearns](https://www.cis.upenn.edu/~mkearns/), and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/))  
 * [Honam Wong](https://matheart.github.io/) (co-advised with [Enric Boix-Adserà](https://web.mit.edu/eboix/www/)), AWS ASSET Fellow 2026
 
 <!-- ### Masters Student(s) -->
@@ -68,14 +69,14 @@ title: Group
 * [Jonathan Pei](https://www.linkedin.com/in/jonathanpei), REU'26
 * [James Wang](https://www.linkedin.com/in/jwang541), joining Columbia as a PhD student in Fall 2026
 
-### Visiting Student(s)
-* [Niki Hasrati](https://nikihasrati.github.io/), PhD student at CMU
+<!-- ### Visiting Student(s) -->
 
 I am also fortunate to collaborate with several PhD students at Penn (and other places) who I do not directly advise.
 
 ## Alumni
 
-### Visiting Student(s)
+### Visiting Students
+* [Niki Hasrati](https://nikihasrati.github.io/), PhD student at CMU
 * [Jingwen Liu](https://ljw0105.github.io/), PhD student at Columbia
 
 ### Masters Students
