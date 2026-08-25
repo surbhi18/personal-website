@@ -22,6 +22,7 @@ title: Group
         <button class="carousel-dot is-active" type="button" aria-label="Show photo 1" data-carousel-dot></button>
         <button class="carousel-dot" type="button" aria-label="Show photo 2" data-carousel-dot></button>
         <button class="carousel-dot" type="button" aria-label="Show photo 3" data-carousel-dot></button>
+        <button class="carousel-dot" type="button" aria-label="Show photo 4" data-carousel-dot></button>
     </div>
 </div>
 
