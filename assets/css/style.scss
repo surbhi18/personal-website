@@ -996,6 +996,26 @@ button {
   line-height: 1.45;
 }
 
+.course-lectures .course-schedule-row {
+  grid-template-columns: 6.5rem minmax(10.5rem, 0.38fr) 1fr;
+  align-items: baseline;
+}
+
+.course-schedule-lecture {
+  color: var(--course-ink);
+  font-family: var(--course-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.course-schedule-note {
+  color: var(--course-muted);
+  font-family: var(--course-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .course-main > table {
   width: 100%;
   margin: 1.2rem 0 1.4rem;
@@ -1024,6 +1044,35 @@ button {
 .course-main > table td:first-child,
 .course-main > table th:first-child {
   white-space: nowrap;
+}
+
+.course-notes-table td:first-child,
+.course-notes-table th:first-child {
+  white-space: normal;
+  min-width: 9.5rem;
+}
+
+.course-notes-table td:nth-child(2),
+.course-notes-table th:nth-child(2) {
+  white-space: nowrap;
+  padding-right: 1.2rem;
+}
+
+.course-reading-list {
+  margin: 0;
+  padding-left: 1.75rem;
+  list-style: disc;
+}
+
+.course-reading-list li {
+  position: static;
+  margin: 0.3rem 0;
+  padding-left: 0.25rem;
+}
+
+.course-reading-list li::marker {
+  color: var(--course-accent);
+  font-size: 0.75em;
 }
 
 .course-footer {
@@ -1056,7 +1105,8 @@ button {
 }
 
 @media (max-width: 480px) {
-  .course-schedule-row {
+  .course-schedule-row,
+  .course-lectures .course-schedule-row {
     grid-template-columns: 1fr;
     gap: 0.2rem;
   }
