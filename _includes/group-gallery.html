@@ -1,0 +1,24 @@
+<div class="photo-gallery" role="region" aria-label="Group photos" data-gallery>
+    {% for photo in site.data.group_photos %}
+    <figure class="photo-item" id="group-photo-{{ forloop.index }}" data-gallery-photo>
+        <a class="photo-frame" href="{{ photo.image | relative_url }}" target="_blank" rel="noopener" aria-label="View full photo: {{ photo.alt | escape }} (opens in a new tab)">
+            <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}"{% unless forloop.first %} loading="lazy"{% endunless %} decoding="async">
+        </a>
+    </figure>
+    {% endfor %}
+    <div class="gallery-navigation" hidden>
+        <div class="carousel-controls">
+            <button class="carousel-button" type="button" aria-label="Show previous photo" data-gallery-prev><span aria-hidden="true">←</span></button>
+            <p class="photo-count" role="status" aria-live="polite" aria-atomic="true" data-gallery-count>1 of {{ site.data.group_photos.size }}</p>
+            <button class="carousel-button" type="button" aria-label="Show next photo" data-gallery-next><span aria-hidden="true">→</span></button>
+        </div>
+        <div class="photo-thumbnails" role="group" aria-label="Choose a group photo">
+            {% for photo in site.data.group_photos %}
+            <button class="photo-thumbnail" type="button" aria-label="Show photo {{ forloop.index }}: {{ photo.alt | escape }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="group-photo-{{ forloop.index }}" data-gallery-thumbnail>
+                <img src="{{ photo.image | relative_url }}" alt="" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

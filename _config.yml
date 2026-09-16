@@ -1,6 +1,8 @@
 title: Surbhi Goel's Website
 show_downloads: true
 theme: jekyll-theme-minimal
+exclude:
+  - assets/files/CV.pdf
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

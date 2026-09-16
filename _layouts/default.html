@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {% seo %}
-    {% assign style_version = site.github.build_revision | default: site.time | date: "%s" %}
+    {% assign style_version = site.time | date: "%s" %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: style_version | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -15,41 +15,29 @@
     {% include head-custom.html %}
   </head>
   <body class="{% if page.layout_type == 'two-column' %}two-column{% else %}single-column{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <span class="nav-title"><a href="/">Surbhi Goel</a></span>
-      <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMenu()">Menu</button>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <nav class="navbar" aria-label="Main navigation">
+      <span class="nav-title"><a href="{{ "/" | relative_url }}">Surbhi Goel</a></span>
       <ul class="nav-list">
-        <li><a href="{{ "/" | relative_url }}">About</a></li>
-        <li><a href="{{ "/research.html" | relative_url }}">Research</a></li>
-        <li><a href="{{ "/group.html" | relative_url }}">Group</a></li>
-        <li><a href="{{ "/teaching.html" | relative_url }}">Teaching</a></li>
-        <li><a href="{{ "/activities.html" | relative_url }}">Activities</a></li>
+        <li><a href="{{ "/" | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} aria-current="page"{% endif %}>About</a></li>
+        <li><a href="{{ "/research.html" | relative_url }}"{% if page.url == '/research.html' %} aria-current="page"{% endif %}>Research</a></li>
+        <li><a href="{{ "/group.html" | relative_url }}"{% if page.url == '/group.html' %} aria-current="page"{% endif %}>Group</a></li>
+        <li><a href="{{ "/teaching.html" | relative_url }}"{% if page.url == '/teaching.html' %} aria-current="page"{% endif %}>Teaching</a></li>
+        <li><a href="{{ "/activities.html" | relative_url }}"{% if page.url == '/activities.html' %} aria-current="page"{% endif %}>Activities</a></li>
         <li><a href="https://unprovenalgos.github.io/">Blog</a></li>
-        <li><a href="{{ "/contact.html" | relative_url }}">Contact</a></li>
+        <li><a href="{{ "/contact.html" | relative_url }}"{% if page.url == '/contact.html' %} aria-current="page"{% endif %}>Contact</a></li>
       </ul>
     </nav>
 
-    <main class="wrapper">
+    <main id="main-content" class="wrapper" tabindex="-1">
+      {% if page.layout_type == 'two-column' %}
       {{ content }}
+      {% else %}
+      <div class="page-content">
+        {{ content }}
+      </div>
+      {% endif %}
     </main>
-    <script>
-      function toggleMenu() {
-        const navList = document.querySelector('.nav-list');
-        const menuToggle = document.querySelector('.menu-toggle');
-        const isOpen = navList.classList.toggle('active');
-        menuToggle.setAttribute('aria-expanded', String(isOpen));
-      }
-
-      document.querySelectorAll('.nav-list a').forEach((link) => {
-        link.addEventListener('click', () => {
-          const navList = document.querySelector('.nav-list');
-          const menuToggle = document.querySelector('.menu-toggle');
-          navList.classList.remove('active');
-          menuToggle.setAttribute('aria-expanded', 'false');
-        });
-      });
-    </script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

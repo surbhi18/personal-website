@@ -3,23 +3,27 @@ layout: default
 title: Research
 ---
 
-## Publications
+# Research
 *Note: (α-β) indicates alphabetical ordering*
 
-### Preprints
+## Preprints
 
-<ul>
+<ul class="publication-list">
 {% for pub in site.data.publications.preprints %}{% include publication.html pub=pub %}
 {% endfor %}</ul>
 
-### Conference Papers
+## Conference Papers
 
-<ul>
-{% for pub in site.data.publications.conference %}{% include publication.html pub=pub %}
+{% assign conference_years = site.data.publications.conference | group_by: "year" | sort: "name" | reverse %}
+{% for year in conference_years %}
+<h3 class="publication-year" id="conference-{{ year.name }}">{{ year.name }}</h3>
+<ul class="publication-list">
+{% for pub in year.items %}{% include publication.html pub=pub %}
 {% endfor %}</ul>
+{% endfor %}
 
-### Reports
+## Reports
 
-<ul>
+<ul class="publication-list">
 {% for pub in site.data.publications.reports %}{% include publication.html pub=pub %}
 {% endfor %}</ul>
