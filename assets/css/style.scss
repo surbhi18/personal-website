@@ -762,6 +762,7 @@ hr {
 .course-main > ol a,
 .course-main > ul a,
 .course-main > table a,
+.course-schedule a,
 .course-footer a {
   color: var(--course-accent);
   text-decoration: underline;
@@ -773,6 +774,7 @@ hr {
 .course-main > ol a:hover,
 .course-main > ul a:hover,
 .course-main > table a:hover,
+.course-schedule a:hover,
 .course-footer a:hover {
   text-decoration-thickness: 2px;
 }
@@ -929,16 +931,18 @@ hr {
   white-space: nowrap;
 }
 
-.course-notes-table td:first-child,
-.course-notes-table th:first-child {
-  white-space: normal;
-  min-width: 9.5rem;
+.course-notes .course-schedule-row {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 0.55fr) minmax(0, 1.35fr);
+  align-items: start;
 }
 
-.course-notes-table td:nth-child(2),
-.course-notes-table th:nth-child(2) {
-  white-space: nowrap;
-  padding-right: 1.2rem;
+.course-notes-head {
+  color: var(--course-muted);
+  font-family: var(--course-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .course-reading-list {
@@ -956,6 +960,16 @@ hr {
 .course-reading-list li::marker {
   color: var(--course-accent);
   font-size: 0.75em;
+}
+
+.course-reading-label {
+  margin: 0.85rem 0 0.15rem;
+  color: var(--course-muted);
+  font-family: var(--course-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .course-footer {
@@ -989,7 +1003,8 @@ hr {
 
 @media (max-width: 480px) {
   .course-schedule-row,
-  .course-lectures .course-schedule-row {
+  .course-lectures .course-schedule-row,
+  .course-notes .course-schedule-row {
     grid-template-columns: 1fr;
     gap: 0.2rem;
   }
