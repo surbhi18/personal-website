@@ -1,5 +1,5 @@
 {%- comment -%}Renders one publication as a <li>. Usage: {% include publication.html pub=pub %}{%- endcomment -%}
-<li class="publication"><p>
+<li class="publication" data-topics="{{ include.pub.topics | join: ' ' }}"><p>
 <strong class="publication-title">{% if include.pub.url and include.pub.url != "" %}<a href="{{ include.pub.url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}</strong>
 <span class="publication-authors">{% if include.pub.alpha_beta %}(α-β) {% endif %}{% for author in include.pub.authors %}{% assign author_url = site.data.authors[author] %}{% if author == "Surbhi Goel" %}<strong class="author-name">{{ author }}</strong>{% elsif author_url and author_url != "" %}<a class="author-link" href="{{ author_url | escape }}">{{ author | escape }}</a>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
 {% if include.pub.venue %}<span class="publication-venue">{{ include.pub.venue }}</span>{% endif %}

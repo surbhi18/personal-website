@@ -216,6 +216,39 @@ img {
   margin-top: 0.75rem;
 }
 
+/* Topic filter above the publication list. */
+.topic-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.topic-filter[hidden] {
+  display: none;
+}
+
+.topic-button {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: var(--base-background-color);
+  color: var(--base-text-color);
+  font: inherit;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.topic-button:hover {
+  border-color: var(--accent-color);
+}
+
+.topic-button[aria-pressed="true"] {
+  border-color: var(--accent-color);
+  background: var(--accent-color);
+  color: #ffffff;
+}
 /* Publications use the same understated type hierarchy as the rest of the site. */
 .publication-year {
   margin: 2rem 0 1rem;

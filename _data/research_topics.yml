@@ -1,0 +1,14 @@
+# Topics used to filter the publication list on research.md.
+# Each publication in publications.yml lists one or more topic ids under `topics:`.
+# Buttons appear in the order below.
+
+- id: neural-networks
+  label: "Foundations of deep learning"
+- id: language-models
+  label: "Understanding language models"
+- id: robustness
+  label: "Reliable machine learning"
+- id: multi-agent
+  label: "Alignment and human–AI collaboration"
+- id: graphical-models
+  label: "Learning probabilistic models"
