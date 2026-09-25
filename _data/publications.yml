@@ -23,17 +23,6 @@ preprints:
     authors: ["Natalie Collina", "Surbhi Goel", "Aaron Roth", "Sikata Bela Sengupta"]
     topics: ["multi-agent"]
 
-  - title: "Learning When to Stop: Selective Imitation Learning Under Arbitrary Dynamics Shift"
-    url: "https://arxiv.org/abs/2605.09183"
-    alpha_beta: true
-    authors: ["Surbhi Goel", "Jonathan Pei", "James Wang"]
-    topics: ["robustness"]
-
-  - title: "Narrowing the Collaboration Gap, Probably"
-    url: ""
-    authors: ["Mirah Shi", "Marcel Hussing", "Natalie Collina", "Ira Globus-Harris", "Aaron Roth", "Surbhi Goel"]
-    topics: ["multi-agent"]
-
   - title: "Personalization Aids Pluralistic Alignment Under Competition"
     url: "https://arxiv.org/abs/2602.13451"
     alpha_beta: true
@@ -42,13 +31,6 @@ preprints:
     highlights:
       - badge: "Best paper award"
         context: ", Workshop on AI for Mechanism Design and Strategic Decision Making, ICLR 2026"
-
-  - title: "Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds"
-    url: "https://arxiv.org/abs/2602.20111"
-    alpha_beta: true
-    authors: ["Ezra Edelman", "Surbhi Goel"]
-    topics: ["robustness"]
-    venue: "FORC 2026 (Highlight track)"
 
   - title: "Why Do Transformers Fail to Forecast Time Series In-Context?"
     url: "https://arxiv.org/abs/2510.09776"
@@ -64,6 +46,29 @@ preprints:
     topics: ["robustness"]
 
 conference:
+  - title: "Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds"
+    year: 2026
+    url: "https://arxiv.org/abs/2602.20111"
+    alpha_beta: true
+    authors: ["Ezra Edelman", "Surbhi Goel"]
+    topics: ["robustness"]
+    venue: "NeurIPS 2026"
+
+  - title: "Narrowing the Collaboration Gap, Probably"
+    year: 2026
+    url: ""
+    authors: ["Mirah Shi", "Marcel Hussing", "Natalie Collina", "Ira Globus-Harris", "Aaron Roth", "Surbhi Goel"]
+    topics: ["multi-agent"]
+    venue: "NeurIPS 2026"
+
+  - title: "Learning When to Stop: Selective Imitation Learning Under Arbitrary Dynamics Shift"
+    year: 2026
+    url: "https://arxiv.org/abs/2605.09183"
+    alpha_beta: true
+    authors: ["Surbhi Goel", "Jonathan Pei", "James Wang"]
+    topics: ["robustness"]
+    venue: "NeurIPS 2026"
+
   - title: "Testing Noise Assumptions of Learning Algorithms"
     year: 2026
     url: "https://arxiv.org/abs/2501.09189"
