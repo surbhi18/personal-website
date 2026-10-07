@@ -17,6 +17,16 @@
 # Conference entries are grouped by year, preserving their order within each year.
 
 preprints:
+  - title: "LESSER: Post-Training Data Selection with Output-Layer Gradients"
+    url: "https://arxiv.org/abs/2610.03702"
+    authors: ["Lyuxin David Zhang", "Eric Wong", "Surbhi Goel", "Anton Xue"]
+    topics: ["language-models", "neural-networks"]
+
+  - title: "MoRE: Scaling Mixture of Experts with Hardware-Aware Low-Rank Routing"
+    url: "https://arxiv.org/abs/2609.36301"
+    authors: ["Honam Wong", "Surbhi Goel", "Enric Boix-Adserà"]
+    topics: ["neural-networks"]
+
   - title: "Delegating Authorization to Misaligned Agents: Coalitional Alignment and Safe Control"
     url: "https://arxiv.org/abs/2609.15803"
     alpha_beta: true
